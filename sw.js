@@ -1,10 +1,10 @@
 // キャッシュのバージョンを更新して、新しいService Workerを有効にする
-const CACHE_NAME = 'real-english-guide-v3'; 
+const CACHE_NAME = 'real-english-guide-v4'; // 変更を確実に反映させるためバージョンを上げる
 const MP3_CACHE_NAME = 'real-english-guide-mp3-cache-v1';
 
 // アプリの骨格（App Shell）となるファイル
 const urlsToCache = [
-  '/',
+  '.',
   'index.html',
   'style.css',
   'script.js',
