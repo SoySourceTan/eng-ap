@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const savedFontLevel = localStorage.getItem('fontLevel');
         applyFontSize(savedFontLevel ? parseInt(savedFontLevel, 10) : 4);
         fetchData();
-        if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(err => console.error('SW registration failed:', err));
+        if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(err => console.error('SW registration failed:', err));
     }
 
     initialize();
