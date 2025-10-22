@@ -1,0 +1,76 @@
+[
+  {
+    "category": "Daily Life",
+    "scene": "一日の基本表現",
+    "expressions": [
+      { "id": "d001", "english": "Good morning. Did you sleep well?", "japanese": "おはよう。よく眠れた？", "explanation": "家族や同居人に対して使う一般的な挨拶です。", "accent": "uk" },
+      { "id": "d002", "english": "I'm not a morning person.", "japanese": "私は朝が苦手なんです。", "explanation": "朝起きるのが辛いことを伝える定番のフレーズです。", "accent": "us" },
+      { "id": "d003", "english": "What's for breakfast?", "japanese": "朝ごはん、何？", "explanation": "家族などに対して気軽に聞く表現です。", "accent": "uk" },
+      { "id": "d004", "english": "I'm running late.", "japanese": "遅刻しそうだ。", "explanation": "時間に遅れそうなときに使う非常に一般的な表現です。", "accent": "us" }
+    ]
+  },
+  {
+    "category": "Travel - London",
+    "scene": "交通・ホテル・食事",
+    "expressions": [
+      { "id": "lon001", "english": "A return ticket to Paddington, please.", "japanese": "パディントンまでの往復切符を一枚お願いします。", "explanation": "イギリスの駅で切符を買う際の基本形。'A single ticket' は片道です。", "accent": "uk" },
+      { "id": "lon002", "english": "Mind the gap.", "japanese": "（ホームと電車の）隙間にご注意ください。", "explanation": "ロンドンの地下鉄（Tube）で必ず耳にする有名なアナウンスです。", "accent": "uk" },
+      { "id": "lon003", "english": "Could we have the bill, please?", "japanese": "お会計をお願いします。", "explanation": "イギリスでは 'bill'、アメリカでは 'check' が一般的です。", "accent": "uk" }
+    ]
+  },
+  {
+    "category": "Travel - Manchester",
+    "scene": "街歩きとコミュニケーション",
+    "expressions": [
+      { "id": "man001", "english": "Where can I catch the tram to MediaCityUK?", "japanese": "メディアシティUK行きのトラムはどこで乗れますか？", "explanation": "マンチェスターの主要交通機関であるトラム（Metrolink）の乗り場を尋ねる表現です。", "accent": "uk" },
+      { "id": "man002", "english": "Are you a City or a United fan?", "japanese": "シティのファン？それともユナイテッドのファン？", "explanation": "サッカーの街マンチェスターならではの会話のきっかけ。どちらかのチームの知識が少しあると盛り上がります。", "accent": "uk" },
+      { "id": "man003", "english": "I'd like to visit the Northern Quarter.", "japanese": "ノーザン・クォーターに行ってみたいです。", "explanation": "おしゃれなカフェや古着屋が集まる人気のエリア。目的地として伝える際に使えます。", "accent": "uk" }
+    ]
+  },
+  {
+    "category": "Travel - Liverpool",
+    "scene": "観光と文化",
+    "expressions": [
+      { "id": "liv001", "english": "How do I get to the Albert Dock?", "japanese": "アルバート・ドックへはどう行けばいいですか？", "explanation": "リバプールの主要な観光地への行き方を尋ねるフレーズです。", "accent": "uk" },
+      { "id": "liv002", "english": "Is this the bus for the Beatles Story?", "japanese": "このバスはビートルズ・ストーリー行きですか？", "explanation": "世界中のファンが訪れる観光スポット。乗り物に乗る前に確認すると安心です。", "accent": "uk" },
+      { "id": "liv003", "english": "People here are very friendly, aren't they?", "japanese": "ここの人たちはとてもフレンドリーですね。", "explanation": "地元の人（スカウサーと呼ばれる）の気さくさについて話すときの表現。'aren't they?' は付加疑問文です。", "accent": "uk" }
+    ]
+  },
+  {
+    "category": "Travel - New York",
+    "scene": "交通・観光・食事",
+    "expressions": [
+      { "id": "nyc001", "english": "Which subway line goes to Brooklyn?", "japanese": "ブルックリンへはどの地下鉄に乗ればいいですか？", "explanation": "ニューヨークの地下鉄は 'subway' です。イギリスの 'tube' とは言い方が異なります。", "accent": "us" },
+      { "id": "nyc002", "english": "I'd like a slice of pepperoni, please.", "japanese": "ペパロニのスライスを一枚ください。", "explanation": "ニューヨークでは1スライスからピザを頼むのが一般的です。", "accent": "us" },
+      { "id": "nyc003", "english": "Can I get the check, please?", "japanese": "お会計をお願いします。", "explanation": "アメリカのレストランでは 'check' を使うのが一般的です。イギリスの 'bill' と使い分けましょう。", "accent": "us" }
+    ]
+  },
+  {
+    "category": "Travel - Los Angeles",
+    "scene": "移動とエンターテインメント",
+    "expressions": [
+      { "id": "la001", "english": "It's best to get around by car here, right?", "japanese": "ここでは車で移動するのが一番ですよね？", "explanation": "広大なLAでは車が主な移動手段。現地の人に同意を求める形で会話を始められます。", "accent": "us" },
+      { "id": "la002", "english": "How far is it to Santa Monica Pier?", "japanese": "サンタモニカ・ピアまではどのくらい離れていますか？", "explanation": "渋滞が頻繁に発生するため、距離だけでなく時間も確認すると良いでしょう。", "accent": "us" },
+      { "id": "la003", "english": "I'm hoping to do some hiking at Runyon Canyon.", "japanese": "ラニヨン・キャニオンでハイキングしたいと思っています。", "explanation": "ハリウッドサインが見える人気のハイキングコース。やってみたいことを伝える表現です。", "accent": "us" }
+    ]
+  },
+  {
+    "category": "Travel - Florida",
+    "scene": "アクティビティと気候",
+    "expressions": [
+      { "id": "fl001", "english": "Which theme park do you recommend the most?", "japanese": "どのテーマパークが一番おすすめですか？", "explanation": "多くのテーマパークがあるフロリダならではの質問です。", "accent": "us" },
+      { "id": "fl002", "english": "Don't forget to put on sunscreen.", "japanese": "日焼け止めを塗るのを忘れないでね。", "explanation": "日差しが非常に強いフロリダでは必須のアドバイスです。", "accent": "us" },
+      { "id": "fl003", "english": "We should watch out for afternoon thunderstorms.", "japanese": "午後の雷雨には気をつけたほうがいいね。", "explanation": "フロリダの夏はスコール（急な大雨）が頻繁に発生します。", "accent": "us" }
+    ]
+  },
+  {
+    "category": "Welcome to Japan",
+    "scene": "道案内と交流",
+    "expressions": [
+      { "id": "jpn001", "english": "Excuse me, could you tell me how to get to Shibuya Station?", "japanese": "すみません、渋谷駅への行き方を教えていただけますか？", "explanation": "訪日観光客から道を尋ねられる際の典型的なフレーズです。", "accent": "us" },
+      { "id": "jpn002", "english": "Go straight down this street and turn right at the second traffic light.", "japanese": "はい。この道をまっすぐ行って、2つ目の信号を右に曲がってください。", "explanation": "道案内の基本表現。身振り手振りを交えるとより伝わりやすくなります。", "accent": "uk" },
+      { "id": "jpn003", "english": "How do you find Japanese food?", "japanese": "日本の食べ物はどうですか？（お口に合いますか？）", "explanation": "'How do you find...?' は 'What do you think of...?' と同じ意味の、少しこなれた聞き方です。", "accent": "us" },
+      { "id": "jpn004", "english": "Enjoy your stay in Japan!", "japanese": "日本での滞在を楽しんでくださいね！", "explanation": "別れ際に使える、温かいメッセージです。", "accent": "uk" }
+    ]
+  }
+]

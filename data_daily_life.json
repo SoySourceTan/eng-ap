@@ -1,0 +1,488 @@
+[
+  {
+    "category": "Daily Life",
+    "scene": "一日の基本表現",
+    "expressions": [
+      {
+        "id": "d001", "english": "Did you sleep well?", "japanese": "よく眠れた？", "explanation": "家族や同居人への朝の挨拶です。", "accent": "uk",
+        "responses": [
+          { "english": "Yes, like a log. Thanks.", "japanese": "うん、ぐっすり眠れたよ。ありがとう。", "accent": "uk" },
+          { "english": "Not really, I kept waking up.", "japanese": "いや、あんまり。何度も目が覚めちゃって。", "accent": "uk" },
+          { "english": "So-so. I need some coffee.", "japanese": "まあまあかな。コーヒーが要るよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d002", "english": "What's the plan for today?", "japanese": "今日の予定は？", "explanation": "一日の活動について尋ねるカジュアルな質問です。", "accent": "us",
+        "responses": [
+          { "english": "Just work, and then maybe the gym.", "japanese": "仕事して、そのあとジムに行こうかな。", "accent": "uk" },
+          { "english": "I've got a meeting at 10 and then lunch with Sarah.", "japanese": "10時から会議で、その後サラとランチだよ。", "accent": "uk" },
+          { "english": "Nothing much, just taking it easy.", "japanese": "特に何もないよ、のんびりするだけ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d003", "english": "I'm off now. See you later!", "japanese": "もう行くね。また後で！", "explanation": "家や職場から出かける際の一般的な挨拶。", "accent": "uk",
+        "responses": [
+          { "english": "Alright, have a good one!", "japanese": "わかった、良い一日を！", "accent": "uk" },
+          { "english": "Okay, drive safe.", "japanese": "うん、運転気をつけてね。", "accent": "uk" },
+          { "english": "See you! Don't be too late.", "japanese": "またね！あまり遅くならないでね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d004", "english": "How was your day?", "japanese": "今日はどうだった？", "explanation": "帰宅した人に対して一日の様子を尋ねる決まり文句です。", "accent": "us",
+        "responses": [
+          { "english": "It was good, pretty productive actually.", "japanese": "良かったよ、結構生産的だった。", "accent": "uk" },
+          { "english": "Same old, same old.", "japanese": "いつも通りだよ。", "accent": "uk" },
+          { "english": "Don't ask. It was so stressful.", "japanese": "聞かないでよ。すごくストレスだった。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d005", "english": "What do you fancy for dinner?", "japanese": "夕食は何が食べたい？", "explanation": "イギリスでよく使われる 'fancy' を使った表現。'What do you want for dinner?' と同じ意味です。", "accent": "uk",
+        "responses": [
+          { "english": "I'm easy. Anything is fine.", "japanese": "何でもいいよ。", "accent": "uk" },
+          { "english": "Hmm, how about pasta?", "japanese": "うーん、パスタはどう？", "accent": "uk" },
+          { "english": "I could really go for a curry.", "japanese": "カレーがすごく食べたい気分。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d006", "english": "Is there anything good on TV tonight?", "japanese": "今夜、何か面白いテレビやってる？", "explanation": "夜の過ごし方について話す際の一般的な質問です。", "accent": "uk",
+        "responses": [
+          { "english": "I think there's a new drama starting on BBC One.", "japanese": "BBC Oneで新しいドラマが始まると思うよ。", "accent": "uk" },
+          { "english": "Not really. Shall we just watch something on Netflix?", "japanese": "いや、特に。Netflixで何か見る？", "accent": "uk" },
+          { "english": "The football is on later.", "japanese": "後でサッカーの試合があるよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d007", "english": "I'm absolutely exhausted.", "japanese": "もうヘトヘトだよ。", "explanation": "'very tired' を強調した表現です。", "accent": "us",
+        "responses": [
+          { "english": "You should get an early night.", "japanese": "早く寝たほうがいいよ。", "accent": "uk" },
+          { "english": "I'll make you a cup of tea.", "japanese": "紅茶を入れてあげるよ。", "accent": "uk" },
+          { "english": "I know the feeling. It's been a long week.", "japanese": "その気持ち分かるよ。長い一週間だったね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d008", "english": "I'm just popping out to the shops.", "japanese": "ちょっとお店に行ってくるね。", "explanation": "'pop out' はイギリス英語で「ひょいと出かける」というニュアンスです。", "accent": "uk",
+        "responses": [
+          { "english": "Okay, do we need anything?", "japanese": "わかった、何か必要なものある？", "accent": "uk" },
+          { "english": "Don't be long, dinner's nearly ready.", "japanese": "すぐ戻ってきてね、もうすぐ晩ごはんだから。", "accent": "uk" },
+          { "english": "Alright, see you in a bit.", "japanese": "わかった、また後でね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d009", "english": "Can you give me a hand with this?", "japanese": "これ、ちょっと手伝ってくれる？", "explanation": "'give me a hand' は 'help me' のより口語的な表現です。", "accent": "uk",
+        "responses": [
+          { "english": "Sure, what do you need me to do?", "japanese": "もちろん、何をすればいい？", "accent": "uk" },
+          { "english": "Just a second, I'm a bit busy right now.", "japanese": "ちょっと待って、今少し手が離せないんだ。", "accent": "uk" },
+          { "english": "Of course. Is it heavy?", "japanese": "いいよ。重いの？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d010", "english": "What time do you call this?", "japanese": "今、何時だと思ってるの？", "explanation": "相手が約束の時間に大幅に遅れてきたときに使う、少し皮肉のこもったイギリス的な表現です。", "accent": "uk",
+        "responses": [
+          { "english": "I'm so sorry! The traffic was a nightmare.", "japanese": "本当にごめんなさい！渋滞が悪夢のようだったの。", "accent": "uk" },
+          { "english": "Sorry, I completely lost track of time.", "japanese": "ごめん、完全に時間を忘れてた。", "accent": "uk" },
+          { "english": "I know, I know. My alarm didn't go off.", "japanese": "分かってる、分かってる。目覚ましが鳴らなかったんだ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d011", "english": "I'm really looking forward to the weekend.", "japanese": "週末が本当に待ち遠しいよ。", "explanation": "週の後半によく使われる、共感を呼びやすいフレーズです。", "accent": "us",
+        "responses": [
+          { "english": "Me too! Any plans?", "japanese": "私も！何か予定あるの？", "accent": "uk" },
+          { "english": "Tell me about it. This week has been so long.", "japanese": "本当にそうだよね。今週は長かった。", "accent": "uk" },
+          { "english": "You and me both. I need a break.", "japanese": "君も僕もだね。休憩が必要だよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d012", "english": "It's your turn to do the washing-up.", "japanese": "お皿を洗うのはあなたの番だよ。", "explanation": "家事の分担について話す際の表現。イギリスでは 'washing-up'、アメリカでは 'dishes' が一般的です。", "accent": "uk",
+        "responses": [
+          { "english": "Oh, is it? Alright, I'll do it after this show.", "japanese": "あ、そうだっけ？分かった、この番組が終わったらやるよ。", "accent": "uk" },
+          { "english": "Can we just leave it till the morning?", "japanese": "朝まで置いといてもいい？", "accent": "uk" },
+          { "english": "Fine, but you're drying.", "japanese": "分かった、でも拭くのはあなたね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d013", "english": "Shall we get a takeaway tonight?", "japanese": "今夜はテイクアウトにしない？", "explanation": "イギリス英語で 'takeaway'、アメリカ英語では 'takeout' と言います。", "accent": "uk",
+        "responses": [
+          { "english": "Yes, great idea! I'm too tired to cook.", "japanese": "うん、良い考え！疲れてて料理したくないんだ。", "accent": "uk" },
+          { "english": "What are you in the mood for? Chinese or Indian?", "japanese": "何が食べたい気分？中華かインド料理？", "accent": "uk" },
+          { "english": "I'd rather not. Let's just use up the leftovers.", "japanese": "できればやめたいな。残り物を食べきっちゃおうよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d014", "english": "Have you seen my keys anywhere?", "japanese": "どこかで私の鍵、見なかった？", "explanation": "探し物をしているときの定番の質問です。", "accent": "us",
+        "responses": [
+          { "english": "I think I saw them on the kitchen counter.", "japanese": "キッチンのカウンターの上で見た気がするよ。", "accent": "uk" },
+          { "english": "No, sorry. Where did you last have them?", "japanese": "いや、ごめん。最後に持ってたのはどこ？", "accent": "uk" },
+          { "english": "They might be in your coat pocket.", "japanese": "コートのポケットに入ってるんじゃない？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d015", "english": "I'm just going to put a load of laundry in.", "japanese": "ちょっと洗濯機を回してくるね。", "explanation": "'put a load in' で「一回分の洗濯物」を洗濯機に入れる、というニュアンスです。", "accent": "us",
+        "responses": [
+          { "english": "Okay, can you add my gym clothes in there too?", "japanese": "分かった、私のジムウェアもそこに追加してくれる？", "accent": "uk" },
+          { "english": "Thanks. The basket is overflowing.", "japanese": "ありがとう。洗濯カゴが溢れかえってるんだ。", "accent": "uk" },
+          { "english": "Alright, don't forget to use the new detergent.", "japanese": "うん、新しい洗剤を使うのを忘れないでね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d016", "english": "What a miserable day!", "japanese": "なんて憂鬱な日なんだろう！", "explanation": "天気が悪くて気分が落ち込むときに使うイギリス的な表現です。", "accent": "uk",
+        "responses": [
+          { "english": "I know. It's so grey and wet.", "japanese": "本当だね。どんよりしててジメジメする。", "accent": "uk" },
+          { "english": "It's the perfect day to stay in and watch a film.", "japanese": "家で映画を見るには完璧な日だね。", "accent": "uk" },
+          { "english": "It makes you want to go back to bed, doesn't it?", "japanese": "ベッドに戻りたくなるよね？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d017", "english": "I could murder a cup of tea.", "japanese": "紅茶が死ぬほど飲みたい。", "explanation": "何かを猛烈に欲しているときに使う、少し大げさなイギリスの口語表現です。", "accent": "uk",
+        "responses": [
+          { "english": "I'll put the kettle on.", "japanese": "お湯を沸かすね。", "accent": "uk" },
+          { "english": "Me too. Biscuits?", "japanese": "私も。ビスケットはいる？", "accent": "uk" },
+          { "english": "You read my mind.", "japanese": "私の心を読んだね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d018", "english": "The bin needs taking out.", "japanese": "ゴミを出さなきゃ。", "explanation": "イギリスではゴミ箱を 'bin'、アメリカでは 'trash can' と言います。", "accent": "uk",
+        "responses": [
+          { "english": "I'll get it. Is it recycling day today?", "japanese": "私がやるよ。今日はリサイクルの日だっけ？", "accent": "uk" },
+          { "english": "I did it yesterday, it's your turn.", "japanese": "昨日やったから、あなたの番だよ。", "accent": "uk" },
+          { "english": "Right, I'll do it on my way out.", "japanese": "わかった、出かけるついでにやっておくよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d019", "english": "Are you free this Friday night?", "japanese": "今週の金曜の夜って空いてる？", "explanation": "誰かを誘う際の、予定を尋ねる一般的なフレーズです。", "accent": "us",
+        "responses": [
+          { "english": "I think so. What did you have in mind?", "japanese": "空いてると思うよ。何か考えてるの？", "accent": "uk" },
+          { "english": "Sorry, I've already got plans.", "japanese": "ごめん、もう予定があるんだ。", "accent": "uk" },
+          { "english": "Let me check my calendar and get back to you.", "japanese": "カレンダーを確認して、また連絡するね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d020", "english": "I'm starving. Is dinner ready yet?", "japanese": "お腹ペコペコだよ。晩ごはん、まだ？", "explanation": "'starving' は 'very hungry' を強調したカジュアルな表現です。", "accent": "us",
+        "responses": [
+          { "english": "Almost. It'll be about 10 more minutes.", "japanese": "もうすぐだよ。あと10分くらいかな。", "accent": "uk" },
+          { "english": "Not yet. Can you set the table?", "japanese": "まだだよ。テーブルの準備してくれる？", "accent": "uk" },
+          { "english": "Patience! It'll be worth the wait.", "japanese": "我慢して！待つだけの価値はあるから。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d021", "english": "What a mess!", "japanese": "なんて散らかってるんだ！", "explanation": "部屋などが散らかっているのを見て言う感嘆表現です。", "accent": "us",
+        "responses": [
+          { "english": "I know, I know. I'll tidy up later.", "japanese": "わかってる、わかってる。後で片付けるよ。", "accent": "uk" },
+          { "english": "It's not that bad.", "japanese": "そんなにひどくないよ。", "accent": "uk" },
+          { "english": "We should have a proper clean-up this weekend.", "japanese": "今週末にちゃんと大掃除すべきだね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d022", "english": "Could you turn the volume down a bit?", "japanese": "もう少し音量を下げてくれる？", "explanation": "テレビや音楽の音が大きいときに使う丁寧な依頼です。", "accent": "us",
+        "responses": [
+          { "english": "Oh, sorry. Is this better?", "japanese": "あ、ごめん。これくらいでいい？", "accent": "uk" },
+          { "english": "Sure, no problem.", "japanese": "うん、いいよ。", "accent": "uk" },
+          { "english": "But this is the best part!", "japanese": "でも、ここが一番いいところなのに！", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d023", "english": "I'm working from home today.", "japanese": "今日は在宅勤務なんだ。", "explanation": "リモートワークが一般的になり、非常によく使われる表現です。", "accent": "uk",
+        "responses": [
+          { "english": "Oh, lucky you. I have to go into the office.", "japanese": "へえ、いいなあ。私はオフィスに行かなくちゃ。", "accent": "uk" },
+          { "english": "Do you prefer it to being in the office?", "japanese": "オフィスにいるよりそっちの方が好き？", "accent": "uk" },
+          { "english": "Nice. Enjoy the peace and quiet.", "japanese": "いいね。静けさを楽しんで。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d024", "english": "I need to run some errands.", "japanese": "ちょっと用事を済ませてこないと。", "explanation": "'run errands' は買い物や郵便局、銀行など、細々とした用事を済ませることを指す便利な表現です。", "accent": "us",
+        "responses": [
+          { "english": "Okay. Will you be long?", "japanese": "わかった。長くなりそう？", "accent": "uk" },
+          { "english": "While you're out, could you pick up some milk?", "japanese": "出かけている間に、牛乳を買ってきてくれる？", "accent": "uk" },
+          { "english": "Alright, I'll see you later then.", "japanese": "分かった、じゃあまた後でね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d025", "english": "I'm shattered. I'm going to bed.", "japanese": "もうクタクタ。寝るね。", "explanation": "'shattered' は 'exhausted' と同じ意味で使われる、イギリスの口語表現です。", "accent": "uk",
+        "responses": [
+          { "english": "Okay, sleep well.", "japanese": "分かった、おやすみ。", "accent": "uk" },
+          { "english": "It's only 9 o'clock!", "japanese": "まだ9時だよ！", "accent": "uk" },
+          { "english": "Good night. I'll be up in a bit.", "japanese": "おやすみ。私ももうちょっとしたら上がるよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d026", "english": "What's the Wi-Fi password?", "japanese": "Wi-Fiのパスワードは何？", "explanation": "自宅や友人の家、カフェなどで必ずと言っていいほど使うフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "It's on the back of the router.", "japanese": "ルーターの裏に書いてあるよ。", "accent": "uk" },
+          { "english": "Let me check... I think it's 'password123'.", "japanese": "ええと…確か「password123」だと思う。", "accent": "uk" },
+          { "english": "I'll write it down for you.", "japanese": "書いてあげるね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d027", "english": "Don't forget to take the bins out.", "japanese": "ゴミ出し忘れないでね。", "explanation": "ゴミ出しの日などに家族に念を押す表現。", "accent": "uk",
+        "responses": [
+          { "english": "I'm on it. I'll do it now.", "japanese": "任せて。今やるよ。", "accent": "uk" },
+          { "english": "Thanks for the reminder, I almost forgot.", "japanese": "リマインドありがとう、忘れるところだった。", "accent": "uk" },
+          { "english": "Oh, is it bin day tomorrow?", "japanese": "あ、明日ゴミの日だっけ？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d028", "english": "I'm just going to chill on the sofa for a bit.", "japanese": "ちょっとソファでダラダラするよ。", "explanation": "'chill' または 'chill out' は「リラックスする」「のんびりする」という意味のカジュアルな言葉です。", "accent": "us",
+        "responses": [
+          { "english": "You deserve it. It's been a long day.", "japanese": "当然だよ。長い一日だったもんね。", "accent": "uk" },
+          { "english": "Okay, don't fall asleep.", "japanese": "いいよ、寝ないでね。", "accent": "uk" },
+          { "english": "Sounds like a good plan.", "japanese": "良いプランだね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d029", "english": "Could you pass me the remote?", "japanese": "リモコン取ってくれる？", "explanation": "'remote' は 'remote control' の省略形です。", "accent": "us",
+        "responses": [
+          { "english": "Here you go.", "japanese": "はい、どうぞ。", "accent": "uk" },
+          { "english": "It's right next to you.", "japanese": "すぐあなたの隣にあるよ。", "accent": "uk" },
+          { "english": "Which one? The TV or the sound system?", "japanese": "どっちの？テレビの、それとも音響の？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d030", "english": "I think I'll have an early night tonight.", "japanese": "今夜は早く寝ようと思う。", "explanation": "'have an early night' で「早く寝る」という決まった言い方です。", "accent": "uk",
+        "responses": [
+          { "english": "Good idea. You look tired.", "japanese": "良い考えだね。疲れてるように見えるよ。", "accent": "uk" },
+          { "english": "Okay. Don't forget to set your alarm.", "japanese": "分かった。目覚ましセットするの忘れないでね。", "accent": "uk" },
+          { "english": "I might do the same.", "japanese": "私もそうしようかな。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d031", "english": "I'm having some friends over on Saturday.", "japanese": "土曜に友達を何人か家に呼んでるんだ。", "explanation": "'have someone over' は「誰かを家に招く」という意味の便利な句動詞です。", "accent": "us",
+        "responses": [
+          { "english": "Oh, cool. What time are they coming?", "japanese": "へえ、いいね。何時に来るの？", "accent": "uk" },
+          { "english": "Do you need any help with getting things ready?", "japanese": "準備、何か手伝うことある？", "accent": "uk" },
+          { "english": "Nice. I'll make sure to be out of your way.", "japanese": "いいね。邪魔にならないようにしておくよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d032", "english": "What's the weather like outside?", "japanese": "外の天気はどう？", "explanation": "出かける前などに、窓のない部屋から尋ねるような場面で使います。", "accent": "uk",
+        "responses": [
+          { "english": "It's chucking it down.", "japanese": "土砂降りだよ。", "accent": "uk" },
+          { "english": "It's lovely and sunny, actually.", "japanese": "すごく良くて晴れてるよ、実は。", "accent": "uk" },
+          { "english": "It looks a bit grey. You might need a jacket.", "japanese": "ちょっとどんよりしてる。ジャケットがいるかも。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d033", "english": "My phone's about to die.", "japanese": "携帯の充電が切れそう。", "explanation": "'die' は口語で「（バッテリーが）切れる」という意味で非常によく使われます。", "accent": "us",
+        "responses": [
+          { "english": "There's a charger on the table over there.", "japanese": "あそこのテーブルの上に充電器があるよ。", "accent": "uk" },
+          { "english": "You can use my power bank if you want.", "japanese": "よかったら私のモバイルバッテリー使う？", "accent": "uk" },
+          { "english": "Quick, plug it in!", "japanese": "急いで、コンセントに差し込んで！", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d034", "english": "I can't be bothered to cook tonight.", "japanese": "今夜は料理する気になれないなあ。", "explanation": "'can't be bothered' は「～するのが面倒くさい」「やる気になれない」という意味のイギリス的な表現です。", "accent": "uk",
+        "responses": [
+          { "english": "Me neither. Pizza it is, then?", "japanese": "私も。じゃあ、ピザにする？", "accent": "uk" },
+          { "english": "Shall I cook for us?", "japanese": "私が私たちのために料理しようか？", "accent": "uk" },
+          { "english": "Fair enough. Let's just have something simple like toast.", "japanese": "まあそうだね。トーストみたいな簡単なものですませよう。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d035", "english": "Could you pick up some milk on your way home?", "japanese": "帰り道に牛乳を買ってきてくれる？", "explanation": "誰かに買い物を頼むときの定番フレーズです。", "accent": "us",
+        "responses": [
+          { "english": "Sure, no problem. Anything else?", "japanese": "もちろん、いいよ。他には何かいる？", "accent": "uk" },
+          { "english": "Yeah, I'll add it to the list.", "japanese": "うん、リストに追加しておくよ。", "accent": "uk" },
+          { "english": "Sorry, I'm coming straight home. I won't have time.", "japanese": "ごめん、まっすぐ家に帰るから時間がないんだ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d036", "english": "I'm just tidying up a bit.", "japanese": "ちょっと片付けてるだけだよ。", "explanation": "'tidy up' は「整理整頓する」「片付ける」という意味で、イギリスで特によく使われます。", "accent": "uk",
+        "responses": [
+          { "english": "It looks much better already.", "japanese": "すでにもうずっと良くなったように見えるよ。", "accent": "uk" },
+          { "english": "Let me know if you need a hand.", "japanese": "手伝いが必要なら言ってね。", "accent": "uk" },
+          { "english": "Don't worry about it now, you can do it later.", "japanese": "今は気にしないで、後でやればいいよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d037", "english": "It's freezing in here!", "japanese": "この中、すごく寒い！", "explanation": "部屋や建物の中が非常に寒いときに使う表現です。", "accent": "us",
+        "responses": [
+          { "english": "I'll turn the heating on.", "japanese": "暖房をつけるね。", "accent": "uk" },
+          { "english": "Is it? I feel fine.", "japanese": "そう？私は平気だけど。", "accent": "uk" },
+          { "english": "Someone must have left a window open.", "japanese": "誰かが窓を開けっ放しにしたに違いない。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d038", "english": "I'll have a think about it.", "japanese": "それについてはちょっと考えてみるよ。", "explanation": "すぐには決断せず、考える時間が欲しいときに使う丁寧な表現。", "accent": "uk",
+        "responses": [
+          { "english": "Okay, no rush. Let me know what you decide.", "japanese": "分かった、急がなくていいよ。決まったら教えて。", "accent": "uk" },
+          { "english": "Don't take too long, the offer ends on Friday.", "japanese": "あまり長く考えないでね、そのオファーは金曜に終わるから。", "accent": "uk" },
+          { "english": "Great. I'd love to hear your thoughts.", "japanese": "いいね。あなたの考えを聞くのが楽しみだよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d039", "english": "How do I get this thing to work?", "japanese": "これ、どうやったら動くの？", "explanation": "新しいガジェットや家電の使い方が分からないときに使うフレーズです。", "accent": "us",
+        "responses": [
+          { "english": "Have you read the instructions?", "japanese": "説明書は読んだ？", "accent": "uk" },
+          { "english": "Let me have a look. I'm usually good with these things.", "japanese": "ちょっと見せて。こういうの、だいたい得意なんだ。", "accent": "uk" },
+          { "english": "There's probably a YouTube tutorial for it.", "japanese": "たぶんYouTubeに使い方の動画があるよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d040", "english": "That's a bit over the top, don't you think?", "japanese": "それ、ちょっとやりすぎだと思わない？", "explanation": "'over the top' は「大げさな」「やりすぎな」という意味のイディオムです。", "accent": "uk",
+        "responses": [
+          { "english": "Maybe a little, but it's funny.", "japanese": "まあ、少しはね。でも面白いよ。", "accent": "uk" },
+          { "english": "No, I think it's perfect.", "japanese": "いや、完璧だと思うよ。", "accent": "uk" },
+          { "english": "I guess so. He does tend to exaggerate.", "japanese": "そうかもね。彼は大げさに言う傾向があるから。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d041", "english": "I'm afraid I can't make it on Saturday.", "japanese": "残念ながら、土曜日は行けそうにないんだ。", "explanation": "'I'm afraid' をつけることで、断りをより丁寧に伝えることができます。", "accent": "uk",
+        "responses": [
+          { "english": "Oh, that's a shame. We'll miss you.", "japanese": "あら、それは残念。寂しくなるよ。", "accent": "uk" },
+          { "english": "No worries. Maybe next time.", "japanese": "気にしないで。また次の機会にね。", "accent": "uk" },
+          { "english": "Is everything okay?", "japanese": "何かあったの？大丈夫？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d042", "english": "I'll put the kettle on.", "japanese": "お湯を沸かすね。", "explanation": "イギリスで「お茶にしよう」というときの、最も代表的な愛情のこもった表現です。", "accent": "uk",
+        "responses": [
+          { "english": "Lovely, thanks. I'll get the biscuits.", "japanese": "嬉しい、ありがとう。ビスケット持ってくるね。", "accent": "uk" },
+          { "english": "You're a lifesaver.", "japanese": "あなたは命の恩人だよ。", "accent": "uk" },
+          { "english": "Sounds good. Make mine a strong one.", "japanese": "いいね。私のは濃いめにしてね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d043", "english": "I've got a bit of a headache.", "japanese": "ちょっと頭が痛いんだ。", "explanation": "体調不良を軽く伝える際の一般的な表現です。", "accent": "uk",
+        "responses": [
+          { "english": "You should take some paracetamol and rest.", "japanese": "パラセタモール（鎮痛剤）を飲んで休んだほうがいいよ。", "accent": "uk" },
+          { "english": "Maybe you're dehydrated. Have some water.", "japanese": "水分不足かもしれないよ。お水を飲んで。", "accent": "uk" },
+          { "english": "I'm sorry to hear that. Can I get you anything?", "japanese": "それはお気の毒に。何かいる？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d044", "english": "What are you up to this weekend?", "japanese": "今週末は何してるの？", "explanation": "'What are you doing?' のよりカジュアルな聞き方です。", "accent": "us",
+        "responses": [
+          { "english": "Not much, just relaxing. How about you?", "japanese": "特に何もないよ、リラックスしてるだけ。あなたは？", "accent": "uk" },
+          { "english": "I'm going to a friend's birthday party.", "japanese": "友達の誕生日パーティーに行くんだ。", "accent": "uk" },
+          { "english": "I have to work, unfortunately.", "japanese": "残念ながら仕事だよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d045", "english": "I'm trying to cut down on sugar.", "japanese": "砂糖を減らそうとしてるんだ。", "explanation": "'cut down on ~' は「～の量を減らす」という意味の句動詞です。", "accent": "us",
+        "responses": [
+          { "english": "Good for you. It's so hard to do.", "japanese": "えらいね。それってすごく難しいよね。", "accent": "uk" },
+          { "english": "Me too. I've switched to honey in my tea.", "japanese": "私も。紅茶に入れるのをハチミツに変えたんだ。", "accent": "uk" },
+          { "english": "Does that mean no cake for you, then?", "japanese": "ってことは、あなたはケーキなしってこと？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d046", "english": "I overslept this morning.", "japanese": "今朝、寝坊しちゃった。", "explanation": "寝坊したことを伝える最もシンプルな表現です。", "accent": "us",
+        "responses": [
+          { "english": "Oh no! Did you miss anything important?", "japanese": "あらら！何か大事なことに遅れた？", "accent": "uk" },
+          { "english": "That's the worst feeling, isn't it?", "japanese": "最悪な気分だよね？", "accent": "uk" },
+          { "english": "I hate it when that happens.", "japanese": "そういうの、嫌だよね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d047", "english": "Let's agree to disagree.", "japanese": "意見が違うってことで合意しよう。", "explanation": "議論が平行線のままで、これ以上続けても無駄なときに使う、議論を平和的に終えるための表現。", "accent": "us",
+        "responses": [
+          { "english": "Fair enough. It's not worth arguing about.", "japanese": "もっともだね。議論するほどの価値はないよ。", "accent": "uk" },
+          { "english": "Okay, fine. Let's change the subject.", "japanese": "分かった、いいよ。話題を変えよう。", "accent": "uk" },
+          { "english": "I suppose we're not going to convince each other.", "japanese": "私たち、お互いを説得できそうにないね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d048", "english": "The traffic was a nightmare.", "japanese": "渋滞が悪夢のようだった。", "explanation": "交通渋滞が非常にひどかったことを表すのによく使われる表現です。", "accent": "uk",
+        "responses": [
+          { "english": "I can imagine. It's always bad on a Friday.", "japanese": "想像できるよ。金曜はいつもひどいからね。", "accent": "uk" },
+          { "english": "Tell me about it. It took me an hour to get here.", "japanese": "本当にそうだよね。ここまで来るのに1時間かかったよ。", "accent": "uk" },
+          { "english": "At least you're here safely now.", "japanese": "とにかく今は無事ここにいるんだから良かったよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d049", "english": "I'll catch you later.", "japanese": "じゃあ、また後でね。", "explanation": "'See you later.' の非常にカジュアルな言い方で、友人同士でよく使われます。", "accent": "us",
+        "responses": [
+          { "english": "Yep, catch you later.", "japanese": "うん、また後で。", "accent": "uk" },
+          { "english": "Alright, speak to you soon.", "japanese": "分かった、また近いうちに話そう。", "accent": "uk" },
+          { "english": "Cheers, mate.", "japanese": "じゃあね、友よ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d050", "english": "It's boiling today, isn't it?", "japanese": "今日、茹だるように暑いね？", "explanation": "非常に暑い日に使われる表現。'boiling' は「沸騰している」という意味です。", "accent": "uk",
+        "responses": [
+          { "english": "I know, I'm melting.", "japanese": "本当だよね、溶けそうだよ。", "accent": "uk" },
+          { "english": "It's unbearable. I wish we had air conditioning.", "japanese": "耐えられないよ。エアコンがあればなあ。", "accent": "uk" },
+          { "english": "Perfect weather for a trip to the beach.", "japanese": "ビーチに行くには完璧な天気だね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d051", "english": "I'm just browsing, thanks.", "japanese": "ただ見ているだけです、ありがとう。", "explanation": "お店で店員に 'Can I help you?' と声をかけられた際の、最も一般的で便利な返事です。", "accent": "uk",
+        "responses": [
+          { "english": "Okay, just let me know if you need anything.", "japanese": "承知いたしました。何か必要でしたらお声がけください。", "accent": "uk" },
+          { "english": "No problem at all. Take your time.", "japanese": "全く問題ありません。ごゆっくりどうぞ。", "accent": "uk" },
+          { "english": "Alright. The fitting rooms are just over there.", "japanese": "かしこまりました。試着室はあちらにございます。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d052", "english": "Do you have this in a different colour?", "japanese": "これの色違いはありますか？", "explanation": "洋服や商品について、他の選択肢を尋ねる際のフレーズです。", "accent": "uk",
+        "responses": [
+          { "english": "Let me check for you. What colour were you looking for?", "japanese": "お調べしますね。何色をお探しでしたか？", "accent": "uk" },
+          { "english": "I'm afraid it only comes in black and white.", "japanese": "申し訳ありません、そちらは黒と白のみとなっております。", "accent": "uk" },
+          { "english": "Yes, we also have it in blue and green. I'll go and get them.", "japanese": "はい、青と緑もございます。今お持ちしますね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d053", "english": "I'm running a bit late.", "japanese": "少し遅れそうです。", "explanation": "約束の時間に遅れそうなことを、事前に電話やメッセージで伝える際の丁寧な表現。", "accent": "us",
+        "responses": [
+          { "english": "No worries. How far away are you?", "japanese": "心配しないで。どのくらい離れてる？", "accent": "uk" },
+          { "english": "Okay, thanks for letting me know.", "japanese": "分かった、知らせてくれてありがとう。", "accent": "uk" },
+          { "english": "Alright, we'll wait for you at the entrance.", "japanese": "分かった、入り口で待ってるね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d054", "english": "Let's play it by ear.", "japanese": "臨機応変にやろう。", "explanation": "事前に細かく計画せず、その場の状況に応じて決めよう、と提案する際のイディオムです。", "accent": "us",
+        "responses": [
+          { "english": "Sounds good to me. I'm happy to go with the flow.", "japanese": "いいね。流れに任せるよ。", "accent": "uk" },
+          { "english": "Okay, so no fixed plan then.", "japanese": "分かった、じゃあ決まった計画はなしだね。", "accent": "uk" },
+          { "english": "I'd rather have a rough idea of what we're doing.", "japanese": "私は何をするか大まかにでも決めておきたいな。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d055", "english": "I'll sort it out.", "japanese": "私がなんとかするよ。", "explanation": "問題や複雑な状況を「整理する」「解決する」という意味で、イギリス英語で非常によく使われる便利な表現です。", "accent": "uk",
+        "responses": [
+          { "english": "Are you sure? It looks complicated.", "japanese": "本当に？複雑そうに見えるけど。", "accent": "uk" },
+          { "english": "Thanks, I appreciate it.", "japanese": "ありがとう、感謝するよ。", "accent": "uk" },
+          { "english": "Let me know if you need any help.", "japanese": "何か手伝いが必要なら言ってね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d056", "english": "I'm afraid I don't see what you mean.", "japanese": "申し訳ありませんが、仰っている意味が分かりません。", "explanation": "'I don't understand' をより丁寧に、ビジネスシーンなどでも使えるようにした表現です。", "accent": "uk",
+        "responses": [
+          { "english": "Sorry, let me rephrase that.", "japanese": "すみません、言い換えますね。", "accent": "uk" },
+          { "english": "Okay, let me try to explain it differently.", "japanese": "分かりました、違う方法で説明してみます。", "accent": "uk" },
+          { "english": "What part is unclear?", "japanese": "どの部分が不明確ですか？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d057", "english": "Could you speak a little more slowly, please?", "japanese": "もう少しゆっくり話していただけますか？", "explanation": "相手の英語が速くて聞き取れないときに使う、必須の丁寧な依頼です。", "accent": "us",
+        "responses": [
+          { "english": "Of course, my apologies. Is this pace better?", "japanese": "もちろんです、すみません。このペースはいかがですか？", "accent": "uk" },
+          { "english": "Sure, no problem at all.", "japanese": "はい、全く問題ありません。", "accent": "uk" },
+          { "english": "Sorry, I have a habit of talking too fast.", "japanese": "ごめんなさい、早口で話す癖があるんです。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d058", "english": "I'm just about to leave.", "japanese": "ちょうど今、出るところだよ。", "explanation": "'be about to do something' で「まさに～するところだ」という意味になります。", "accent": "uk",
+        "responses": [
+          { "english": "Okay, I'll see you in about 20 minutes then.", "japanese": "分かった、じゃあ20分後くらいに会おう。", "accent": "uk" },
+          { "english": "Great timing. I just arrived.", "japanese": "良いタイミングだね。私はちょうど着いたところだよ。", "accent": "uk" },
+          { "english": "Don't forget your umbrella, it looks like rain.", "japanese": "傘を忘れないでね、雨が降りそうだよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d059", "english": "It's my treat.", "japanese": "私のおごりだよ。", "explanation": "食事や飲み物の代金を自分が支払うと申し出る際の、スマートな表現です。", "accent": "us",
+        "responses": [
+          { "english": "Are you sure? That's very kind of you.", "japanese": "本当かい？とても親切だね。", "accent": "uk" },
+          { "english": "Wow, thank you so much!", "japanese": "わあ、本当にありがとう！", "accent": "uk" },
+          { "english": "No, let's split it.", "japanese": "いや、割り勘にしようよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "d060", "english": "I'd better be going.", "japanese": "もう行かなくちゃ。", "explanation": "'I should go' と同じ意味ですが、より自然で口語的な別れの挨拶です。", "accent": "uk",
+        "responses": [
+          { "english": "Okay, it was great to see you.", "japanese": "分かった、会えて本当に良かったよ。", "accent": "uk" },
+          { "english": "Already? Well, get home safe.", "japanese": "もう？じゃあ、気をつけて帰ってね。", "accent": "uk" },
+          { "english": "Let's do this again soon.", "japanese": "また近いうちに会おうね。", "accent": "uk" }
+        ]
+      }
+    ]
+  }
+]

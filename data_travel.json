@@ -1,0 +1,552 @@
+[
+  {
+    "category": "Travel",
+    "scene": "General: Essential Travel Phrases (20 examples)",
+    "expressions": [
+      {
+        "id": "gen001", "english": "I'd like to check in for my flight to Tokyo.", "japanese": "東京行きの便のチェックインをお願いします。", "explanation": "空港のチェックインカウンターで最初に言う言葉です。", "accent": "us",
+        "responses": [
+          { "english": "Certainly. May I see your passport, please?", "japanese": "かしこまりました。パスポートを拝見してもよろしいですか？", "accent": "uk" },
+          { "english": "Are you checking any bags today?", "japanese": "本日、お預けになる手荷物はございますか？", "accent": "uk" },
+          { "english": "You can use the self-service kiosk right there.", "japanese": "あちらの自動チェックイン機をご利用いただけます。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen002", "english": "Where is the boarding gate for flight BA246?", "japanese": "BA246便の搭乗ゲートはどこですか？", "explanation": "自分のフライトの搭乗ゲートを確認するフレーズです。", "accent": "uk",
+        "responses": [
+          { "english": "It's Gate 25. Just follow the signs for Gates 20-30.", "japanese": "25番ゲートです。20番から30番ゲートの案内表示に従ってください。", "accent": "uk" },
+          { "english": "It hasn't been announced yet. Please check the departure boards.", "japanese": "まだ発表されていません。出発案内板をご確認ください。", "accent": "uk" },
+          { "english": "That's in the next terminal. You'll need to take the shuttle train.", "japanese": "それは次のターミナルです。シャトル電車に乗る必要があります。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen003", "english": "My luggage hasn't arrived. What should I do?", "japanese": "私の荷物が届いていません。どうすればいいですか？", "explanation": "ロストバゲージ（荷物紛失）の際に、航空会社のカウンターで使うフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "I'm very sorry to hear that. Can I see your baggage claim tag?", "japanese": "それは大変申し訳ございません。手荷物引換証を拝見できますか？", "accent": "uk" },
+          { "english": "Please fill out this form, and we will contact you once it's located.", "japanese": "こちらの用紙にご記入ください。見つかり次第、ご連絡いたします。", "accent": "uk" },
+          { "english": "Let's check the system. Sometimes bags are delayed.", "japanese": "システムを確認してみましょう。手荷物が遅延することがあります。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen004", "english": "A return ticket to the city centre, please.", "japanese": "市の中心部まで、往復切符を一枚ください。", "explanation": "鉄道やバスの切符を買う際の基本形。'A one-way ticket' は片道です。", "accent": "uk",
+        "responses": [
+          { "english": "That'll be 8 euros, please.", "japanese": "8ユーロになります。", "accent": "uk" },
+          { "english": "The next train leaves in 10 minutes from platform 2.", "japanese": "次の電車は10分後に2番線から出発します。", "accent": "uk" },
+          { "english": "Are you paying by cash or card?", "japanese": "お支払いは現金ですか、カードですか？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen005", "english": "We have a reservation under the name Sato.", "japanese": "佐藤の名前で予約しています。", "explanation": "ホテルやレストランで予約を伝える際の決まり文句です。", "accent": "us",
+        "responses": [
+          { "english": "Ah yes, Mr. Sato. A table for two. Right this way, please.", "japanese": "はい、佐藤様。2名様ですね。こちらへどうぞ。", "accent": "uk" },
+          { "english": "Welcome. We just need to see your passports and a credit card.", "japanese": "ようこそ。パスポートとクレジットカードを拝見いたします。", "accent": "uk" },
+          { "english": "Let me check... I don't seem to have a reservation under that name.", "japanese": "確認しますね… そのお名前でのご予約が見当たらないようです。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen006", "english": "Could we have a table for two, please?", "japanese": "2名ですが、席はありますか？", "explanation": "予約なしでレストランに入った際に使います。", "accent": "uk",
+        "responses": [
+          { "english": "Of course. Right this way, please.", "japanese": "もちろんです。こちらへどうぞ。", "accent": "uk" },
+          { "english": "There's about a 20-minute wait, is that alright?", "japanese": "20分ほど待ち時間がありますが、よろしいですか？", "accent": "uk" },
+          { "english": "I'm sorry, we're fully booked tonight.", "japanese": "申し訳ありません、今夜は満席です。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen007", "english": "What do you recommend?", "japanese": "おすすめは何ですか？", "explanation": "レストランのメニューで何を頼むか迷ったときに、店員に尋ねる便利なフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "The local fish is very fresh today.", "japanese": "本日は地元の魚がとても新鮮ですよ。", "accent": "uk" },
+          { "english": "Our most popular dish is the steak.", "japanese": "一番人気はステーキです。", "accent": "uk" },
+          { "english": "If you like pasta, the carbonara is excellent.", "japanese": "パスタがお好きでしたら、カルボナーラが絶品です。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen008", "english": "Excuse me, how do I get to the nearest station?", "japanese": "すみません、最寄り駅へはどう行けばいいですか？", "explanation": "道端で人に道順を尋ねる際の、最も基本的なフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "Go straight down this street and turn left at the traffic lights.", "japanese": "この道をまっすぐ行って、信号を左に曲がってください。", "accent": "uk" },
+          { "english": "It's about a ten-minute walk that way.", "japanese": "あちらの方向に歩いて10分くらいです。", "accent": "uk" },
+          { "english": "Sorry, I'm not from around here.", "japanese": "ごめんなさい、この辺の者じゃないんです。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen009", "english": "I'm here for a business meeting with Mr. Smith.", "japanese": "スミスさんとの商談でこちらへ参りました。", "explanation": "出張先の会社の受付で、訪問目的を伝えるフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Okay, please take a seat and I'll let him know you're here.", "japanese": "承知いたしました。どうぞお掛けになってお待ちください。スミス様にお伝えします。", "accent": "uk" },
+          { "english": "Do you have an appointment?", "japanese": "アポイントメントはございますか？", "accent": "uk" },
+          { "english": "Certainly. Could you please sign in here?", "japanese": "かしこまりました。こちらにご署名をお願いできますでしょうか？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen010", "english": "Long time no see! How have you been?", "japanese": "久しぶり！元気にしていた？", "explanation": "現地の友人や知人と再会したときの、定番の挨拶です。", "accent": "us",
+        "responses": [
+          { "english": "It's so good to see you! I've been great, how about you?", "japanese": "会えて嬉しいよ！元気だったよ、あなたは？", "accent": "uk" },
+          { "english": "I know, it's been ages! You haven't changed a bit.", "japanese": "本当だよね、すごく久しぶり！全然変わらないね。", "accent": "uk" },
+          { "english": "Wow! I can't believe it's you. I'm doing well, thanks.", "japanese": "わあ！信じられない、あなたなのね。元気だよ、ありがとう。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen011", "english": "My room key isn't working.", "japanese": "部屋の鍵が作動しません。", "explanation": "ホテルのフロントで、カードキーなどの問題を伝えるフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "I'm sorry about that. Let me issue you a new one.", "japanese": "申し訳ございません。新しいものをお出ししますね。", "accent": "uk" },
+          { "english": "Sometimes they get deactivated if they're near a mobile phone.", "japanese": "携帯電話の近くにあると、時々磁気が飛んでしまうことがあります。", "accent": "uk" },
+          { "english": "Okay, what's your room number? I'll re-program it for you.", "japanese": "承知しました。お部屋番号は何号室ですか？再設定いたします。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen012", "english": "Could you take a picture for us, please?", "japanese": "私たちの写真を撮っていただけますか？", "explanation": "観光地で他の旅行者や地元の人にお願いするときの丁寧な言い方。", "accent": "uk",
+        "responses": [
+          { "english": "Of course. Just show me which button to press.", "japanese": "もちろん。どのボタンを押せばいいか教えてくださいね。", "accent": "uk" },
+          { "english": "Sure. Everyone say cheese!", "japanese": "いいですよ。はい、チーズ！", "accent": "uk" },
+          { "english": "Sorry, I'm in a bit of a hurry.", "japanese": "ごめんなさい、少し急いでいるんです。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen013", "english": "Do you accept credit cards?", "japanese": "クレジットカードは使えますか？", "explanation": "小さな店や市場などで、支払い方法を確認する必須のフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Yes, we accept Visa and Mastercard.", "japanese": "はい、VisaとMastercardが使えます。", "accent": "uk" },
+          { "english": "I'm sorry, it's cash only.", "japanese": "申し訳ありません、現金のみとなっております。", "accent": "uk" },
+          { "english": "We do, but there's a minimum spend of 10 dollars.", "japanese": "使えますが、10ドルからのご利用となります。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen014", "english": "What time do you open/close?", "japanese": "何時に開店／閉店しますか？", "explanation": "お店や施設の営業時間を尋ねる基本的な質問。", "accent": "uk",
+        "responses": [
+          { "english": "We're open from 9 AM to 6 PM.", "japanese": "午前9時から午後6時までです。", "accent": "uk" },
+          { "english": "We close at 10 PM, but the last order is at 9:30.", "japanese": "閉店は午後10時ですが、ラストオーダーは9時半です。", "accent": "uk" },
+          { "english": "It depends on the day. The hours are posted on the door.", "japanese": "日によりますね。営業時間はドアに掲示してあります。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen015", "english": "Can I try this on?", "japanese": "これを試着してもいいですか？", "explanation": "洋服店などで試着室を使いたいときに尋ねるフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Sure, the fitting rooms are just over there.", "japanese": "はい、試着室はあちらです。", "accent": "uk" },
+          { "english": "Of course. How many items do you have?", "japanese": "もちろんです。何点お持ちですか？", "accent": "uk" },
+          { "english": "Go right ahead. Let me know if you need a different size.", "japanese": "どうぞ。違うサイズが必要でしたら教えてくださいね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen016", "english": "How much is this?", "japanese": "これはいくらですか？", "explanation": "値札が見当たらない商品について値段を尋ねる、最もシンプルなフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Let me check for you... This one is 25 pounds.", "japanese": "確認しますね… こちらは25ポンドです。", "accent": "uk" },
+          { "english": "There should be a price tag on the back.", "japanese": "裏に値札が付いているはずです。", "accent": "uk" },
+          { "english": "It's 15 dollars, or two for 25.", "japanese": "15ドルです、もしくは2つで25ドルですよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen017", "english": "The Wi-Fi in my room isn't working.", "japanese": "部屋のWi-Fiが動きません。", "explanation": "ホテルでインターネット接続の問題を訴えるフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "I'm sorry to hear that. Have you tried restarting your device?", "japanese": "申し訳ございません。お使いのデバイスを再起動してみましたか？", "accent": "uk" },
+          { "english": "Let me try restarting the router. One moment, please.", "japanese": "ルーターを再起動してみますね。少々お待ちください。", "accent": "uk" },
+          { "english": "I'll send someone from maintenance up to take a look.", "japanese": "メンテナンスの者を誰か、見に行かせます。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen018", "english": "Could I have a map of the city?", "japanese": "街の地図をいただけますか？", "explanation": "ホテルのフロントや観光案内所で、無料で地図をもらう際のお願い。", "accent": "us",
+        "responses": [
+          { "english": "Of course. Here you go. I can mark the main attractions for you.", "japanese": "もちろんです。はい、どうぞ。主要な観光地に印を付けましょうか。", "accent": "uk" },
+          { "english": "Certainly. We also have a subway map if you need one.", "japanese": "はい。もし必要でしたら地下鉄の路線図もございます。", "accent": "uk" },
+          { "english": "We've just run out, I'm afraid. But you can use the QR code to download one.", "japanese": "申し訳ありません、ちょうど切らしてしまいました。ですが、QRコードでダウンロードできますよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen019", "english": "What have you been up to?", "japanese": "最近どうしてた？", "explanation": "久しぶりに会った友人との会話で、近況を尋ねるカジュアルな表現。", "accent": "uk",
+        "responses": [
+          { "english": "Not much, same old. Working a lot. What about you?", "japanese": "特に何もないよ、いつも通り。たくさん働いてる。あなたは？", "accent": "uk" },
+          { "english": "I actually just got back from a trip to Spain.", "japanese": "実はちょうどスペイン旅行から帰ってきたところなんだ。", "accent": "uk" },
+          { "english": "Oh, you know, this and that. It's so good to see you.", "japanese": "まあ、色々だよ。会えて本当に嬉しいよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "gen020", "english": "I'm just looking, thanks.", "japanese": "ただ見ているだけです、ありがとう。", "explanation": "お店で店員に 'Can I help you?' と声をかけられた際の、最も一般的で便利な返事です。", "accent": "uk",
+        "responses": [
+          { "english": "Okay, just let me know if you need anything.", "japanese": "承知いたしました。何か必要でしたらお声がけください。", "accent": "uk" },
+          { "english": "No problem at all. Take your time.", "japanese": "全く問題ありません。ごゆっくりどうぞ。", "accent": "uk" },
+          { "english": "Alright. The fitting rooms are just over there if you change your mind.", "japanese": "かしこまりました。もし気が変わりましたら、試着室はあちらにございます。", "accent": "uk" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Travel",
+    "scene": "UK Trip: London (10 examples)",
+    "expressions": [
+      {
+        "id": "uk_lon001", "english": "Mind the gap between the train and the platform.", "japanese": "電車とホームの隙間にご注意ください。", "explanation": "ロンドンの地下鉄（Tube）で必ず耳にする、象徴的なアナウンスです。", "accent": "uk",
+        "responses": [
+          { "english": "Wow, they really say that! I've only ever seen it on T-shirts.", "japanese": "わあ、本当に言うんだ！Tシャツでしか見たことなかったよ。", "accent": "uk" },
+          { "english": "It's quite a big gap here.", "japanese": "ここの隙間はかなり大きいね。", "accent": "uk" },
+          { "english": "This announcement is iconic.", "japanese": "このアナウンスは象徴的だね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon002", "english": "You alright?", "japanese": "元気？／こんにちは／どうも。", "explanation": "イギリス、特にロンドンで非常によく使われる挨拶。'Hello' や 'How are you?' のような軽いニュアンスです。", "accent": "uk",
+        "responses": [
+          { "english": "Yeah, not bad, you?", "japanese": "うん、悪くないよ。君は？", "accent": "uk" },
+          { "english": "Alright, mate?", "japanese": "元気かい？", "accent": "uk" },
+          { "english": "I'm good, thanks. A bit lost, actually.", "japanese": "元気だよ、ありがとう。実はちょっと道に迷ってるんだ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon003", "english": "Can I get a full English, please?", "japanese": "イングリッシュ・ブレックファストをお願いします。", "explanation": "イギリスの伝統的な朝食（ベーコン、卵、ソーセージなど）をカフェで注文する際のフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "Certainly. And how would you like your eggs? Fried, scrambled or poached?", "japanese": "かしこまりました。卵の調理法はどうなさいますか？目玉焼き、スクランブル、それともポーチドエッグ？", "accent": "uk" },
+          { "english": "Would you like tea or coffee with that?", "japanese": "紅茶かコーヒーが付きますが、どちらになさいますか？", "accent": "uk" },
+          { "english": "Good choice. It'll set you up for the day.", "japanese": "良い選択ですね。一日の活力になりますよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon004", "english": "What time is the last Tube?", "japanese": "地下鉄の終電は何時ですか？", "explanation": "夜遅くまで遊ぶ際に、帰りの足を確保するための重要な質問。", "accent": "uk",
+        "responses": [
+          { "english": "It's around midnight, but some lines run 24 hours on weekends now.", "japanese": "深夜0時頃ですが、今は週末に24時間運行している路線もありますよ。", "accent": "uk" },
+          { "english": "You should check the Transport for London (TfL) website.", "japanese": "ロンドン交通局（TfL）のウェブサイトで確認すべきですよ。", "accent": "uk" },
+          { "english": "If you miss it, you can always get a night bus.", "japanese": "もし乗り過ごしても、いつでもナイトバスに乗れますよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon005", "english": "I'd like to book tickets for a West End show.", "japanese": "ウエストエンドのショーのチケットを予約したいのですが。", "explanation": "ロンドンの劇場街でミュージカルなどを観る計画を立てるフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "Which show are you interested in?", "japanese": "どのショーにご興味がありますか？", "accent": "uk" },
+          { "english": "You can often get cheap last-minute tickets from the TKTS booth in Leicester Square.", "japanese": "レスタースクエアにあるTKTSのブースで、直前の安いチケットが手に入ることが多いですよ。", "accent": "uk" },
+          { "english": "I'd recommend booking online, it's usually cheaper.", "japanese": "オンラインで予約するのをおすすめします。その方がだいたい安いです。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon006", "english": "Is the British Museum free to enter?", "japanese": "大英博物館は入場無料ですか？", "explanation": "ロンドンの多くの主要な博物館や美術館は入場無料であることを確認する質問。", "accent": "uk",
+        "responses": [
+          { "english": "Yes, the main collection is free, but special exhibitions have a charge.", "japanese": "はい、常設展は無料ですが、特別展は有料です。", "accent": "uk" },
+          { "english": "It's free, but they suggest a donation of five pounds.", "japanese": "無料ですが、5ポンドの寄付を推奨しています。", "accent": "uk" },
+          { "english": "It is. It's amazing what you can see for free in this city.", "japanese": "そうですよ。この街で無料で見られるものには驚かされます。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon007", "english": "Let's get some fish and chips.", "japanese": "フィッシュ・アンド・チップスを食べに行こう。", "explanation": "イギリスの国民食を食べることを提案するフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "Great idea. Do you want salt and vinegar on yours?", "japanese": "良い考えだね。塩とビネガーはかける？", "accent": "uk" },
+          { "english": "Yes! I know a great little 'chippy' around the corner.", "japanese": "うん！角を曲がったところに、素晴らしい小さな「チッピー」（フィッシュアンドチップス屋）を知ってるよ。", "accent": "uk" },
+          { "english": "I'm starving. Let's get a large portion to share.", "japanese": "お腹ペコペコだよ。シェアするために大きいのを頼もう。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon008", "english": "We'd like to book an afternoon tea.", "japanese": "アフタヌーンティーを予約したいのですが。", "explanation": "イギリスの優雅な文化体験を予約する際のフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "Certainly. For how many people and for which day?", "japanese": "かしこまりました。何名様で、どの日をご希望ですか？", "accent": "uk" },
+          { "english": "Do you have any dietary requirements, such as vegetarian or gluten-free?", "japanese": "ベジタリアンやグルテンフリーなど、食事に関する特別なご要望はございますか？", "accent": "uk" },
+          { "english": "Our next availability is at 3 PM tomorrow.", "japanese": "次に空いているのは明日の午後3時です。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon009", "english": "It's chucking it down!", "japanese": "土砂降りだ！", "explanation": "雨が激しく降っていることを表す、非常にイギリス的な口語表現。", "accent": "uk",
+        "responses": [
+          { "english": "Typical British weather, isn't it?", "japanese": "典型的なイギリスの天気だよね？", "accent": "uk" },
+          { "english": "I'm soaked! I should have brought my umbrella.", "japanese": "ずぶ濡れだよ！傘を持ってくればよかった。", "accent": "uk" },
+          { "english": "Let's pop into this pub until it stops.", "japanese": "止むまでこのパブにひょいと入ろう。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_lon010", "english": "I need to get to Heathrow Airport.", "japanese": "ヒースロー空港に行かなければなりません。", "explanation": "ロンドン中心部から空港への移動方法を尋ねる際の、目的を告げる言葉。", "accent": "uk",
+        "responses": [
+          { "english": "The quickest way is the Heathrow Express from Paddington Station.", "japanese": "一番速いのはパディントン駅からのヒースロー・エクスプレスですよ。", "accent": "uk" },
+          { "english": "The cheapest way is the Piccadilly Line on the Tube, but it takes longer.", "japanese": "一番安いのは地下鉄のピカデリー線ですが、時間がかかります。", "accent": "uk" },
+          { "english": "Which terminal are you flying from?", "japanese": "どのターミナルから出発しますか？", "accent": "uk" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Travel",
+    "scene": "UK Trip: Manchester & Liverpool (20 examples)",
+    "expressions": [
+      {
+        "id": "uk_man001", "english": "I love the industrial architecture here.", "japanese": "ここの産業建築が大好きです。", "explanation": "マンチェスターの赤レンガの建物など、産業革命の遺産について話すフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "Yeah, it's what the city is famous for. It has a lot of character.", "japanese": "ええ、この街が有名な理由ですからね。とても趣があります。", "accent": "uk" },
+          { "english": "If you're interested, you should visit the Science and Industry Museum.", "japanese": "もし興味があるなら、科学産業博物館を訪れるべきですよ。", "accent": "uk" },
+          { "english": "It's amazing to think these old cotton mills are now cool apartments.", "japanese": "これらの古い綿工場が、今ではかっこいいアパートになっているなんて驚きですよね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_man002", "english": "Are you a City or a United fan?", "japanese": "シティのファン？それともユナイテッドのファン？", "explanation": "サッカーの街マンチェスターならではの会話のきっかけ。どちらかのチームの知識が少しあると盛り上がります。", "accent": "uk",
+        "responses": [
+          { "english": "I'm a neutral, I just enjoy good football.", "japanese": "私は中立だよ、ただ良いサッカーを楽しむだけさ。", "accent": "uk" },
+          { "english": "I follow Liverpool, actually!", "japanese": "実はリバプールを応援してるんだ！", "accent": "uk" },
+          { "english": "I'm not a big football fan, to be honest.", "japanese": "正直に言うと、あまりサッカーファンじゃないんだ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_man003", "english": "This area, the Northern Quarter, is really cool.", "japanese": "このノーザン・クォーターっていうエリア、すごくかっこいいね。", "explanation": "マンチェスターのおしゃれなエリアを散策中に、感想を言って会話を始めるフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "It is, isn't it? Lots of great independent shops and cafes.", "japanese": "だよね？素敵な個人経営のお店やカフェがたくさんあるんだ。", "accent": "uk" },
+          { "english": "Yeah, it's my favourite part of the city.", "japanese": "うん、この街で一番好きな場所なんだ。", "accent": "uk" },
+          { "english": "Make sure you check out Afflecks Palace while you're here.", "japanese": "ここにいる間に、アフクレックス・パレスは絶対チェックしてね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_man004", "english": "Is there a good place to listen to live music around here?", "japanese": "この辺りで生演奏が聴ける良い場所はありますか？", "explanation": "マンチェスターもリバプールも音楽の街。おすすめのライブハウスを尋ねてみましょう。", "accent": "uk",
+        "responses": [
+          { "english": "Definitely. Check out Band on the Wall in Manchester.", "japanese": "もちろん。マンチェスターの『Band on the Wall』をチェックしてみて。", "accent": "uk" },
+          { "english": "There are loads. What kind of music are you into?", "japanese": "たくさんあるよ。どんな音楽が好きなの？", "accent": "uk" },
+          { "english": "Just walk down Seel Street in Liverpool, you'll find plenty of places.", "japanese": "リバプールのシール・ストリートを歩いてみれば、たくさんの場所が見つかるよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_man005", "english": "The music scene in Manchester is legendary.", "japanese": "マンチェスターの音楽シーンは伝説的ですね。", "explanation": "The SmithsやOasisなど、多くの有名バンドを輩出したことについて話すフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "It certainly is. You can feel it in the air.", "japanese": "本当にそうだよ。空気で感じられるくらいさ。", "accent": "uk" },
+          { "english": "Are you a fan of any Manchester bands?", "japanese": "マンチェスターのバンドで好きなのはある？", "accent": "uk" },
+          { "english": "Yeah, we're very proud of our musical heritage.", "japanese": "ああ、我々はこの音楽的遺産をとても誇りに思っているんだ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_liv001", "english": "How do I get to The Cavern Club?", "japanese": "キャヴァーン・クラブへはどう行けばいいですか？", "explanation": "リバプールでビートルズファンが必ず訪れる場所への行き方を尋ねるフレーズ。", "accent": "uk",
+        "responses": [
+          { "english": "It's on Mathew Street, right in the city centre. It's easy to find.", "japanese": "マシュー・ストリートにあって、市の中心部だよ。見つけるのは簡単さ。", "accent": "uk" },
+          { "english": "Just follow the sound of the music!", "japanese": "音楽の音についていけばいいよ！", "accent": "uk" },
+          { "english": "It's about a ten-minute walk from here. I can show you on the map.", "japanese": "ここから歩いて10分くらいだよ。地図で示してあげるよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_liv002", "english": "The people here are so friendly!", "japanese": "ここの人たちはすごくフレンドリーですね！", "explanation": "特にリバプールの人々（スカウサーズ）は気さくで知られています。地元の人に伝えると喜ばれるかもしれません。", "accent": "uk",
+        "responses": [
+          { "english": "We try our best! Glad you're having a good time.", "japanese": "そうあろうと努めてるよ！楽しんでるみたいで嬉しいよ。", "accent": "uk" },
+          { "english": "That's Scousers for you. We love a good chat.", "japanese": "それがスカウサーってもんさ。おしゃべりが大好きなんだ。", "accent": "uk" },
+          { "english": "Thanks, love. Where are you visiting from?", "japanese": "ありがとうね。どこから来たの？", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_liv003", "english": "Can you recommend a good pub to watch the match?", "japanese": "試合を観るのにおすすめのパブを教えてくれますか？", "explanation": "サッカー熱の高いリバプールやマンチェスターで、試合観戦の場所を尋ねる質問。", "accent": "uk",
+        "responses": [
+          { "english": "It depends. Are you a red (Liverpool) or a blue (Everton)?", "japanese": "それは場合によるね。君は赤（リバプール）かい、それとも青（エバートン）かい？", "accent": "uk" },
+          { "english": "Any pub around here will have the game on. The atmosphere will be amazing.", "japanese": "この辺のパブならどこでも試合をやってるよ。雰囲気は最高だろうね。", "accent": "uk" },
+          { "english": "You'll need to get there early to get a good spot.", "japanese": "良い場所を確保するには、早く行く必要があるよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_liv004", "english": "I'd like to take a ferry 'cross the Mersey.", "japanese": "マージー川を渡るフェリーに乗りたいのですが。", "explanation": "有名な歌のタイトルにもなっている、リバプールの象徴的なアクティビティ。", "accent": "uk",
+        "responses": [
+          { "english": "Ah, a classic choice! The terminal is just down at the Pier Head.", "japanese": "ああ、定番の選択だね！乗り場はピアヘッドをすぐ下ったところだよ。", "accent": "uk" },
+          { "english": "You get a great view of the city skyline from the ferry.", "japanese": "フェリーからは街のスカイラインの素晴らしい眺めが見えるよ。", "accent": "uk" },
+          { "english": "They run every hour. You can buy tickets at the terminal.", "japanese": "1時間おきに運行しているよ。チケットはターミナルで買えるよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "uk_liv005", "english": "The Albert Dock is beautiful.", "japanese": "アルバート・ドックは美しいですね。", "explanation": "リバプールのウォーターフロントにある、赤レンガの倉庫群の感想を述べる言葉。", "accent": "uk",
+        "responses": [
+          { "english": "It is, isn't it? It's a UNESCO World Heritage site.", "japanese": "そうでしょう？ユネスコの世界遺産なんですよ。", "accent": "uk" },
+          { "english": "There are some great museums there, like the Tate and the Maritime Museum.", "japanese": "テート美術館や海洋博物館など、素晴らしい博物館がいくつかありますよ。", "accent": "uk" },
+          { "english": "It's especially lovely at night when it's all lit up.", "japanese": "夜にライトアップされると、特に素敵ですよ。", "accent": "uk" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Travel",
+    "scene": "USA Trip: NYC, LA & Florida (15 examples)",
+    "expressions": [
+      {
+        "id": "us_nyc001", "english": "Is this the express or the local train?", "japanese": "これは急行ですか、それとも各駅停車の電車ですか？", "explanation": "ニューヨークの地下鉄では、同じ路線でも急行と各駅停車があるので、この確認は非常に重要です。", "accent": "us",
+        "responses": [
+          { "english": "This is the express. It skips a lot of stops.", "japanese": "これは急行だよ。たくさんの駅を通過するんだ。", "accent": "uk" },
+          { "english": "You want the local train on the other track for that station.", "japanese": "その駅へは、向かいの線路の各駅停車に乗る必要があります。", "accent": "uk" },
+          { "english": "Check the signs on the side of the train before you get on.", "japanese": "乗る前に、電車の側面にある表示を確認してね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_nyc002", "english": "I'd like a pastrami on rye, please.", "japanese": "ライ麦パンのパストラミサンドをお願いします。", "explanation": "ニューヨークのデリ（軽食店）での、定番の注文方法です。", "accent": "us",
+        "responses": [
+          { "english": "You want mustard with that?", "japanese": "マスタードは付けますか？", "accent": "uk" },
+          { "english": "To go or for here?", "japanese": "持ち帰りですか、こちらで食べますか？", "accent": "uk" },
+          { "english": "Good choice. That's our specialty.", "japanese": "良い選択ですね。それがうちの名物なんです。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_nyc003", "english": "Let's walk across the Brooklyn Bridge.", "japanese": "ブルックリンブリッジを歩いて渡ろう。", "explanation": "ニューヨーク観光の定番アクティビティを提案するフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Great idea. The view of the Manhattan skyline is incredible from there.", "japanese": "良い考えだね。そこからのマンハッタンのスカイラインの眺めは最高だよ。", "accent": "uk" },
+          { "english": "We should start from the Brooklyn side and walk towards Manhattan.", "japanese": "ブルックリン側からスタートして、マンハッタンに向かって歩くべきだよ。", "accent": "uk" },
+          { "english": "Make sure you stay in the pedestrian lane, not the bike lane!", "japanese": "自転車レーンじゃなくて、歩行者レーンを歩くように気をつけてね！", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_nyc004", "english": "Can I get the check, please?", "japanese": "お会計をお願いします。", "explanation": "アメリカのレストランでは 'check' を使うのが一般的です。イギリスの 'bill' と使い分けましょう。", "accent": "us",
+        "responses": [
+          { "english": "Sure, I'll be right back with that.", "japanese": "はい、すぐにお持ちします。", "accent": "uk" },
+          { "english": "Absolutely. Did you enjoy everything?", "japanese": "もちろんです。お食事は楽しめましたか？", "accent": "uk" },
+          { "english": "No problem.", "japanese": "承知しました。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_nyc005", "english": "How much should I tip?", "japanese": "チップはいくら払うべきですか？", "explanation": "アメリカのチップ文化に慣れていない人が、金額の目安を尋ねる質問。", "accent": "us",
+        "responses": [
+          { "english": "15 to 20 percent of the total bill is standard for good service.", "japanese": "良いサービスに対しては、合計金額の15%から20%が標準です。", "accent": "uk" },
+          { "english": "You can double the tax. That's usually a good rule of thumb.", "japanese": "税金を2倍にするのが、だいたいの目安として分かりやすいですよ。", "accent": "uk" },
+          { "english": "Don't worry about it if you're just getting a coffee to go.", "japanese": "コーヒーを持ち帰るだけなら、気にしなくて大丈夫ですよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf001", "english": "Which freeway should I take to get to Santa Monica?", "japanese": "サンタモニカへはどの高速道路に乗ればいいですか？", "explanation": "ロサンゼルスでは高速道路を 'Freeway' と呼び、番号（the 10, the 405など）で呼ばれます。", "accent": "us",
+        "responses": [
+          { "english": "You'll want to take the 10 West all the way.", "japanese": "10号線を西にずっと行くといいですよ。", "accent": "uk" },
+          { "english": "Be careful, the 405 is usually packed with traffic.", "japanese": "気をつけて、405号線はいつも渋滞していますから。", "accent": "uk" },
+          { "english": "Just put it in your GPS. It's the easiest way.", "japanese": "GPSに入れればいいですよ。それが一番簡単な方法です。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf002", "english": "Is there valet parking?", "japanese": "バレーパーキングはありますか？", "explanation": "レストランやホテルで、係員に車の駐車を任せるサービスがあるか尋ねるフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Yes, just pull up to the front.", "japanese": "はい、正面に車を寄せてください。", "accent": "uk" },
+          { "english": "No, but there's a public parking garage around the corner.", "japanese": "いいえ、でも角を曲がったところに公共の駐車場があります。", "accent": "uk" },
+          { "english": "We do, it's ten dollars.", "japanese": "はい、ございます。10ドルになります。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf003", "english": "Can I get an iced latte with oat milk, please?", "japanese": "オートミルクのアイスラテをください。", "explanation": "健康志向の強いLAのカフェでよく見られる、ミルクの種類を指定した注文方法。", "accent": "us",
+        "responses": [
+          { "english": "Sure. What size would you like?", "japanese": "はい。サイズはどうしますか？", "accent": "uk" },
+          { "english": "No problem. Can I get a name for the order?", "japanese": "承知しました。お名前をいただけますか？", "accent": "uk" },
+          { "english": "We're out of oat milk, I'm afraid. We have almond or soy.", "japanese": "申し訳ありません、オートミルクは切らしております。アーモンドかソイならあります。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf004", "english": "I'd like to see the Hollywood Walk of Fame.", "japanese": "ハリウッド・ウォーク・オブ・フェームを見たいのですが。", "explanation": "LAの有名観光スポットを訪れたいという意思表示。", "accent": "us",
+        "responses": [
+          { "english": "It's right here on Hollywood Boulevard. Just look down!", "japanese": "ここ、ハリウッド大通りにありますよ。下を見てみて！", "accent": "uk" },
+          { "english": "It's much longer than you'd think. Is there a specific star you're looking for?", "japanese": "思っているよりずっと長いですよ。探している特定のスターはいますか？", "accent": "uk" },
+          { "english": "Be prepared for crowds. It's always busy.", "japanese": "混雑は覚悟してくださいね。いつも賑わっていますから。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf005", "english": "Which theme park do you recommend for thrill rides?", "japanese": "絶叫系のアトラクションなら、どのテーマパークがおすすめですか？", "explanation": "多くのテーマパークがあるフロリダで、目的別におすすめを尋ねるフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Definitely Universal's Islands of Adventure. They have the best roller coasters.", "japanese": "間違いなくユニバーサルのアイランズ・オブ・アドベンチャーですね。最高のジェットコースターがあります。", "accent": "uk" },
+          { "english": "If you want pure thrills, Busch Gardens in Tampa is worth the drive.", "japanese": "純粋なスリルを求めるなら、タンパにあるブッシュ・ガーデンは運転していく価値がありますよ。", "accent": "uk" },
+          { "english": "Magic Kingdom is more for families, so I'd skip that one.", "japanese": "マジック・キングダムはもっと家族向けなので、そちらは外したほうがいいでしょう。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf006", "english": "We should watch out for afternoon thunderstorms.", "japanese": "午後の雷雨には気をつけたほうがいいね。", "explanation": "フロリダの夏はスコール（急な大雨）が頻繁に発生します。", "accent": "us",
+        "responses": [
+          { "english": "Yeah, they usually pass quickly though.", "japanese": "うん、でもだいたいはすぐに通り過ぎるよ。", "accent": "uk" },
+          { "english": "Good point. Let's do the outdoor rides this morning.", "japanese": "良い指摘だね。午前中に屋外の乗り物に乗っておこう。", "accent": "uk" },
+          { "english": "I've got my poncho ready!", "japanese": "ポンチョは準備万端だよ！", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf007", "english": "Do we need to worry about alligators?", "japanese": "ワニの心配は必要ですか？", "explanation": "フロリダの湖や川の近くで、安全について尋ねる質問。", "accent": "us",
+        "responses": [
+          { "english": "Just be smart. Don't swim in unmarked lakes, especially at dawn or dusk.", "japanese": "賢く行動するだけです。標識のない湖では泳がないでください、特に夜明けや夕暮れ時は。", "accent": "uk" },
+          { "english": "If you see one, just keep your distance. They won't bother you.", "japanese": "もし見かけたら、距離を保ってください。彼らはあなたを気にしませんから。", "accent": "uk" },
+          { "english": "It's very unlikely you'll see one in a tourist area.", "japanese": "観光地で一匹見かけることは、まずないでしょう。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf008", "english": "I'd like to visit the Kennedy Space Center.", "japanese": "ケネディ宇宙センターを訪れたいです。", "explanation": "フロリダのもう一つの大きな見どころである宇宙センターへの興味を示す言葉。", "accent": "us",
+        "responses": [
+          { "english": "It's an amazing place. You should plan to spend the whole day there.", "japanese": "素晴らしい場所ですよ。一日中そこで過ごす計画を立てるべきです。", "accent": "uk" },
+          { "english": "Check their website to see if there's a rocket launch scheduled.", "japanese": "ロケットの打ち上げが予定されているか、ウェブサイトで確認してみてください。", "accent": "uk" },
+          { "english": "The Saturn V rocket exhibit will blow your mind.", "japanese": "サターンVロケットの展示には度肝を抜かれますよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf009", "english": "Let's grab a taco from a food truck.", "japanese": "フードトラックでタコスを買おう。", "explanation": "LAの食文化の象徴であるフードトラックを利用することを提案するフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Yes! The best ones are usually cash only.", "japanese": "いいね！最高のお店はだいたい現金のみだよ。", "accent": "uk" },
+          { "english": "I know a great one that parks on our street on Tuesdays.", "japanese": "火曜にうちの通りに停まる、すごく美味しい店を知ってるよ。", "accent": "uk" },
+          { "english": "Good call. I'm craving some al pastor tacos.", "japanese": "良い判断だね。アル・パストール・タコスが食べたくてたまらないんだ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_laf010", "english": "Is it always this sunny?", "japanese": "いつもこんなに晴れているのですか？", "explanation": "南カリフォルニアやフロリダの天気の良さについて、地元の人に話しかける言葉。", "accent": "us",
+        "responses": [
+          { "english": "Pretty much! That's why we live here.", "japanese": "だいたいね！だから私たちはここに住んでいるんだよ。", "accent": "uk" },
+          { "english": "We get a little rain in the winter, but mostly, yes.", "japanese": "冬に少し雨が降るけど、ほとんどはね、うん。", "accent": "uk" },
+          { "english": "Don't forget your sunscreen!", "japanese": "日焼け止めを忘れないでね！", "accent": "uk" }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Travel",
+    "scene": "USA Trip: Hawaii (Oahu & Big Island) (15 examples)",
+    "expressions": [
+      {
+        "id": "us_hi001", "english": "Aloha! Can you recommend a good place for shave ice?", "japanese": "アロハ！シェイブアイスの美味しいお店を教えてもらえますか？", "explanation": "ハワイの挨拶「アロハ」を使い、名物のシェイブアイスについて尋ねるフレンドリーなフレーズ。", "accent": "us",
+        "responses": [
+          { "english": "Aloha! Matsumoto's on the North Shore is the most famous.", "japanese": "アロハ！ノースショアにあるマツモトシェイブアイスが一番有名ですよ。", "accent": "uk" },
+          { "english": "You should try it with a snow cap. That's condensed milk on top.", "japanese": "スノーキャップ付きで試すべきですよ。上に練乳がかかっているんです。", "accent": "uk" },
+          { "english": "There's a great little spot just down the street here.", "japanese": "この通りを少し下ったところに、素晴らしい小さなお店がありますよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi002", "english": "What time is sunrise tomorrow at Haleakalā / Mauna Kea?", "japanese": "明日のハレアカラ／マウナケアの日の出は何時ですか？", "explanation": "ハワイの火山の山頂から日の出を見る計画を立てる際の質問。", "accent": "us",
+        "responses": [
+          { "english": "It should be around 6 AM, but you need to get there much earlier to park.", "japanese": "朝6時頃のはずですが、駐車するためにはもっとずっと早く着く必要があります。", "accent": "uk" },
+          { "english": "Don't forget to bring warm clothes. It's freezing up there.", "japanese": "暖かい服を持っていくのを忘れないでくださいね。山頂は凍えるほど寒いですから。", "accent": "uk" },
+          { "english": "You need to make a reservation online to enter the park for sunrise.", "japanese": "日の出のために公園に入るには、オンラインで予約する必要がありますよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi003", "english": "Is it safe to snorkel here?", "japanese": "ここでシュノーケリングをするのは安全ですか？", "explanation": "ハナウマ湾など、美しいビーチで泳ぐ前に安全性を確認する質問。", "accent": "us",
+        "responses": [
+          { "english": "Yes, it's a protected bay, so it's very calm. But don't touch the coral.", "japanese": "はい、保護された湾なのでとても穏やかです。でもサンゴには触らないでくださいね。", "accent": "uk" },
+          { "english": "The waves are a bit strong today. I'd be careful.", "japanese": "今日は少し波が強いです。気をつけてください。", "accent": "uk" },
+          { "english": "It's one of the best spots on the island. You'll see lots of fish.", "japanese": "島で最高のスポットの一つですよ。たくさんの魚が見られるでしょう。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi004", "english": "We'd like to visit Pearl Harbor. Do we need tickets?", "japanese": "パールハーバー（真珠湾）を訪れたいのですが、チケットは必要ですか？", "explanation": "オアフ島の重要な歴史的地点を訪れる際の質問。", "accent": "us",
+        "responses": [
+          { "english": "Entry to the main site is free, but you need to reserve a timed ticket for the USS Arizona Memorial.", "japanese": "主要な場所への入場は無料ですが、USSアリゾナ記念館へは時間指定のチケットを予約する必要があります。", "accent": "uk" },
+          { "english": "Yes, I highly recommend booking them online well in advance, as they run out.", "japanese": "はい、すぐに無くなってしまうので、かなり前もってオンラインで予約することを強くお勧めします。", "accent": "uk" },
+          { "english": "Remember that no bags are allowed inside. You have to store them.", "japanese": "内部にはバッグの持ち込みが許可されていないことを覚えておいてください。預ける必要があります。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi005", "english": "Mahalo for your help!", "japanese": "助けてくれて、ありがとう！", "explanation": "ハワイ語で「ありがとう」を意味する「マハロ」。感謝を伝える際に使うと、地元の人との距離が縮まります。", "accent": "us",
+        "responses": [
+          { "english": "You're welcome. Enjoy your time in paradise!", "japanese": "どういたしまして。楽園での時間をお楽しみください！", "accent": "uk" },
+          { "english": "No problem. Aloha!", "japanese": "どういたしまして。アロハ！", "accent": "uk" },
+          { "english": "You got it. Let me know if you need anything else.", "japanese": "もちろん。他に何か必要なら教えてくださいね。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi006", "english": "Can you recommend a good spot to see sea turtles?", "japanese": "ウミガメを見るのにおすすめの場所を教えてくれますか？", "explanation": "ハワイの野生動物に会える場所を尋ねる質問。'honu'（ホヌ）はウミガメのハワイ語。", "accent": "us",
+        "responses": [
+          { "english": "Laniakea Beach on the North Shore is famous for them. But please keep your distance.", "japanese": "ノースショアのラニアケア・ビーチが有名ですよ。でも、距離を保ってくださいね。", "accent": "uk" },
+          { "english": "Sometimes they swim close to the shore at Waikiki Beach in the early morning.", "japanese": "早朝には、ワイキキビーチの岸の近くを泳いでいることがありますよ。", "accent": "uk" },
+          { "english": "Remember it's illegal to touch them.", "japanese": "彼らに触れるのは法律で禁じられていることを覚えておいてください。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi007", "english": "I'd like to try some local food. What should I get?", "japanese": "地元の食べ物を試してみたいです。何を食べたらいいですか？", "explanation": "ハワイのユニークな食文化について尋ねる質問。", "accent": "us",
+        "responses": [
+          { "english": "You have to try a plate lunch. It usually comes with rice and mac salad.", "japanese": "プレートランチは絶対に試すべきですよ。だいたいご飯とマカロニサラダが付いてきます。", "accent": "uk" },
+          { "english": "Get some fresh poke. It's raw fish salad.", "japanese": "新鮮なポキを食べてみて。生魚のサラダだよ。", "accent": "uk" },
+          { "english": "For breakfast, try a loco moco. It's a local favorite.", "japanese": "朝食には、ロコモコを試してみて。地元民に大人気だよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi008", "english": "Is it possible to see active lava flow on the Big Island?", "japanese": "ハワイ島で活動中の溶岩流を見ることは可能ですか？", "explanation": "キラウエア火山の活動状況について尋ねる、ハワイ島ならではの質問。", "accent": "us",
+        "responses": [
+          { "english": "It depends on the volcano's activity. You should check the national park website for the latest updates.", "japanese": "火山の活動状況によりますね。最新情報は国立公園のウェブサイトで確認すべきです。", "accent": "uk" },
+          { "english": "Sometimes you can see it from a boat tour or a helicopter tour.", "japanese": "ボートツアーやヘリコプターツアーから見られることがありますよ。", "accent": "uk" },
+          { "english": "Even if there's no surface flow, the glow from the crater at night is incredible.", "japanese": "地表を流れていなくても、夜の火口からの輝きは信じられないほど素晴らしいですよ。", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi009", "english": "How do you pronounce this street name?", "japanese": "この通りの名前はどう発音するのですか？", "explanation": "ハワイ語由来の地名（例：Kalanianaʻole）は発音が難しいため、地元の人に尋ねるのが一番です。", "accent": "us",
+        "responses": [
+          { "english": "That's 'Ka-la-ni-a-na-ʻo-le'. You did pretty well!", "japanese": "それは「カラニアナオレ」だよ。かなり上手だったよ！", "accent": "uk" },
+          { "english": "Don't worry, even locals sometimes get them wrong.", "japanese": "心配しないで、地元の人でさえ時々間違えるんだから。", "accent": "uk" },
+          { "english": "You just say each vowel separately. 'A' is 'ah', 'E' is 'eh', 'I' is 'ee'...", "japanese": "それぞれの母音を別々に発音するだけだよ。「A」は「ア」、「E」は「エ」、「I」は「イ」…", "accent": "uk" }
+        ]
+      },
+      {
+        "id": "us_hi010", "english": "This place is paradise.", "japanese": "この場所は楽園ですね。", "explanation": "ハワイの美しい自然や雰囲気に感動したときの、シンプルな感想。", "accent": "us",
+        "responses": [
+          { "english": "It really is. We're very lucky to call it home.", "japanese": "本当にそうです。ここを故郷と呼べる私たちはとても幸運です。", "accent": "uk" },
+          { "english": "I'm glad you're enjoying it.", "japanese": "楽しんでいただけて嬉しいです。", "accent": "uk" },
+          { "english": "That's why so many people come back year after year.", "japanese": "だからこそ、毎年多くの人々が戻ってくるんですよ。", "accent": "uk" }
+        ]
+      }
+    ]
+  }
+]

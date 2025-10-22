@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Real English Guide</title>
+    <meta name="description" content="日本人のための、実践英語ガイド">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/icon-192x192.png">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>The Real English Guide</h1>
+            <p>日本人のための、実践英語ガイド</p>
+            <div class="controls">
+                <div class="theme-switcher">
+                    <label for="theme-toggle" class="switch-label">☀️</label>
+                    <div class="switch-wrapper">
+                        <input type="checkbox" id="theme-toggle">
+                        <span class="slider"></span>
+                    </div>
+                    <label for="theme-toggle" class="switch-label">🌙</label>
+                </div>
+                <div class="font-sizer">
+                    <button id="font-decrease">A-</button>
+                    <span id="font-level">5</span>
+                    <button id="font-increase">A+</button>
+                </div>
+            </div>
+             <div class="search-box">
+                <input type="search" id="search-input" placeholder="キーワードでフレーズを検索...">
+            </div>
+        </div>
+    </header>
+
+    <div class="main-layout container">
+        <nav id="category-nav" class="category-nav">
+            <!-- JavaScriptによってカテゴリメニューがここに生成されます -->
+        </nav>
+
+        <main id="app-container">
+            <!-- JavaScriptによってコンテンツがここに生成されます -->
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 The Real English Guide</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@google/generative-ai/dist/index.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
