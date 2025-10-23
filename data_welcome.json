@@ -1,516 +1,556 @@
 [
   {
     "category": "Welcome to Japan",
-    "scene": "At a Community Center: First Meetings (20 examples)",
+    "scene": "At a Community Center: First Meetings",
     "expressions": [
       {
-        "id": "jpn_com001", "english": "Hello, I don't think we've met. I'm Alex.", "japanese": "こんにちは、初めまして。アレックスです。", "explanation": "集まりの場で、まだ話したことのない相手への丁寧な挨拶。", "accent": "us",
+        "id": "jpn_com001", "english": "Hi, I don't think we've met. I'm Alex.", "japanese": "こんにちは、初めまして。アレックスです。", "explanation": "集まりの場で、まだ話したことのない相手への丁寧な挨拶。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "Nice to meet you, Alex. I'm Kenji. Welcome to our community center.", "japanese": "初めまして、アレックスさん。私はケンジです。私たちの公民館へようこそ。", "accent": "uk" },
-          { "english": "It's a pleasure to meet you. My name is Yumi. Please, have a seat.", "japanese": "お会いできて光栄です。私の名前はユミです。どうぞ、お座りください。", "accent": "uk" },
-          { "english": "Hello, Alex. I'm happy to see a new face here. I'm Taka.", "japanese": "こんにちは、アレックスさん。新しいお顔に会えて嬉しいです。タカです。", "accent": "uk" }
+          { "english": "Nice to meet you, Alex. I'm Kenji. Welcome to our community center.", "japanese": "初めまして、アレックスさん。私はケンジです。私たちの公民館へようこそ。", "accent": "uk", "gender": "male" },
+          { "english": "It's a pleasure to meet you. My name is Yumi. Please, have a seat.", "japanese": "お会いできて光栄です。私の名前はユミです。どうぞ、お座りください。", "accent": "uk", "gender": "female" },
+          { "english": "Hello, Alex. It's great to see a new face here. I'm Taka.", "japanese": "こんにちは、アレックスさん。新しいお顔に会えて嬉しいです。タカです。", "accent": "us", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_com002", "english": "What brings you to Japan?", "japanese": "日本へは何をしに来られたのですか？", "explanation": "来日の目的を尋ねる、会話のきっかけとなる質問。", "accent": "uk",
+        "id": "jpn_com002", "english": "So, what brings you to Japan?", "japanese": "それで、日本へは何をしに来られたのですか？", "explanation": "'So,' を付けることで、会話を自然に始めることができます。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "I'm working here as an English teacher.", "japanese": "ここで英語教師として働いています。", "accent": "uk" },
-          { "english": "I'm studying Japanese at a language school nearby.", "japanese": "近くの日本語学校で日本語を勉強しています。", "accent": "uk" },
-          { "english": "My partner is Japanese, so we moved here last month.", "japanese": "私のパートナーが日本人で、先月こちらに引っ越してきました。", "accent": "uk" }
+          { "english": "I'm working here as an English teacher.", "japanese": "ここで英語教師として働いています。", "accent": "us", "gender": "male" },
+          { "english": "I'm studying Japanese at a language school just around the corner.", "japanese": "すぐそこの日本語学校で日本語を勉強しています。", "accent": "us", "gender": "female" },
+          { "english": "My partner is Japanese, so we moved here last month.", "japanese": "私のパートナーが日本人で、先月こちらに引っ越してきました。", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_com003", "english": "How do you like living in Japan so far?", "japanese": "これまでのところ、日本での生活はいかがですか？", "explanation": "日本での生活の感想を尋ねる、思いやりのある質問。", "accent": "us",
+        "id": "jpn_com003", "english": "How are you finding living in Japan so far?", "japanese": "これまでのところ、日本での生活はいかがですか？", "explanation": "'How do you like...?' よりも 'How are you finding...?' の方が、よりイギリス英語的で「どう感じていますか？」というニュアンスが強いです。", "accent": "us", "gender": "female",
         "responses": [
-          { "english": "I love it. Everyone is so polite and the food is amazing.", "japanese": "大好きです。皆さんとてお丁寧ですし、食べ物も素晴らしいです。", "accent": "uk" },
-          { "english": "It's a bit of a culture shock, but I'm enjoying it.", "japanese": "少しカルチャーショックはありますが、楽しんでいます。", "accent": "uk" },
-          { "english": "It's great, although I'm still struggling with the language.", "japanese": "素晴らしいです、ただ、まだ言葉には苦労しています。", "accent": "uk" }
+          { "english": "Oh, I love it. Everyone is so polite and the food is just amazing.", "japanese": "ああ、大好きです。皆さんとてお丁寧ですし、食べ物も本当に素晴らしいです。", "accent": "us", "gender": "female" },
+          { "english": "It's a bit of a culture shock, to be honest, but I'm really enjoying it.", "japanese": "正直、少しカルチャーショックはありますが、本当に楽しんでいます。", "accent": "uk", "gender": "male" },
+          { "english": "It's great, although I'm still struggling with the language a bit.", "japanese": "素晴らしいです、ただ、まだ言葉には少し苦労しています。", "accent": "us", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_com004", "english": "What do you do in your free time?", "japanese": "お暇な時は何をされていますか？", "explanation": "相手の趣味や興味について尋ねる質問。", "accent": "uk",
+        "id": "jpn_com004", "english": "What do you like to do in your free time?", "japanese": "お暇な時は何をされるのが好きですか？", "explanation": "'like to do' とすることで、より相手の好みや趣味に焦点を当てた質問になります。", "accent": "uk", "gender": "male",
         "responses": [
-          { "english": "I enjoy visiting temples and shrines. They're so peaceful.", "japanese": "お寺や神社を訪れるのが好きです。とても心が安らぎます。", "accent": "uk" },
-          { "english": "I'm a big fan of anime, so I often go to Akihabara.", "japanese": "アニメの大ファンなので、よく秋葉原に行きます。", "accent": "uk" },
-          { "english": "I like hiking. Do you have any recommendations for good trails?", "japanese": "ハイキングが好きです。どこか良いコースにおすすめはありますか？", "accent": "uk" }
+          { "english": "I really enjoy visiting temples and shrines. They're so peaceful.", "japanese": "お寺や神社を訪れるのが本当に好きです。とても心が安らぎます。", "accent": "us", "gender": "female" },
+          { "english": "I'm a big anime fan, so I often go to Akihabara.", "japanese": "アニメの大ファンなので、よく秋葉原に行きます。", "accent": "us", "gender": "male" },
+          { "english": "I love hiking. Do you have any recommendations for good trails nearby?", "japanese": "ハイキングが大好きです。この近くでどこか良いコースにおすすめはありますか？", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_com005", "english": "Your Japanese is very good!", "japanese": "日本語がとてもお上手ですね！", "explanation": "相手の努力を称賛する、ポジティブな言葉。", "accent": "us",
+        "id": "jpn_com005", "english": "Wow, your Japanese is really good!", "japanese": "わあ、日本語が本当に上手ですね！", "explanation": "'Wow,' や 'really' を加えることで、心からの称賛であることが伝わります。", "accent": "us", "gender": "female",
         "responses": [
-          { "english": "Thank you! I still have a lot to learn, though.", "japanese": "ありがとうございます！でも、まだまだ学ぶことがたくさんあります。", "accent": "uk" },
-          { "english": "That's very kind of you to say. I'm trying my best.", "japanese": "そう言っていただけてとても嬉しいです。一生懸命頑張っています。", "accent": "uk" },
-          { "english": "Really? I'm so glad to hear that.", "japanese": "本当ですか？そう聞けてとても嬉しいです。", "accent": "uk" }
+          { "english": "Thank you! I still have a long way to go, though.", "japanese": "ありがとうございます！でも、まだまだ先は長いです。", "accent": "uk", "gender": "male" },
+          { "english": "That's very kind of you to say. I'm trying my best.", "japanese": "そう言っていただけてとても嬉しいです。一生懸命頑張っています。", "accent": "us", "gender": "female" },
+          { "english": "Really? Oh, I'm so glad to hear that.", "japanese": "本当ですか？ああ、そう聞けてとても嬉しいです。", "accent": "us", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_com006", "english": "Would you like some tea or coffee?", "japanese": "お茶かコーヒーはいかがですか？", "explanation": "おもてなしの気持ちを示す、親切な申し出。", "accent": "uk",
+        "id": "jpn_com006", "english": "Would you like some tea or coffee?", "japanese": "お茶かコーヒーはいかがですか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "Some green tea would be lovely, thank you.", "japanese": "緑茶をいただけると嬉しいです、ありがとうございます。", "accent": "uk" },
-          { "english": "I'm fine for now, thanks. Maybe later.", "japanese": "今は大丈夫です、ありがとう。また後でいただくかもしれません。", "accent": "uk" },
-          { "english": "Oh, thank you. I'd love a coffee.", "japanese": "まあ、ありがとうございます。コーヒーをいただきたいです。", "accent": "uk" }
+            { "english": "Some green tea would be lovely, thank you.", "japanese": "緑茶をいただけると嬉しいです、ありがとうございます。", "accent": "us", "gender": "female" },
+            { "english": "I'm alright for now, thanks. Maybe in a bit.", "japanese": "今は大丈夫です、ありがとう。また後でいただくかもしれません。", "accent": "uk", "gender": "male" },
+            { "english": "Oh, thank you. I'd love a coffee.", "japanese": "まあ、ありがとうございます。コーヒーをいただきたいです。", "accent": "us", "gender": "female" }
+        ]
+    },
+    {
+        "id": "jpn_com007", "english": "Please, make yourself at home.", "japanese": "どうぞ、おくつろぎください。", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "male",
+        "responses": [
+            { "english": "Thank you. This is a very comfortable space.", "japanese": "ありがとうございます。とても居心地の良い空間ですね。", "accent": "us", "gender": "female" },
+            { "english": "You're very kind. Thank you.", "japanese": "ご親切にどうもありがとうございます。", "accent": "uk", "gender": "female" },
+            { "english": "Thanks. Please let me know if I can help with anything at all.", "japanese": "ありがとう。何か手伝えることがあったら何でも言ってくださいね。", "accent": "us", "gender": "male" }
+        ]
+    },
+    {
+        "id": "jpn_com008", "english": "Just to check, is there anything you can't eat?", "japanese": "確認ですが、何か食べられないものはありますか？", "explanation": "'Just to check,' を付けることで、丁寧な確認のニュアンスが出ます。", "accent": "uk", "gender": "female",
+        "responses": [
+            { "english": "I'm a vegetarian, so I don't eat any meat or fish.", "japanese": "私はベジタリアンなので、肉と魚は一切食べません。", "accent": "us", "gender": "female" },
+            { "english": "I'm allergic to shellfish, but everything else is fine.", "japanese": "甲殻類のアレルギーがありますが、それ以外は大丈夫です。", "accent": "uk", "gender": "male" },
+            { "english": "Nope, I'm not a picky eater. I'll try anything once!", "japanese": "いいえ、好き嫌いはありません。何でも一度は挑戦しますよ！", "accent": "us", "gender": "male" }
+        ]
+    },
+    {
+        "id": "jpn_com009", "english": "If you need anything at all, please don't hesitate to ask.", "japanese": "何か必要なことがあれば、本当に遠慮なく聞いてくださいね。", "explanation": "'at all' を加えることで、「どんな些細なことでも」という親切な気持ちが強調されます。", "accent": "us", "gender": "male",
+        "responses": [
+            { "english": "That's so kind of you. Thank you very much.", "japanese": "本当にご親切に。どうもありがとうございます。", "accent": "uk", "gender": "female" },
+            { "english": "I really appreciate that. I'll keep that in mind.", "japanese": "本当に感謝します。心に留めておきます。", "accent": "us", "gender": "female" },
+            { "english": "Thank you. You've all been so welcoming.", "japanese": "ありがとう。皆さん、本当に温かく迎えてくれますね。", "accent": "us", "gender": "male" }
+        ]
+    },
+    {
+        "id": "jpn_com010", "english": "Well, it was a pleasure talking with you.", "japanese": "ええと、お話できて楽しかったです。", "explanation": "会話の終わりに、ポジティブな気持ちを伝える丁寧な言葉。", "accent": "uk", "gender": "female",
+        "responses": [
+            { "english": "You too. I hope to see you again soon.", "japanese": "こちらこそ。また近いうちにお会いできるのを楽しみにしています。", "accent": "uk", "gender": "male" },
+            { "english": "Yes, let's definitely talk again next week.", "japanese": "はい、ぜひまた来週お話ししましょう。", "accent": "us", "gender": "female" },
+            { "english": "Thank you. You have a great rest of your day.", "japanese": "ありがとう。あなたも、残りの一日を素敵に過ごしてくださいね。", "accent": "us", "gender": "male" }
+        ]
+    }
+    ]
+  },
+  {
+    "category": "Welcome to Japan",
+    "scene": "On the Street: Offering & Asking for Help",
+    "expressions": [
+      {
+        "id": "jpn_str001", "english": "Excuse me, you look a little lost. Do you need a hand with anything?", "japanese": "すみません、少しお困りのように見えますが。何かお手伝いしましょうか？", "explanation": "'Can I help' よりも 'Do you need a hand' の方が、よりフレンドリーで自然な申し出です。", "accent": "us", "gender": "male",
+        "responses": [
+          { "english": "Oh, thank you so much! Yes, I'm trying to find the train station.", "japanese": "まあ、本当にありがとう！はい、駅を探しているんです。", "accent": "uk", "gender": "female" },
+          { "english": "That's very kind of you. I'm looking for this address.", "japanese": "ご親切にどうも。この住所を探しているのですが。", "accent": "us", "gender": "female" },
+          { "english": "Oh, no, I'm okay, thanks. Just enjoying the view.", "japanese": "あ、いえ、大丈夫です、ありがとう。ただ景色を楽しんでいるだけです。", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_com007", "english": "Please, make yourself at home.", "japanese": "どうぞ、おくつろぎください。", "explanation": "相手にリラックスしてほしいという気持ちを伝える、温かい言葉。", "accent": "us",
+        "id": "jpn_str002", "english": "Could you tell me how to get to the Ghibli Museum?", "japanese": "ジブリ美術館への行き方を教えていただけますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "Thank you. This is a very comfortable space.", "japanese": "ありがとうございます。とても居心地の良い空間ですね。", "accent": "uk" },
-          { "english": "You're very kind. Thank you.", "japanese": "ご親切にどうもありがとうございます。", "accent": "uk" },
-          { "english": "Thanks. Please let me know if I can help with anything.", "japanese": "ありがとう。何か手伝えることがあったら言ってくださいね。", "accent": "uk" }
+          { "english": "Sure. You'll need to take the Chuo Line from Shinjuku Station to Mitaka.", "japanese": "はい。新宿駅から中央線に乗って三鷹まで行く必要があります。", "accent": "uk", "gender": "male" },
+          { "english": "Hmm, I'm not too familiar with that area, sorry. Let me just check on my phone for you.", "japanese": "うーん、すみません、その辺りはあまり詳しくないんです。ちょっと携帯で調べてみますね。", "accent": "us", "gender": "male" },
+          { "english": "It's quite a walk from the station. Your best bet is to take the special bus from the south exit.", "japanese": "駅からだとかなり歩きますよ。一番良いのは、南口から専用のバスに乗ることです。", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_com008", "english": "Is there anything you can't eat?", "japanese": "何か食べられないものはありますか？", "explanation": "食事に誘う際に、アレルギーや宗教上の理由などを事前に確認する重要な質問です。", "accent": "uk",
+        "id": "jpn_str003", "english": "Oh no, I think I'm on the wrong train.", "japanese": "どうしよう、間違った電車に乗ってしまったようです。", "explanation": "'Oh no,' を付けることで、焦りや困惑の気持ちがよりリアルに伝わります。", "accent": "us", "gender": "female",
         "responses": [
-          { "english": "I'm a vegetarian, so I don't eat meat or fish.", "japanese": "私はベジタリアンなので、肉と魚は食べません。", "accent": "uk" },
-          { "english": "I'm allergic to shellfish. Everything else is fine.", "japanese": "甲殻類のアレルギーがあります。それ以外は大丈夫です。", "accent": "uk" },
-          { "english": "No, I'm not a picky eater. I'll try anything!", "japanese": "いいえ、好き嫌いはありません。何でも挑戦しますよ！", "accent": "uk" }
+          { "english": "Where are you trying to get to? I can check the map for you.", "japanese": "どちらへ行きたいのですか？路線図を確認しますよ。", "accent": "uk", "gender": "male" },
+          { "english": "Don't worry. Just get off at the next stop and take the train on the opposite platform.", "japanese": "ご心配なく。次の駅で降りて、反対側のホームの電車に乗るだけですよ。", "accent": "uk", "gender": "male" },
+          { "english": "Yeah, this is the express train. It doesn't stop at your station.", "japanese": "ええ、これは急行です。あなたの駅には停まりません。", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_com009", "english": "If you need anything, please don't hesitate to ask.", "japanese": "何か必要なことがあれば、どうぞ遠慮なく聞いてくださいね。", "explanation": "いつでも助ける意思があることを示す、非常に親切なフレーズ。", "accent": "us",
+        "id": "jpn_str004", "english": "Sorry to bother you, but could you tell me what this sign says?", "japanese": "お邪魔してすみません、この標識に何と書いてあるか教えていただけますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "male",
         "responses": [
-          { "english": "That's so kind of you. Thank you very much.", "japanese": "本当にご親切に。どうもありがとうございます。", "accent": "uk" },
-          { "english": "I appreciate that. I'll keep that in mind.", "japanese": "感謝します。心に留めておきます。", "accent": "uk" },
-          { "english": "Thank you. You've all been so welcoming.", "japanese": "ありがとう。皆さん、本当に温かく迎えてくれますね。", "accent": "uk" }
+          { "english": "Of course. It says 'No Entry'.", "japanese": "もちろんです。「立入禁止」と書いてあります。", "accent": "uk", "gender": "female" },
+          { "english": "Let's see... This sign says the park closes at 5 PM.", "japanese": "ええと…この看板には、公園は午後5時に閉まると書いてありますね。", "accent": "us", "gender": "male" },
+          { "english": "It's a warning to watch out for monkeys.", "japanese": "サルに注意、という警告ですね。", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_com010", "english": "It was a pleasure talking to you.", "japanese": "お話できて楽しかったです。", "explanation": "会話の終わりに、ポジティブな気持ちを伝える丁寧な言葉。", "accent": "uk",
+        "id": "jpn_str005", "english": "You know what? Let me just walk you to the corner. It's easier to show you.", "japanese": "あのね、角まで一緒に行きましょう。お見せする方が簡単ですから。", "explanation": "'You know what?' で切り出すことで、より積極的で親切な申し出に聞こえます。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "You too. I hope to see you again soon.", "japanese": "こちらこそ。また近いうちにお会いできるのを楽しみにしています。", "accent": "uk" },
-          { "english": "Yes, let's talk again next week.", "japanese": "はい、また来週お話ししましょう。", "accent": "uk" },
-          { "english": "Thank you. Enjoy the rest of your day.", "japanese": "ありがとう。残りの一日も楽しんでくださいね。", "accent": "uk" }
+          { "english": "Wow, would you? That is incredibly kind. Thank you so much.", "japanese": "わあ、いいんですか？信じられないくらい親切ですね。本当にありがとう。", "accent": "uk", "gender": "female" },
+          { "english": "Are you sure it's not out of your way?", "japanese": "本当に、あなたの回り道になりませんか？", "accent": "us", "gender": "female" },
+          { "english": "Thank you, I really appreciate that.", "japanese": "ありがとう、本当に感謝します。", "accent": "us", "gender": "male" }
         ]
+      },
+      {
+          "id": "jpn_str006", "english": "Excuse me, I think I dropped a coin. Did you see where it went?", "japanese": "すみません、小銭を落としたみたいです。どこへ行ったか見ませんでしたか？", "explanation": "'I think' を加えることで、少し控えめな表現になります。", "accent": "uk", "gender": "female",
+          "responses": [
+              { "english": "I think it rolled under the machine. Here, let me help you look.", "japanese": "機械の下に転がっていったと思います。ほら、探すのを手伝いますよ。", "accent": "us", "gender": "male" },
+              { "english": "No, sorry, I didn't see it. I can help you look for it though.", "japanese": "いいえ、ごめんなさい、見ていません。でも、探すのを手伝えますよ。", "accent": "uk", "gender": "female" },
+              { "english": "Is this it? It was right by my foot.", "japanese": "これですか？私の足元にありましたよ。", "accent": "us", "gender": "male" }
+          ]
+      },
+      {
+          "id": "jpn_str007", "english": "You can't miss it.", "japanese": "すぐに見つかりますよ。", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "male",
+          "responses": [
+              { "english": "Okay, great. Thanks for your help.", "japanese": "分かりました、素晴らしい。助かりました、ありがとう。", "accent": "us", "gender": "female" },
+              { "english": "That's good to know. Thank you.", "japanese": "それを聞いて安心しました。ありがとう。", "accent": "uk", "gender": "female" },
+              { "english": "Perfect. I was worried I wouldn't be able to find it.", "japanese": "完璧です。見つけられないんじゃないかと心配でした。", "accent": "us", "gender": "male" }
+          ]
+      },
+      {
+          "id": "jpn_str008", "english": "Excuse me, are you in the queue?", "japanese": "すみません、列に並んでいますか？", "explanation": "イギリス英語では 'queue'、アメリカ英語では 'line' が一般的です。", "accent": "uk", "gender": "female",
+          "responses": [
+              { "english": "Yes, I am. The back of the queue is just here.", "japanese": "はい、そうです。列の最後尾はここですよ。", "accent": "uk", "gender": "male" },
+              { "english": "No, sorry, I'm just waiting for someone.", "japanese": "いえ、ごめんなさい、人を待っているだけです。", "accent": "us", "gender": "female" },
+              { "english": "Yes. The queue actually starts way back there.", "japanese": "はい。列は実は、ずっとあそこから始まっていますよ。", "accent": "uk", "gender": "male" }
+          ]
+      },
+      {
+          "id": "jpn_str009", "english": "Excuse me, is this seat taken?", "japanese": "すみません、この席は使っていますか？", "explanation": "より丁寧な聞き方。", "accent": "us", "gender": "male",
+          "responses": [
+              { "english": "No, it's free. Go ahead.", "japanese": "いいえ、空いていますよ。どうぞ。", "accent": "us", "gender": "female" },
+              { "english": "I'm sorry, my friend is just coming back.", "japanese": "ごめんなさい、友人がちょうど戻ってくるところなんです。", "accent": "uk", "gender": "female" },
+              { "english": "Yes, I'm saving it for someone, sorry.", "japanese": "はい、人のために取っているんです、ごめんなさい。", "accent": "us", "gender": "male" }
+          ]
+      },
+      {
+          "id": "jpn_str010", "english": "Hey, you should take this train. It's the rapid express, it's much faster.", "japanese": "ねえ、この電車に乗るべきですよ。快速急行です、ずっと速いですよ。", "explanation": "'Hey,' で注意を引き、理由を付け加えることで、より親切で説得力のあるアドバイスになります。", "accent": "uk", "gender": "male",
+          "responses": [
+              { "english": "Oh, really? Thank you so much! I didn't realize.", "japanese": "え、本当ですか？どうもありがとう！気づきませんでした。", "accent": "us", "gender": "female" },
+              { "english": "That's great, thanks for the tip.", "japanese": "それは素晴らしい、教えてくれてありがとう。", "accent": "us", "gender": "female" },
+              { "english": "Does it stop at Shibuya station?", "japanese": "それは渋谷駅に停まりますか？", "accent": "us", "gender": "male" }
+          ]
       }
     ]
   },
   {
     "category": "Welcome to Japan",
-    "scene": "On the Street: Offering & Asking for Help (20 examples)",
+    "scene": "In Shops & Restaurants: Daily Interactions",
     "expressions": [
       {
-        "id": "jpn_str001", "english": "Excuse me, you look a little lost. Can I help you with anything?", "japanese": "すみません、少しお困りのように見えますが。何かお手伝いしましょうか？", "explanation": "困っていそうな外国人を見つけたときに、こちらから声をかける親切なフレーズ。", "accent": "us",
+        "id": "jpn_shp001", "english": "Excuse me, where can I find green tea?", "japanese": "すみません、緑茶はどこにありますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "female",
         "responses": [
-          { "english": "Oh, thank you! Yes, I'm trying to find the train station.", "japanese": "まあ、ありがとう！はい、駅を探しているんです。", "accent": "uk" },
-          { "english": "That's very kind. I'm looking for this address.", "japanese": "ご親切にどうも。この住所を探しているのですが。", "accent": "uk" },
-          { "english": "No, I'm okay, thanks. Just enjoying the view.", "japanese": "いえ、大丈夫です、ありがとう。ただ景色を楽しんでいるだけです。", "accent": "uk" }
+          { "english": "It's in aisle 5, with all the other teas and coffee.", "japanese": "5番通路の、他のすべてのお茶やコーヒーと一緒のところにあります。", "accent": "uk", "gender": "male" },
+          { "english": "I'll show you. It's just this way.", "japanese": "ご案内しますよ。こちらですぐです。", "accent": "uk", "gender": "male" },
+          { "english": "We have several kinds. Are you looking for tea bags or loose-leaf?", "japanese": "いくつか種類がございます。ティーバッグですか、それともバラの茶葉ですか？", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_str002", "english": "Could you tell me how to get to the Ghibli Museum?", "japanese": "ジブリ美術館への行き方を教えていただけますか？", "explanation": "道に迷っている外国人から、具体的な場所への行き方を尋ねられる場合。", "accent": "uk",
+        "id": "jpn_shp002", "english": "Sorry, how does this machine work?", "japanese": "すみません、この機械はどうやって使うのですか？", "explanation": "'how do you use' よりも 'how does ... work' の方が、機械の仕組みを尋ねる際により一般的です。", "accent": "uk", "gender": "male",
         "responses": [
-          { "english": "Sure. You need to take the Chuo Line from Shinjuku Station to Mitaka.", "japanese": "はい。新宿駅から中央線に乗って三鷹まで行く必要があります。", "accent": "uk" },
-          { "english": "I'm not familiar with that area, sorry. Let me check on my phone.", "japanese": "すみません、その辺りは詳しくないんです。携帯で調べてみますね。", "accent": "uk" },
-          { "english": "It's quite a walk from the station. You can take a special bus from the south exit.", "japanese": "駅からだとかなり歩きますよ。南口から専用のバスが出ています。", "accent": "uk" }
+          { "english": "First, you pay at the counter and they'll give you a cup.", "japanese": "まず、カウンターでお支払いいただくと、カップを渡されます。", "accent": "us", "gender": "female" },
+          { "english": "You just need to put the cup here and press the button for your size.", "japanese": "カップをここに置いて、あなたのサイズのボタンを押すだけです。", "accent": "us", "gender": "male" },
+          { "english": "Let me do it for you. Hot or iced?", "japanese": "私がやりますよ。ホットですか、アイスですか？", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_str003", "english": "I think I'm on the wrong train.", "japanese": "間違った電車に乗ってしまったようです。", "explanation": "電車内で、自分の間違いに気づいて助けを求めている場面。", "accent": "us",
+        "id": "jpn_shp003", "english": "Do you have this in a smaller size?", "japanese": "これのもう少し小さいサイズはありますか？", "explanation": "'anything smaller' よりも具体的な聞き方。", "accent": "us", "gender": "female",
         "responses": [
-          { "english": "Where are you trying to go? I can check the map for you.", "japanese": "どちらへ行きたいのですか？路線図を確認しますよ。", "accent": "uk" },
-          { "english": "Don't worry. You should get off at the next stop and take the train on the opposite platform.", "japanese": "ご心配なく。次の駅で降りて、反対側のホームの電車に乗るといいですよ。", "accent": "uk" },
-          { "english": "Yes, this is the express train. It doesn't stop at your station.", "japanese": "はい、これは急行です。あなたの駅には停まりません。", "accent": "uk" }
+          { "english": "Let me just check in the stockroom for you.", "japanese": "在庫室で確認してきますね。", "accent": "uk", "gender": "male" },
+          { "english": "I'm afraid this is the smallest size we carry.", "japanese": "申し訳ありません、これが当店で扱っている一番小さいサイズです。", "accent": "us", "gender": "male" },
+          { "english": "Yes, here's a size 'Small'. The fitting rooms are just over there.", "japanese": "はい、こちらがSサイズです。試着室はあちらです。", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_str004", "english": "Sorry to bother you, but could you tell me what this sign says?", "japanese": "お邪魔してすみません、この標識に何と書いてあるか教えていただけますか？", "explanation": "日本語の案内が読めずに困っている場面。", "accent": "uk",
+        "id": "jpn_shp004", "english": "Can I pay with this?", "japanese": "これで支払えますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "male",
         "responses": [
-          { "english": "Of course. It says 'No Entry'.", "japanese": "もちろんです。「立入禁止」と書いてあります。", "accent": "uk" },
-          { "english": "This sign says the park closes at 5 PM.", "japanese": "この看板には、公園は午後5時に閉まると書いてあります。", "accent": "uk" },
-          { "english": "It's a warning to watch out for monkeys.", "japanese": "サルに注意、という警告ですね。", "accent": "uk" }
+          { "english": "Yes, of course. Please tap your card here.", "japanese": "はい、もちろんです。こちらにカードをタッチしてください。", "accent": "uk", "gender": "female" },
+          { "english": "I'm so sorry, we don't accept that type of card.", "japanese": "大変申し訳ありません、その種類のカードは受け付けておりません。", "accent": "us", "gender": "female" },
+          { "english": "Sure. Just a moment, please.", "japanese": "はい。少々お待ちください。", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_str005", "english": "Let me walk with you to the corner. It's easier to show you.", "japanese": "角まで一緒に行きましょう。お見せする方が簡単ですから。", "explanation": "口頭での説明が難しい場合に、親切に案内を申し出るフレーズ。", "accent": "us",
+        "id": "jpn_shp005", "english": "Is this tax-free?", "japanese": "これは免税になりますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "female",
         "responses": [
-          { "english": "Wow, would you? That is incredibly kind. Thank you.", "japanese": "わあ、いいんですか？信じられないくらい親切ですね。ありがとう。", "accent": "uk" },
-          { "english": "Are you sure it's not out of your way?", "japanese": "本当に、あなたの回り道になりませんか？", "accent": "uk" },
-          { "english": "Thank you so much. I really appreciate it.", "japanese": "本当にありがとうございます。心から感謝します。", "accent": "uk" }
+          { "english": "Yes, if you spend over 5,000 yen. I'll just need to see your passport.", "japanese": "はい、5,000円以上お買い上げの場合になります。パスポートを拝見する必要があります。", "accent": "us", "gender": "male" },
+          { "english": "I'm sorry, food items aren't eligible for tax exemption.", "japanese": "申し訳ありません、食料品は免税の対象外です。", "accent": "uk", "gender": "male" },
+          { "english": "You can get the tax refund at the tax-free counter on the 7th floor.", "japanese": "7階の免税カウンターで税金の払い戻しが受けられます。", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_str006", "english": "Excuse me, I dropped my coin. Did you see where it went?", "japanese": "すみません、小銭を落としてしまいました。どこへ行ったか見ませんでしたか？", "explanation": "自販機の前などで、小物を失くして困っている場面。", "accent": "uk",
+          "id": "jpn_shp006", "english": "Do I need a bag?", "japanese": "袋は必要ですか？", "explanation": "日本のレジ袋有料化を意識した、より現代的な聞き方。", "accent": "us", "gender": "male",
+          "responses": [
+              { "english": "It costs 5 yen for a plastic bag. Is that okay?", "japanese": "ビニール袋は5円になりますが、よろしいですか？", "accent": "uk", "gender": "female" },
+              { "english": "Sure. What size would you like?", "japanese": "はい。どのサイズがよろしいですか？", "accent": "uk", "gender": "male" },
+              { "english": "We only have paper bags, I'm afraid.", "japanese": "申し訳ありません、紙袋しかございません。", "accent": "uk", "gender": "female" }
+          ]
+      },
+      {
+          "id": "jpn_shp007", "english": "Excuse me, what is this? I've never seen it before.", "japanese": "すみません、これは何ですか？今まで見たことがありません。", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "female",
+          "responses": [
+              { "english": "That's 'umeboshi'. It's a pickled plum, and it's very, very sour.", "japanese": "それは「梅干し」です。梅の漬物で、とてもとても酸っぱいですよ。", "accent": "uk", "gender": "male" },
+              { "english": "It's a type of fish cake called 'chikuwa'. It's often put in stews.", "japanese": "「ちくわ」という魚の練り物の一種です。煮物によく入れられます。", "accent": "uk", "gender": "male" },
+              { "english": "This is 'mochi', a sticky rice cake. It's really good with sweet red bean paste.", "japanese": "これは「餅」です。甘いあんこと一緒に食べると本当に美味しいですよ。", "accent": "us", "gender": "female" }
+          ]
+      },
+      {
+          "id": "jpn_shp008", "english": "Could you recommend a good sake for a gift?", "japanese": "贈り物にするのに良い日本酒をおすすめしていただけますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "male",
+          "responses": [
+              { "english": "This 'Dassai' is very famous and quite popular overseas.", "japanese": "こちらの「獺祭」はとても有名で、海外でもかなり人気があります。", "accent": "uk", "gender": "female" },
+              { "english": "Well, what's your budget? I can recommend something in your price range.", "japanese": "ええと、ご予算はおいくらですか？価格帯に合わせておすすめできますよ。", "accent": "us", "gender": "male" },
+              { "english": "This one comes in a beautiful wooden box, so it's perfect for a gift.", "japanese": "こちらは綺麗な木箱に入っているので、贈り物にぴったりです。", "accent": "uk", "gender": "female" }
+          ]
+      },
+      {
+          "id": "jpn_shp009", "english": "Do you offer gift wrapping?", "japanese": "ギフト包装はしていますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "female",
+          "responses": [
+              { "english": "Yes, we do. Is this for a gift?", "japanese": "はい、しております。こちらは贈り物ですか？", "accent": "uk", "gender": "male" },
+              { "english": "Certainly. We have wrapping paper or a gift box. Which would you prefer?", "japanese": "かしこまりました。包装紙とギフトボックスがございますが、どちらがよろしいですか？", "accent": "uk", "gender": "male" },
+              { "english": "I'm sorry, we don't have a gift wrapping service here.", "japanese": "申し訳ありません、こちらではギフト包装サービスは行っておりません。", "accent": "us", "gender": "female" }
+          ]
+      },
+      {
+          "id": "jpn_shp010", "english": "The automatic door won't open.", "japanese": "自動ドアが開きません。", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "male",
+          "responses": [
+              { "english": "Oh, you have to press the green button on the side here to open it.", "japanese": "ああ、開けるにはここの横にある緑のボタンを押す必要があるんです。", "accent": "us", "gender": "female" },
+              { "english": "Let me get that for you. There you go.", "japanese": "私が開けますね。はい、どうぞ。", "accent": "uk", "gender": "male" },
+              { "english": "Sorry about that. Sometimes it gets a bit stuck.", "japanese": "すみません。時々、少し動かなくなるんです。", "accent": "uk", "gender": "female" }
+          ]
+      }
+    ]
+  },{
+    "category": "Welcome to Japan",
+    "scene": "Sharing & Connecting: Deeper Conversations",
+    "expressions": [
+      {
+        "id": "jpn_con001", "english": "So, what's the actual difference between a temple and a shrine?", "japanese": "それで、お寺と神社の実際のところの違いは何ですか？", "explanation": "'actual' を加えることで、「本質的な」違いを知りたいというニュアンスが強まります。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "I think it rolled under the machine. Let me help you look.", "japanese": "機械の下に転がっていったと思います。探すのを手伝いますよ。", "accent": "uk" },
-          { "english": "No, I didn't see it, sorry. I can help you search.", "japanese": "いいえ、見ていません、ごめんなさい。探すのを手伝えますよ。", "accent": "uk" },
-          { "english": "Here it is! It was by my foot.", "japanese": "ここにありましたよ！私の足元に。", "accent": "uk" }
+          { "english": "That's a great question. Basically, temples are Buddhist and shrines are for the Shinto religion.", "japanese": "良い質問ですね。基本的には、お寺は仏教のもので、神社は神道のためのものです。", "accent": "uk", "gender": "female" },
+          { "english": "An easy way to tell is by the entrance. Shrines always have a 'torii' gate.", "japanese": "簡単な見分け方は入り口です。神社には必ず「鳥居」があります。", "accent": "us", "gender": "male" },
+          { "english": "Also, at shrines you clap your hands to pray, but at temples you just quietly put your hands together.", "japanese": "あと、神社では手を叩いて祈りますが、お寺では静かに手を合わせるだけです。", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_str007", "english": "You can't miss it.", "japanese": "すぐに見つかりますよ。", "explanation": "目的地が大きくて目立つ建物である場合などに使える、相手を安心させる一言。", "accent": "us",
+        "id": "jpn_con002", "english": "Why do people bow so much in Japan?", "japanese": "なぜ日本ではそんなにお辞儀をするのですか？", "explanation": "日本人にとっては自然な、お辞儀という文化についての質問。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "Okay, great. Thanks for your help.", "japanese": "分かりました、素晴らしい。助かりました、ありがとう。", "accent": "uk" },
-          { "english": "That's good to know. Thank you.", "japanese": "それを聞いて安心しました。ありがとう。", "accent": "uk" },
-          { "english": "Perfect. I was worried I wouldn't find it.", "japanese": "完璧です。見つけられないんじゃないかと心配でした。", "accent": "uk" }
+          { "english": "It's a sign of respect. We use it for everything from a simple greeting to a deep apology.", "japanese": "敬意の印なんです。簡単な挨拶から深い謝罪まで、あらゆることに使います。", "accent": "us", "gender": "male" },
+          { "english": "You can think of it as being similar to a handshake, but without any physical contact.", "japanese": "物理的な接触がないだけで、握手のようなものだと考えることができます。", "accent": "us", "gender": "female" },
+          { "english": "And the deeper the bow, the more respect you're showing.", "japanese": "そして、お辞儀が深いほど、より深い敬意を示していることになります。", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_str008", "english": "Excuse me, are you in the queue?", "japanese": "すみません、列に並んでいますか？", "explanation": "バス停やレジなどで、列の最後尾がどこか確認する質問。", "accent": "uk",
+        "id": "jpn_con003", "english": "So, tell me a bit about your family.", "japanese": "それで、あなたの家族について少し教えてください。", "explanation": "'a bit' を加えることで、よりソフトで自然な聞き方になります。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "Yes, I am. The back of the line is here.", "japanese": "はい、そうです。列の最後尾はここですよ。", "accent": "uk" },
-          { "english": "No, sorry, I'm just waiting for someone.", "japanese": "いえ、ごめんなさい、人を待っているだけです。", "accent": "uk" },
-          { "english": "Yes. The queue starts way back there.", "japanese": "はい。列はずっとあそこから始まっていますよ。", "accent": "uk" }
+          { "english": "Well, I live with my parents and my younger sister.", "japanese": "ええと、両親と妹と一緒に住んでいます。", "accent": "uk", "gender": "female" },
+          { "english": "I'm married and I have two kids, a boy and a girl.", "japanese": "結婚していて、子供が二人います。男の子と女の子です。", "accent": "us", "gender": "male" },
+          { "english": "I'm an only child. What about you? Do you have any siblings?", "japanese": "私は一人っ子です。あなたはどうですか？兄弟はいますか？", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_str009", "english": "Is this seat taken?", "japanese": "この席、空いていますか？", "explanation": "電車やカフェなどで、空席かどうかを確認する際に使います。", "accent": "us",
+        "id": "jpn_con004", "english": "What do you do for work?", "japanese": "お仕事は何をされていますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "No, it's free. Go ahead.", "japanese": "いいえ、空いていますよ。どうぞ。", "accent": "uk" },
-          { "english": "I'm sorry, my friend is just coming back.", "japanese": "ごめんなさい、友人がちょうど戻ってくるところなんです。", "accent": "uk" },
-          { "english": "Yes, I'm saving it for someone, sorry.", "japanese": "はい、人のために取っているんです、ごめんなさい。", "accent": "uk" }
+          { "english": "I work for an IT company here in Tokyo.", "japanese": "ここ東京のIT企業で働いています。", "accent": "us", "gender": "male" },
+          { "english": "I'm a university student. I'm studying economics.", "japanese": "大学生です。経済学を勉強しています。", "accent": "uk", "gender": "female" },
+          { "english": "I'm a freelance designer, so I mostly work from home.", "japanese": "フリーランスのデザイナーなので、ほとんど在宅で仕事をしています。", "accent": "us", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_str010", "english": "You should take this train. It's the rapid express.", "japanese": "この電車に乗るべきですよ。快速急行です。", "explanation": "より速い電車が来たことを、親切に教えてあげるフレーズ。", "accent": "uk",
+        "id": "jpn_con005", "english": "What's your favorite Japanese food?", "japanese": "あなたの好きな日本の食べ物は何ですか？", "explanation": "短縮形を使い、より一般的な聞き方。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "Oh, thank you! I didn't realize.", "japanese": "まあ、ありがとう！気づきませんでした。", "accent": "uk" },
-          { "english": "That's great, thanks for the tip.", "japanese": "それは素晴らしい、教えてくれてありがとう。", "accent": "uk" },
-          { "english": "Does it stop at my station?", "japanese": "それは私の駅に停まりますか？", "accent": "uk" }
+          { "english": "Ooh, that's a tough one! But if I had to choose just one, I'd probably say ramen.", "japanese": "うーん、それは難しい質問ですね！でも、もし一つだけ選ぶなら、たぶんラーメンかな。", "accent": "us", "gender": "female" },
+          { "english": "I love sushi, especially tuna. It's called 'maguro' in Japanese, right?", "japanese": "お寿司が大好きで、特にマグロが。日本語では「マグロ」って言いますよね？", "accent": "uk", "gender": "male" },
+          { "english": "Actually, my favorite is my mom's 'nikujaga'. It's a classic home-cooked dish.", "japanese": "実は、一番好きなのは母の「肉じゃが」です。定番の家庭料理なんです。", "accent": "us", "gender": "female" }
         ]
+      },
+      {
+          "id": "jpn_con006", "english": "I'd love to visit your hometown someday. What's it famous for?", "japanese": "いつかあなたの故郷を訪れてみたいです。何で有名なんですか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "female",
+          "responses": [
+              { "english": "I'm from Hokkaido. It's famous for its incredible nature and, of course, amazing seafood.", "japanese": "私は北海道出身です。信じられないほどの自然と、もちろん、素晴らしい魚介類で有名ですよ。", "accent": "us", "gender": "male" },
+              { "english": "I grew up in Osaka. It's known for its nightlife and delicious street food like 'takoyaki'.", "japanese": "大阪で育ちました。ナイトライフと、「たこ焼き」のような美味しい屋台料理で知られています。", "accent": "uk", "gender": "female" },
+              { "english": "My hometown is Kanazawa. It's a really historic city, famous for its old teahouses and a beautiful garden.", "japanese": "私の故郷は金沢です。本当に歴史的な街で、古い茶屋や美しい庭園で有名です。", "accent": "uk", "gender": "male" }
+          ]
+      },
+      {
+          "id": "jpn_con007", "english": "What are the main public holidays in Japan?", "japanese": "日本の主な祝日は何ですか？", "explanation": "'public holidays' とすることで、国民の祝日であることが明確になります。", "accent": "us", "gender": "male",
+          "responses": [
+              { "english": "Well, New Year's is the most important holiday for families. We also have a long holiday called Golden Week in May.", "japanese": "そうですね、お正月が家族にとって最も重要な祝日です。5月にはゴールデンウィークという長い休みもあります。", "accent": "uk", "gender": "female" },
+              { "english": "In the summer, we have the Obon holiday, which is a time to honor the spirits of our ancestors.", "japanese": "夏にはお盆休みがあり、先祖の霊を敬う時期です。", "accent": "us", "gender": "male" },
+              { "english": "And we have lots of local festivals, or 'matsuri', all throughout the year.", "japanese": "そして、一年を通して、たくさんの地域のお祭り、つまり「マツリ」もあります。", "accent": "uk", "gender": "female" }
+          ]
+      },
+      {
+          "id": "jpn_con008", "english": "Are you a fan of karaoke?", "japanese": "カラオケは好きですか？", "explanation": "'Do you enjoy' よりも 'Are you a fan of' の方が、よりネイティブらしい聞き方です。", "accent": "uk", "gender": "female",
+          "responses": [
+              { "english": "Yes, I love it! We should totally go together sometime.", "japanese": "はい、大好きです！ぜひいつか一緒に行きましょう。", "accent": "us", "gender": "male" },
+              { "english": "I'm not a very good singer, but it's a lot of fun with a group of friends.", "japanese": "歌はあまり上手ではありませんが、友達グループと行くととても楽しいです。", "accent": "uk", "gender": "female" },
+              { "english": "To be honest, I'm a little shy about singing in front of other people.", "japanese": "正直に言うと, 人前で歌うのは少し恥ずかしいです。", "accent": "us", "gender": "male" }
+          ]
+      },
+      {
+          "id": "jpn_con009", "english": "I got you a little something.", "japanese": "ちょっとした贈り物です。", "explanation": "'This is a gift for you' よりも、はるかに控えめでネイティブらしい贈り物の渡し方です。", "accent": "us", "gender": "male",
+          "responses": [
+              { "english": "Oh, you shouldn't have! This is lovely. Thank you so much.", "japanese": "まあ、そんなお気遣いなく！素敵ですね。本当にありがとうございます。", "accent": "uk", "gender": "female" },
+              { "english": "Wow, thank you! Can I open it now?", "japanese": "わあ、ありがとう。今開けてもいいですか？", "accent": "us", "gender": "female" },
+              { "english": "That's so thoughtful of you. Thank you, I love it.", "japanese": "なんて心のこもった贈り物でしょう。ありがとう、とても気に入りました。", "accent": "uk", "gender": "male" }
+          ]
+      },
+      {
+          "id": "jpn_con010", "english": "Alright, I should probably get going, but it was great meeting you.", "japanese": "さて、もうそろそろ行かなくちゃ。でも、お会いできて本当に良かったです。", "explanation": "'get going' は「出発する」「帰り始める」という自然な口語表現です。", "accent": "uk", "gender": "female",
+          "responses": [
+              { "english": "It was great meeting you too. Let's keep in touch.", "japanese": "こちらこそお会いできて本当に良かったです。これからも連絡を取り合いましょう。", "accent": "us", "gender": "male" },
+              { "english": "Have a safe trip back home. Hope we can meet again someday.", "japanese": "気をつけてお帰りください。いつかまた会えることを願っています。", "accent": "uk", "gender": "female" },
+              { "english": "Yeah, let's exchange contact info before you go.", "japanese": "うん、行く前に連絡先を交換しよう。", "accent": "us", "gender": "male" }
+          ]
       }
     ]
   },
   {
     "category": "Welcome to Japan",
-    "scene": "In Shops & Restaurants: Daily Interactions (20 examples)",
+    "scene": "Workplace & Formalities: Practical English",
+    "expressions": [
+        {
+            "id": "jpn_wrk001", "english": "Excuse me, I'm looking for the marketing department.", "japanese": "すみません、マーケティング部を探しています。", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "male",
+            "responses": [
+                { "english": "It's on the 5th floor. You can take the elevators just over there.", "japanese": "5階にございます。あちらのエレベーターをご利用ください。", "accent": "us", "gender": "female" },
+                { "english": "I can show you the way. Please, follow me.", "japanese": "ご案内します。どうぞ、ついて来てください。", "accent": "uk", "gender": "male" },
+                { "english": "Do you have an appointment with someone in that department?", "japanese": "その部署のどなたかとアポイントメントはございますか？", "accent": "us", "gender": "female" }
+            ]
+        },
+        {
+            "id": "jpn_wrk002", "english": "Could you please spell your name for me?", "japanese": "お名前のスペルを教えていただけますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "female",
+            "responses": [
+                { "english": "Certainly. It's S-M-I-T-H.", "japanese": "はい。S・M・I・T・Hです。", "accent": "us", "gender": "male" },
+                { "english": "Sure. My first name is John, that's J-O-H-N.", "japanese": "はい。下の名前はジョン、J・O・H・Nです。", "accent": "us", "gender": "male" },
+                { "english": "Of course. It's a bit of a tricky one!", "japanese": "もちろんです。少しややこしい名前なんです！", "accent": "uk", "gender": "female" }
+            ]
+        },
+        {
+            "id": "jpn_wrk003", "english": "Hi, I'm running a little late for our 10 AM meeting.", "japanese": "こんにちは、10時からの会議に少し遅れそうです。", "explanation": "'a bit' を 'a little' にすると、より丁寧な響きになります。", "accent": "us", "gender": "male",
+            "responses": [
+                { "english": "Thank you for letting me know. About how late do you think you'll be?", "japanese": "ご連絡ありがとうございます。どのくらい遅れそうでしょうか？", "accent": "us", "gender": "female" },
+                { "english": "No problem. We can wait for you before we start.", "japanese": "問題ありません。始まる前までお待ちしております。", "accent": "uk", "gender": "male" },
+                { "english": "Okay, please just join us when you arrive. I'll brief you on what you missed later.", "japanese": "承知しました。到着されたらそのままご参加ください。見逃した分は後ほど内容を説明します。", "accent": "us", "gender": "female" }
+            ]
+        },
+        {
+            "id": "jpn_wrk004", "english": "What's the general dress code here?", "japanese": "ここの一般的な服装規定はどのようなものですか？", "explanation": "'general' を加えることで、厳密なルールではなく、普段の雰囲気を尋ねているニュアンスが出ます。", "accent": "uk", "gender": "female",
+            "responses": [
+                { "english": "It's mostly business casual. So, no need for a tie unless you have a client meeting.", "japanese": "ほとんどビジネスカジュアルです。なので、クライアントとの会議がなければネクタイは不要ですよ。", "accent": "us", "gender": "male" },
+                { "english": "Most of the men wear a suit and tie.", "japanese": "男性のほとんどはスーツとネクタイを着用しています。", "accent": "uk", "gender": "male" },
+                { "english": "It's pretty relaxed, actually. Smart casual is perfectly fine.", "japanese": "実は、かなりリラックスしていますよ。スマートカジュアルで全く問題ありません。", "accent": "uk", "gender": "female" }
+            ]
+        },
+        {
+            "id": "jpn_wrk005", "english": "Would you like to join us for lunch?", "japanese": "私たちと一緒にお昼ご飯はいかがですか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "male",
+            "responses": [
+                { "english": "I'd love to, thank you. Where are you guys thinking of going?", "japanese": "ぜひ、ありがとうございます。どちらへ行かれる予定ですか？", "accent": "us", "gender": "female" },
+                { "english": "That's very kind of you, but I've already brought my own lunch today.", "japanese": "ご親切にどうもですが、今日は自分のお弁当を持ってきてしまったんです。", "accent": "uk", "gender": "female" },
+                { "english": "Sure. Just give me five minutes to finish this email.", "japanese": "はい。このメールを終えるのに5分だけください。", "accent": "us", "gender": "male" }
+            ]
+        },
+        {
+            "id": "jpn_wrk006", "english": "Could I have your business card?", "japanese": "お名刺をいただけますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "female",
+            "responses": [
+                { "english": "Of course. Here you are. And may I have yours?", "japanese": "もちろんです。はい、どうぞ。あなたのものもいただけますか？", "accent": "uk", "gender": "male" },
+                { "english": "I'm afraid I've just run out. Could I take your contact details instead?", "japanese": "申し訳ありません、ちょうど切らしてしまいました。代わりにあなたの連絡先を伺ってもよろしいですか？", "accent": "us", "gender": "female" },
+                { "english": "Certainly. Let me just get one for you.", "japanese": "はい。一枚お持ちしますね。", "accent": "uk", "gender": "male" }
+            ]
+        },
+        {
+            "id": "jpn_wrk007", "english": "Are you free to talk sometime on Friday afternoon?", "japanese": "金曜の午後のどこかでお話しする時間はありますか？", "explanation": "'sometime' を加えることで、より柔軟な聞き方になります。", "accent": "us", "gender": "male",
+            "responses": [
+                { "english": "Let me check my calendar... Yes, 3 PM looks good for me.", "japanese": "カレンダーを確認しますね… はい、午後3時なら都合が良いです。", "accent": "us", "gender": "female" },
+                { "english": "I'm afraid I'm booked solid on Friday. How about Monday morning?", "japanese": "申し訳ありませんが、金曜は一日中予定が埋まっています。月曜の午前中はいかがですか？", "accent": "uk", "gender": "male" },
+                { "english": "I should be. What did you want to discuss?", "japanese": "空いているはずです。何についてお話ししたいですか？", "accent": "us", "gender": "female" }
+            ]
+        },
+        {
+            "id": "jpn_wrk008", "english": "Fancy grabbing a drink after work?", "japanese": "仕事の後に一杯どう？", "explanation": "'Fancy' で始めるのは、非常にイギリス的でカジュアルな誘い方です。", "accent": "uk", "gender": "male",
+            "responses": [
+                { "english": "Sounds great. I should be free after 6.", "japanese": "いいですね。6時以降なら空くはずです。", "accent": "uk", "gender": "female" },
+                { "english": "I'd love to, but I have to work late tonight, unfortunately.", "japanese": "ぜひ行きたいのですが、残念ながら今夜は残業しなければなりません。", "accent": "uk", "gender": "male" },
+                { "english": "Yeah, why not? Let's ask the rest of the team as well.", "japanese": "うん、いいね！チームの他のメンバーも誘ってみよう。", "accent": "uk", "gender": "female" }
+            ]
+        },
+        {
+            "id": "jpn_wrk009", "english": "So, any plans for the weekend?", "japanese": "それで、週末の予定は何かある？", "explanation": "より短く、カジュアルな聞き方。", "accent": "us", "gender": "female",
+            "responses": [
+                { "english": "Nothing special. Probably just relaxing at home.", "japanese": "特別なことは何も。たぶん家でリラックスするだけかな。", "accent": "us", "gender": "male" },
+                { "english": "I'm planning to go on a day trip to Kamakura.", "japanese": "鎌倉へ日帰り旅行に行く計画をしています。", "accent": "us", "gender": "female" },
+                { "english": "I have to do some chores and maybe see a movie.", "japanese": "雑用をして、もしかしたら映画を見るかもしれません。", "accent": "us", "gender": "male" }
+            ]
+        },
+        {
+            "id": "jpn_wrk010", "english": "Have a great weekend!", "japanese": "良い週末を！", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "male",
+            "responses": [
+                { "english": "You too. See you on Monday.", "japanese": "あなたもね。また月曜に。", "accent": "uk", "gender": "female" },
+                { "english": "Thanks! You do the same.", "japanese": "ありがとう！あなたもね。", "accent": "us", "gender": "male" },
+                { "english": "Cheers. Looking forward to it.", "japanese": "どうも。楽しみにしています。", "accent": "uk", "gender": "male" }
+            ]
+        }
+    ]
+  },
+  {
+    "category": "Welcome to Japan",
+    "scene": "Showing Consideration: Kind & Helpful Phrases",
     "expressions": [
       {
-        "id": "jpn_shp001", "english": "Where can I find green tea?", "japanese": "緑茶はどこにありますか？", "explanation": "スーパーマーケットで、特定の商品の場所を尋ねる質問。", "accent": "us",
+        "id": "jpn_knd001", "english": "I'm sorry, I don't quite understand.", "japanese": "すみません、ちょっとよく理解できません。", "explanation": "'quite' を入れることで、「完全には理解できていない」というニュアンスになり、よりソフトな表現になります。", "accent": "us", "gender": "female",
         "responses": [
-          { "english": "It's in aisle 5, with the other teas and coffee.", "japanese": "5番通路の、他のお茶やコーヒーと一緒のところにあります。", "accent": "uk" },
-          { "english": "I'll show you. It's this way.", "japanese": "ご案内しますよ。こちらです。", "accent": "uk" },
-          { "english": "We have several kinds. Are you looking for tea bags or loose leaves?", "japanese": "いくつか種類がございます。ティーバッグですか、それとも茶葉ですか？", "accent": "uk" }
+          { "english": "Oh, that's okay. Let me try to say it another way.", "japanese": "ああ、大丈夫ですよ。別の言い方をしてみますね。", "accent": "uk", "gender": "male" },
+          { "english": "No problem. Should I maybe write it down for you?", "japanese": "問題ありません。なんなら、書きましょうか？", "accent": "us", "gender": "male" },
+          { "english": "My apologies. Perhaps we can use a translation app?", "japanese": "申し訳ありません。翻訳アプリを使いましょうか？", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_shp002", "english": "How do you use this machine?", "japanese": "この機械はどうやって使うのですか？", "explanation": "コンビニのコーヒーメーカーや、セルフサービスの機械について尋ねる質問。", "accent": "uk",
+        "id": "jpn_knd002", "english": "Could you speak a little more slowly, please?", "japanese": "もう少しゆっくり話していただけますか？", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "First, you pay at the counter and get a cup.", "japanese": "まず、カウンターでお支払いいただき、カップを受け取ります。", "accent": "uk" },
-          { "english": "You just need to put the cup here and press the button for your size.", "japanese": "カップをここに置いて、あなたのサイズのボタンを押すだけです。", "accent": "uk" },
-          { "english": "Let me do it for you. Hot or iced?", "japanese": "私がやりますよ。ホットですか、アイスですか？", "accent": "uk" }
+          { "english": "Of course, my apologies. Is this pace any better?", "japanese": "もちろんです、すみません。このペースはいかがですか？", "accent": "us", "gender": "male" },
+          { "english": "Sure, not a problem.", "japanese": "はい、問題ありません。", "accent": "us", "gender": "male" },
+          { "english": "Oh, sorry. I have a bad habit of talking too fast.", "japanese": "あ、ごめんなさい。早口で話す悪い癖があるんです。", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_shp003", "english": "Do you have anything smaller?", "japanese": "もっと小さいサイズはありますか？", "explanation": "衣料品店などでサイズ違いを探しているときに使います。", "accent": "us",
+        "id": "jpn_knd003", "english": "I think I might be coming down with a cold.", "japanese": "風邪をひきかけているみたいです。", "explanation": "'coming down with' は病気の初期症状を表す非常に一般的なイディオムです。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "Let me check in the stockroom for you.", "japanese": "在庫室で確認してきますね。", "accent": "uk" },
-          { "english": "I'm afraid this is the smallest size we have.", "japanese": "申し訳ありません、これが当店で一番小さいサイズです。", "accent": "uk" },
-          { "english": "Yes, here's a size 'Small'. The fitting rooms are over there.", "japanese": "はい、こちらがSサイズです。試着室はあちらです。", "accent": "uk" }
+          { "english": "Oh no, I'm sorry to hear that. You should get some rest.", "japanese": "あらら、お気の毒に。休んだ方がいいですよ。", "accent": "uk", "gender": "female" },
+          { "english": "Please take care of yourself. Let me know if you need anything at all.", "japanese": "どうぞお大事に。何か必要なことがあれば何でも教えてくださいね。", "accent": "uk", "gender": "male" },
+          { "english": "There's a pharmacy just around the corner if you need to get some medicine.", "japanese": "もし薬が必要なら、角を曲がったところにすぐ薬局がありますよ。", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_shp004", "english": "Can I pay with this?", "japanese": "これで支払えますか？", "explanation": "クレジットカードや電子マネーを指して、使えるかどうかを尋ねるフレーズ。", "accent": "uk",
+        "id": "jpn_knd004", "english": "Thank you so much for your help. You've been so kind.", "japanese": "助けていただき、本当にありがとうございます。とても親切にしていただきました。", "explanation": "'so' を加えることで、感謝の気持ちが強調されます。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "Yes, of course. Please touch it here.", "japanese": "はい、もちろんです。こちらにタッチしてください。", "accent": "uk" },
-          { "english": "I'm sorry, we don't accept that type of card.", "japanese": "申し訳ありません、その種類のカードは受け付けておりません。", "accent": "uk" },
-          { "english": "Sure. Just a moment, please.", "japanese": "はい。少々お待ちください。", "accent": "uk" }
+          { "english": "You're very welcome. I was happy to help.", "japanese": "どういたしまして。お役に立てて嬉しいです。", "accent": "uk", "gender": "male" },
+          { "english": "Not a problem at all. Enjoy the rest of your stay in Japan!", "japanese": "全く問題ありません。残りの日本での滞在を楽しんでくださいね！", "accent": "us", "gender": "female" },
+          { "english": "It was my pleasure.", "japanese": "どういたしまして。（喜んでしたことです）", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_shp005", "english": "Is this tax-free?", "japanese": "これは免税になりますか？", "explanation": "買い物の際に税金の還付を受けたい観光客からの質問。", "accent": "us",
+        "id": "jpn_knd005", "english": "I was a bit nervous about the earthquake, to be honest.", "japanese": "正直なところ、地震が少し心配でした。", "explanation": "過去形にし、'to be honest' を加えることで、後から気持ちを打ち明ける自然な表現になります。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "Yes, if you spend over 5,000 yen. Please show me your passport.", "japanese": "はい、5,000円以上お買い上げの場合になります。パスポートをお見せください。", "accent": "uk" },
-          { "english": "I'm sorry, food items are not eligible for tax exemption.", "japanese": "申し訳ありません、食料品は免税の対象外です。", "accent": "uk" },
-          { "english": "You can get the tax refund at the tax-free counter on the 7th floor.", "japanese": "7階の免税カウンターで税金の払い戻しが受けられます。", "accent": "uk" }
+          { "english": "I completely understand. It can be frightening if you're not used to it, but Japan is very prepared for them.", "japanese": "お察しします。慣れていないと怖いかもしれませんが、日本は地震への備えが非常によくできています。", "accent": "uk", "gender": "female" },
+          { "english": "Don't worry, that was just a small one. They happen all the time here.", "japanese": "ご心配なく、今のは小さな揺れです。ここではしょっちゅうあることなんですよ。", "accent": "us", "gender": "male" },
+          { "english": "The most important thing is to stay calm and get under a sturdy table if it feels like a big one.", "japanese": "一番大切なのは、落ち着いて、もし大きな揺れだと感じたら頑丈なテーブルの下に入ることです。", "accent": "uk", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_shp006", "english": "Do you have a plastic bag?", "japanese": "レジ袋はありますか？", "explanation": "日本ではレジ袋が有料であることが多いため、尋ねられることがあります。", "accent": "uk",
-        "responses": [
-          { "english": "Yes, but it costs 5 yen. Is that okay?", "japanese": "はい、ですが5円かかります。よろしいですか？", "accent": "uk" },
-          { "english": "Sure. What size would you like?", "japanese": "はい。どのサイズがよろしいですか？", "accent": "uk" },
-          { "english": "We only have paper bags, I'm afraid.", "japanese": "申し訳ありません、紙袋しかございません。", "accent": "uk" }
-        ]
+          "id": "jpn_knd006", "english": "Wow, it's so crowded here!", "japanese": "うわあ、ここはすごく混んでいますね！", "explanation": "'Wow,' を加えることで驚きを表現します。", "accent": "us", "gender": "female",
+          "responses": [
+              { "english": "Yeah, this is pretty normal for Tokyo. It can be a bit overwhelming at first.", "japanese": "ええ、これが東京ではかなり普通です。最初は少し圧倒されるかもしれませんね。", "accent": "us", "gender": "male" },
+              { "english": "You just have to go with the flow of the crowd.", "japanese": "ただ人々の流れに乗るしかないですね。", "accent": "us", "gender": "male" },
+              { "english": "This is rush hour. It should be a lot quieter in about an hour.", "japanese": "今がラッシュアワーなんです。1時間もすればずっと静かになりますよ。", "accent": "uk", "gender": "female" }
+          ]
       },
       {
-        "id": "jpn_shp007", "english": "What is this? I've never seen it before.", "japanese": "これは何ですか？今まで見たことがありません。", "explanation": "スーパーで珍しい食材や、お菓子について尋ねる質問。", "accent": "us",
-        "responses": [
-          { "english": "That's 'umeboshi', or pickled plum. It's very sour.", "japanese": "それは「梅干し」です。とても酸っぱいですよ。", "accent": "uk" },
-          { "english": "It's a type of fish cake called 'chikuwa'.", "japanese": "「ちくわ」という魚の練り物の一種です。", "accent": "uk" },
-          { "english": "This is 'mochi', a sticky rice cake. It's delicious with sweet bean paste.", "japanese": "これは「餅」です。あんこと一緒に食べると美味しいですよ。", "accent": "uk" }
-        ]
+          "id": "jpn_knd007", "english": "Your country is so clean and safe.", "japanese": "あなたの国はとても清潔で安全ですね。", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "us", "gender": "female",
+          "responses": [
+              { "english": "Thank you. We're very proud of that.", "japanese": "ありがとうございます。私たちはそのことをとても誇りに思っています。", "accent": "uk", "gender": "male" },
+              { "english": "I'm glad you feel safe here.", "japanese": "ここで安全だと感じていただけて嬉しいです。", "accent": "us", "gender": "female" },
+              { "english": "Yes, but it's always a good idea to be aware of your surroundings, just like anywhere else.", "japanese": "はい、でも他のどこでも同じように、常に周囲に気をつけるのが良い考えです。", "accent": "us", "gender": "male" }
+          ]
       },
       {
-        "id": "jpn_shp008", "english": "Could you recommend a good sake for a gift?", "japanese": "贈り物にするのに良い日本酒をおすすめしていただけますか？", "explanation": "お土産として日本酒を選んでいる場面。", "accent": "uk",
-        "responses": [
-          { "english": "This 'Dassai' is very famous and popular overseas.", "japanese": "こちらの「獺祭」はとても有名で、海外でも人気があります。", "accent": "uk" },
-          { "english": "What is your budget? I can recommend something in your price range.", "japanese": "ご予算はおいくらですか？価格帯に合わせておすすめできますよ。", "accent": "uk" },
-          { "english": "This one comes in a beautiful wooden box, so it's perfect for a gift.", "japanese": "こちらは綺麗な木箱に入っているので、贈り物にぴったりです。", "accent": "uk" }
-        ]
+          "id": "jpn_knd008", "english": "Oh, I'm sorry, I think I made a mistake.", "japanese": "あ、すみません、間違えてしまったようです。", "explanation": "自分の間違いに気づいたときの、より自然な言い方。", "accent": "uk", "gender": "male",
+          "responses": [
+              { "english": "Don't worry about it at all. It's not a big deal.", "japanese": "全く気にしないでください。大したことではありませんよ。", "accent": "us", "gender": "female" },
+              { "english": "No problem. It's a very common mistake.", "japanese": "問題ありません。とてもよくある間違いですよ。", "accent": "uk", "gender": "male" },
+              { "english": "That's perfectly okay. Please don't worry about it.", "japanese": "全くもって大丈夫です。どうぞご心配なく。", "accent": "uk", "gender": "female" }
+          ]
       },
       {
-        "id": "jpn_shp009", "english": "Do you offer gift wrapping?", "japanese": "ギフト包装はしていますか？", "explanation": "購入した品をプレゼント用に包んでもらいたいときのお願い。", "accent": "us",
-        "responses": [
-          { "english": "Yes, we do. Is this a gift?", "japanese": "はい、しております。こちらは贈り物ですか？", "accent": "uk" },
-          { "english": "Certainly. We have paper or a box. Which would you prefer?", "japanese": "かしこまりました。紙と箱がございますが、どちらがよろしいですか？", "accent": "uk" },
-          { "english": "I'm sorry, we don't have a gift wrapping service.", "japanese": "申し訳ありません、ギフト包装サービスは行っておりません。", "accent": "uk" }
-        ]
+          "id": "jpn_knd009", "english": "This is honestly the best ramen I've ever had.", "japanese": "正直、今まで食べた中で最高のラーメンです。", "explanation": "'honestly' を加えることで、心からの称賛であることが伝わります。", "accent": "us", "gender": "female",
+          "responses": [
+              { "english": "I'm so glad you like it! This is one of my favorite shops.", "japanese": "気に入っていただけてとても嬉しいです！ここは私のお気に入りの店の一つなんです。", "accent": "us", "gender": "male" },
+              { "english": "Really? In that case, you should try the 'tsukemen' here next time.", "japanese": "本当ですか？それなら、次回はここの「つけ麺」を試すべきですよ。", "accent": "us", "gender": "male" },
+              { "english": "That's high praise! I'll be sure to tell the chef.", "japanese": "それは最高の褒め言葉ですね！シェフに必ず伝えておきます。", "accent": "uk", "gender": "female" }
+          ]
       },
       {
-        "id": "jpn_shp010", "english": "The automatic door won't open.", "japanese": "自動ドアが開きません。", "explanation": "コンビニなどで、ドアの開閉ボタンに気づかない観光客は多いです。", "accent": "uk",
-        "responses": [
-          { "english": "Oh, you have to press the green button here to open it.", "japanese": "ああ、開けるにはここの緑のボタンを押す必要があるんです。", "accent": "uk" },
-          { "english": "Let me get that for you. Here you go.", "japanese": "私が開けますね。はい、どうぞ。", "accent": "uk" },
-          { "english": "Sorry about that. Sometimes it gets stuck.", "japanese": "すみません。時々、動かなくなるんです。", "accent": "uk" }
-        ]
+          "id": "jpn_knd010", "english": "I hope I'm not disturbing you.", "japanese": "お邪魔ではないと良いのですが。", "explanation": "定番のフレーズ。これはこのままで完璧です。", "accent": "uk", "gender": "male",
+          "responses": [
+              { "english": "Not at all. I was just taking a quick break. What's up?", "japanese": "全くそんなことありませんよ。ちょうど短い休憩を取っていたところです。どうしましたか？", "accent": "us", "gender": "female" },
+              { "english": "You're not disturbing me at all. How can I help?", "japanese": "全く邪魔ではありませんよ。どうしましたか？", "accent": "us", "gender": "male" },
+              { "english": "I've got a minute. What do you need?", "japanese": "少しなら時間がありますよ。何かご用ですか？", "accent": "uk", "gender": "female" }
+          ]
       }
     ]
   },
   {
     "category": "Welcome to Japan",
-    "scene": "Sharing & Connecting: Deeper Conversations (20 examples)",
+    "scene": "Explaining Unique Japanese Concepts",
     "expressions": [
       {
-        "id": "jpn_con001", "english": "What's the difference between a temple and a shrine?", "japanese": "お寺と神社の違いは何ですか？", "explanation": "多くの観光客が抱く、日本の宗教文化に関する素朴な疑問。", "accent": "us",
+        "id": "jpn_exp001", "english": "What does 'Otsukaresama desu' actually mean? I hear it all the time.", "japanese": "「お疲れ様です」って本当はどういう意味ですか？いつも聞くのですが。", "explanation": "多くの外国人が最初に疑問に思う魔法の言葉「お疲れ様です」についての質問。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "That's a great question. Simply put, temples are Buddhist and shrines are Shinto.", "japanese": "良い質問ですね。簡単に言うと、お寺は仏教で、神社は神道です。", "accent": "uk" },
-          { "english": "You can usually tell by the entrance. Shrines have a 'torii' gate, like this.", "japanese": "だいたい入り口で見分けられますよ。神社には、このような「鳥居」があります。", "accent": "uk" },
-          { "english": "At shrines you clap your hands to pray, but at temples you just put your hands together quietly.", "japanese": "神社では手を叩いて祈りますが、お寺では静かに手を合わせるだけです。", "accent": "uk" }
+          { "english": "That's a great question. It doesn't have a perfect English translation. It can mean 'Good work', 'Thanks for your hard work', or even just 'Hi' at the office.", "japanese": "良い質問ですね。完璧な英訳はないんです。「良い仕事でしたね」「お疲れ様」とか、オフィスでは単に「どうも」のような挨拶にもなります。", "accent": "uk", "gender": "female" },
+          { "english": "We use it to acknowledge each other's hard work. You can say it when you arrive, when you leave, or when someone finishes a task.", "japanese": "お互いの頑張りを認め合うために使います。出社した時、退社する時、誰かが仕事を終えた時にも言えますよ。", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_con002", "english": "Why do you bow?", "japanese": "なぜお辞儀をするのですか？", "explanation": "日本人にとっては自然な、お辞儀という文化についての質問。", "accent": "uk",
+        "id": "jpn_exp002", "english": "Why do people bow so much in Japan?", "japanese": "なぜ日本ではそんなにお辞儀をするのですか？", "explanation": "日本人にとっては自然な、お辞儀という文化についての質問。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "It's a way of showing respect. We use it for greetings, apologies, and showing thanks.", "japanese": "敬意を示す方法なんです。挨拶や謝罪、感謝を示すのに使います。", "accent": "uk" },
-          { "english": "It's similar to a handshake in Western culture, but without touching.", "japanese": "西洋文化における握手のようなものですが、触れません。", "accent": "uk" },
-          { "english": "The deeper the bow, the more respect you are showing.", "japanese": "お辞儀が深いほど、より深い敬意を示していることになります。", "accent": "uk" }
+          { "english": "It's a sign of respect. We use it for everything from a simple greeting to a deep apology.", "japanese": "敬意の印なんです。簡単な挨拶から深い謝罪まで、あらゆることに使います。", "accent": "us", "gender": "male" },
+          { "english": "You can think of it as being similar to a handshake, but without any physical contact.", "japanese": "物理的な接触がないだけで、握手のようなものだと考えることができます。", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_con003", "english": "Tell me about your family.", "japanese": "あなたの家族について教えてください。", "explanation": "より個人的な関係を築こうとする、親しい質問。", "accent": "us",
+        "id": "jpn_exp003", "english": "Why do you say 'Itadakimasu' before eating?", "japanese": "なぜ食前に「いただきます」と言うのですか？", "explanation": "日本の食文化に根付いた習慣についての質問。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "I live with my parents and my younger sister.", "japanese": "両親と妹と一緒に住んでいます。", "accent": "uk" },
-          { "english": "I'm married and have two children, a boy and a girl.", "japanese": "結婚していて、子供が二人います。男の子と女の子です。", "accent": "uk" },
-          { "english": "I'm an only child. How about you? Do you have siblings?", "japanese": "私は一人っ子です。あなたはどうですか？兄弟はいますか？", "accent": "uk" }
+          { "english": "It's a way of expressing gratitude. We're thanking everyone and everything that made the meal possible - the farmers, the fishermen, and even the ingredients themselves.", "japanese": "感謝を表す方法なんです。農家の方々、漁師の方々、そして食材そのものまで、この食事を可能にしてくれたすべてに感謝しています。", "accent": "uk", "gender": "female" },
+          { "english": "It's a bit like saying 'grace' or 'bon appétit', but with a deeper sense of thanks for the lives we are about to receive.", "japanese": "「神への感謝の祈り」や「ボナペティ」に少し似ていますが、これからいただく命へのより深い感謝の念が込められています。", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "jpn_con004", "english": "What do you do for work?", "japanese": "お仕事は何をされていますか？", "explanation": "相手の職業について尋ねる、自己紹介の定番の質問。", "accent": "uk",
+        "id": "jpn_exp004", "english": "I've noticed there aren't many trash cans on the street. Why is that?", "japanese": "通りにあまりゴミ箱がないことに気づきました。なぜですか？", "explanation": "多くの観光客が驚く、日本の街の清潔さの秘密についての質問。", "accent": "uk", "gender": "female",
         "responses": [
-          { "english": "I work for an IT company in Tokyo.", "japanese": "東京のIT企業で働いています。", "accent": "uk" },
-          { "english": "I'm a university student. I'm studying economics.", "japanese": "大学生です。経済学を勉強しています。", "accent": "uk" },
-          { "english": "I'm a freelance designer. I mostly work from home.", "japanese": "フリーランスのデザイナーです。ほとんど在宅で仕事をしています。", "accent": "uk" }
+          { "english": "That's true. Generally, people in Japan are expected to take their trash home with them.", "japanese": "その通りですね。一般的に、日本では自分のゴミは家に持ち帰ることが求められます。", "accent": "us", "gender": "male" },
+          { "english": "It's a cultural habit that helps keep the city clean. You get used to carrying a small bag for your trash.", "japanese": "街を清潔に保つための文化的な習慣ですね。ゴミを入れるための小さな袋を持ち歩くのに慣れてきますよ。", "accent": "us", "gender": "female" }
         ]
       },
       {
-        "id": "jpn_con005", "english": "What is your favourite Japanese food?", "japanese": "あなたの好きな日本の食べ物は何ですか？", "explanation": "日本の食文化について、個人的な好みを聞くことで会話を広げる質問。", "accent": "us",
+        "id": "jpn_exp005", "english": "Your convenience stores are amazing! You can do everything there.", "japanese": "日本のコンビニはすごいですね！何でもできますね。", "explanation": "日本のコンビニエンスストアの多機能性に対する、よくある称賛の言葉。", "accent": "us", "gender": "male",
         "responses": [
-          { "english": "That's a tough question! But if I had to choose, I'd say ramen.", "japanese": "難しい質問ですね！でも、もし選ばなければならないなら、ラーメンと言います。", "accent": "uk" },
-          { "english": "I love sushi, especially tuna. It's called 'maguro' in Japanese.", "japanese": "お寿司が大好きです、特にマグロが。日本語では「マグロ」と言います。", "accent": "uk" },
-          { "english": "Actually, my favourite is my mother's 'nikujaga'. It's a home-cooked dish.", "japanese": "実は、一番好きなのは母の「肉じゃが」です。家庭料理なんです。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_con006", "english": "I'd love to visit your hometown someday. What is it famous for?", "japanese": "いつかあなたの故郷を訪れてみたいです。何で有名なんですか？", "explanation": "相手の出身地について興味を示す、素晴らしい会話の広げ方。", "accent": "uk",
-        "responses": [
-          { "english": "I'm from Hokkaido. It's famous for its beautiful nature and fresh seafood.", "japanese": "私は北海道出身です。美しい自然と新鮮な魚介類で有名ですよ。", "accent": "uk" },
-          { "english": "I grew up in Osaka. It's famous for its vibrant nightlife and delicious street food like 'takoyaki'.", "japanese": "大阪で育ちました。活気ある夜の街と、「たこ焼き」のような美味しい屋台料理で有名です。", "accent": "uk" },
-          { "english": "My hometown is Kanazawa. It's a historic city, famous for its old teahouses and beautiful garden.", "japanese": "私の故郷は金沢です。古い茶屋や美しい庭園で有名な、歴史的な街です。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_con007", "english": "What are the main holidays in Japan?", "japanese": "日本の主な祝日は何ですか？", "explanation": "日本の年間行事や文化についての質問。", "accent": "us",
-        "responses": [
-          { "english": "New Year's is the most important holiday for families. We also have Golden Week in May.", "japanese": "お正月が家族にとって最も重要な祝日です。5月にはゴールデンウィークもあります。", "accent": "uk" },
-          { "english": "In summer, we have the Obon holiday, which is a time to honor our ancestors.", "japanese": "夏にはお盆休みがあり、先祖を敬う時期です。", "accent": "uk" },
-          { "english": "We also have many festivals, or 'matsuri', throughout the year.", "japanese": "一年を通して、たくさんの祭り、つまり「マツリ」もあります。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_con008", "english": "Do you enjoy karaoke?", "japanese": "カラオケは好きですか？", "explanation": "日本の代表的な娯楽について、一緒に楽しもうと誘う前の質問。", "accent": "uk",
-        "responses": [
-          { "english": "Yes, I love it! We should go together sometime.", "japanese": "はい、大好きです！いつか一緒に行きましょう。", "accent": "uk" },
-          { "english": "I'm not a very good singer, but it's a lot of fun with friends.", "japanese": "歌はあまり上手ではありませんが、友達と行くととても楽しいです。", "accent": "uk" },
-          { "english": "To be honest, I'm a little shy about singing in front of people.", "japanese": "正直に言うと、人前で歌うのは少し恥ずかしいです。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_con009", "english": "This is a gift for you.", "japanese": "これはあなたへの贈り物です。", "explanation": "お土産やプレゼントを渡される場面。", "accent": "us",
-        "responses": [
-          { "english": "Oh, you shouldn't have! This is lovely. Thank you so much.", "japanese": "まあ、そんなお気遣いなく！素敵ですね。本当にありがとうございます。", "accent": "uk" },
-          { "english": "Wow, thank you. Can I open it now?", "japanese": "わあ、ありがとう。今開けてもいいですか？", "accent": "uk" },
-          { "english": "That's so thoughtful of you. Thank you, I love it.", "japanese": "なんて心のこもった贈り物でしょう。ありがとう、とても気に入りました。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_con010", "english": "I have to leave now, but it was great to meet you.", "japanese": "もう行かなければなりませんが、お会いできて本当に良かったです。", "explanation": "友人になった相手との、次につながる別れの挨拶。", "accent": "uk",
-        "responses": [
-          { "english": "It was great meeting you too. Let's keep in touch.", "japanese": "こちらこそお会いできて本当に良かったです。これからも連絡を取り合いましょう。", "accent": "uk" },
-          { "english": "Have a safe trip back home. I hope we can meet again.", "japanese": "気をつけてお帰りください。また会えることを願っています。", "accent": "uk" },
-          { "english": "Let's exchange contact information before you go.", "japanese": "行く前に連絡先を交換しましょう。", "accent": "uk" }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Welcome to Japan",
-    "scene": "Workplace & Formalities: Practical English (20 examples)",
-    "expressions": [
-      {
-        "id": "jpn_wrk001", "english": "I'm looking for the marketing department.", "japanese": "マーケティング部を探しています。", "explanation": "オフィスビルなどで、目的の部署を尋ねるフレーズ。", "accent": "us",
-        "responses": [
-          { "english": "It's on the 5th floor. You can take the elevator over there.", "japanese": "5階にございます。あちらのエレベーターをご利用ください。", "accent": "uk" },
-          { "english": "I can show you the way. Please follow me.", "japanese": "ご案内します。どうぞ、ついて来てください。", "accent": "uk" },
-          { "english": "Do you have an appointment with someone?", "japanese": "どなたかとアポイントメントはございますか？", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk002", "english": "Could you please spell your name for me?", "japanese": "お名前のスペルを教えていただけますか？", "explanation": "名前の聞き取りが難しい場合に、正確に確認するための丁寧なお願い。", "accent": "uk",
-        "responses": [
-          { "english": "Certainly. It's S-M-I-T-H.", "japanese": "はい。S・M・I・T・Hです。", "accent": "uk" },
-          { "english": "Sure. My first name is John, J-O-H-N.", "japanese": "はい。下の名前はジョン、J・O・H・Nです。", "accent": "uk" },
-          { "english": "Of course. It's a tricky one!", "japanese": "もちろんです。ややこしい名前なんです！", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk003", "english": "I'm running a bit late for our 10 AM meeting.", "japanese": "10時からの会議に少し遅れそうです。", "explanation": "遅刻することを事前に連絡する際の、ビジネスライクな表現。", "accent": "us",
-        "responses": [
-          { "english": "Thank you for letting me know. About how late will you be?", "japanese": "ご連絡ありがとうございます。どのくらい遅れそうでしょうか？", "accent": "uk" },
-          { "english": "No problem. We can wait for you.", "japanese": "問題ありません。お待ちしております。", "accent": "uk" },
-          { "english": "Okay, please join us when you arrive. I'll brief you later.", "japanese": "承知しました。到着されたらご参加ください。後ほど内容を説明します。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk004", "english": "What's the dress code here?", "japanese": "ここのドレスコード（服装規定）はどのようなものですか？", "explanation": "職場の服装について、事前に確認する質問。", "accent": "uk",
-        "responses": [
-          { "english": "It's business casual. So, no need for a tie.", "japanese": "ビジネスカジュアルです。なので、ネクタイは不要ですよ。", "accent": "uk" },
-          { "english": "Most people wear a suit and tie.", "japanese": "ほとんどの人はスーツとネクタイを着用しています。", "accent": "uk" },
-          { "english": "It's quite relaxed. Smart casual is fine.", "japanese": "かなりリラックスしていますよ。スマートカジュアルで大丈夫です。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk005", "english": "Would you like to join us for lunch?", "japanese": "私たちと一緒にお昼ご飯はいかがですか？", "explanation": "職場の同僚を、ランチに誘う際の丁寧な言い方。", "accent": "us",
-        "responses": [
-          { "english": "I'd love to, thank you. Where are you going?", "japanese": "ぜひ、ありがとうございます。どちらへ行かれますか？", "accent": "uk" },
-          { "english": "That's very kind, but I've already brought my own lunch today.", "japanese": "ご親切にどうもですが、今日は自分のお弁当を持ってきてしまったんです。", "accent": "uk" },
-          { "english": "Sure. Just let me finish this email.", "japanese": "はい。このメールを終えたら行きます。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk006", "english": "Could I have your business card?", "japanese": "お名刺をいただけますか？", "explanation": "日本のビジネスシーンでは欠かせない、名刺交換の際のお願い。", "accent": "uk",
-        "responses": [
-          { "english": "Of course. Here you are. And may I have yours?", "japanese": "もちろんです。はい、どうぞ。あなたのものもいただけますか？", "accent": "uk" },
-          { "english": "I'm afraid I've just run out. Could I take your contact details?", "japanese": "申し訳ありません、ちょうど切らしてしまいました。あなたの連絡先を伺ってもよろしいですか？", "accent": "uk" },
-          { "english": "Certainly. Let me get one for you.", "japanese": "はい。一枚お持ちしますね。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk007", "english": "Are you free to talk on Friday afternoon?", "japanese": "金曜の午後は、お話しする時間はありますか？", "explanation": "相手のスケジュールを確認し、会議や打ち合わせを提案するフレーズ。", "accent": "us",
-        "responses": [
-          { "english": "Let me check my calendar... Yes, 3 PM looks good for me.", "japanese": "カレンダーを確認しますね… はい、午後3時なら都合が良いです。", "accent": "uk" },
-          { "english": "I'm afraid I'm booked all day on Friday. How about Monday morning?", "japanese": "申し訳ありませんが、金曜は一日中予定が入っています。月曜の午前中はいかがですか？", "accent": "uk" },
-          { "english": "I should be. What would you like to discuss?", "japanese": "空いているはずです。何についてお話ししたいですか？", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk008", "english": "Let's grab a drink after work.", "japanese": "仕事の後に一杯どうですか。", "explanation": "同僚との親睦を深めるための、カジュアルな誘い文句。", "accent": "uk",
-        "responses": [
-          { "english": "Sounds great. I'll be free after 6.", "japanese": "いいですね。6時以降なら空いています。", "accent": "uk" },
-          { "english": "I'd love to, but I have to work late tonight.", "japanese": "ぜひ行きたいのですが、今夜は残業しなければなりません。", "accent": "uk" },
-          { "english": "Sure, why not? Let's ask the rest of the team too.", "japanese": "もちろん！チームの他のメンバーも誘いましょう。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk009", "english": "What are your plans for the weekend?", "japanese": "週末のご予定は？", "explanation": "週の終わりに、同僚などと交わす世間話の定番。", "accent": "us",
-        "responses": [
-          { "english": "Nothing special. Just relaxing at home.", "japanese": "特別なことは何も。家でリラックスするだけです。", "accent": "uk" },
-          { "english": "I'm planning to go on a day trip to Kamakura.", "japanese": "鎌倉へ日帰り旅行に行く計画をしています。", "accent": "uk" },
-          { "english": "I have to do some chores and maybe see a movie.", "japanese": "雑用をして、もしかしたら映画を見るかもしれません。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_wrk010", "english": "Have a great weekend!", "japanese": "良い週末を！", "explanation": "金曜日の退勤時などに交わされる、気持ちの良い挨拶。", "accent": "uk",
-        "responses": [
-          { "english": "You too. See you on Monday.", "japanese": "あなたもね。また月曜に。", "accent": "uk" },
-          { "english": "Thanks! You do the same.", "japanese": "ありがとう！あなたもね。", "accent": "uk" },
-          { "english": "Cheers. I'm looking forward to it.", "japanese": "どうも。楽しみにしています。", "accent": "uk" }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Welcome to Japan",
-    "scene": "Showing Consideration: Kind & Helpful Phrases (10 examples)",
-    "expressions": [
-      {
-        "id": "jpn_knd001", "english": "I'm sorry, I don't understand.", "japanese": "すみません、理解できません。", "explanation": "相手の言っていることが分からないときに、正直に伝えるフレーズ。", "accent": "us",
-        "responses": [
-          { "english": "That's okay. Let me try to say it another way.", "japanese": "大丈夫ですよ。別の言い方をしてみますね。", "accent": "uk" },
-          { "english": "No problem. Should I write it down for you?", "japanese": "問題ありません。書きましょうか？", "accent": "uk" },
-          { "english": "My apologies. Maybe we can use a translation app?", "japanese": "申し訳ありません。翻訳アプリを使いましょうか？", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd002", "english": "Could you speak a little more slowly, please?", "japanese": "もう少しゆっくり話していただけますか？", "explanation": "相手の英語が速くて聞き取れないときに使う、必須の丁寧なお願い。", "accent": "uk",
-        "responses": [
-          { "english": "Of course, my apologies. Is this pace better?", "japanese": "もちろんです、すみません。このペースはいかがですか？", "accent": "uk" },
-          { "english": "Sure, no problem at all.", "japanese": "はい、全く問題ありません。", "accent": "uk" },
-          { "english": "Sorry, I have a habit of talking too fast.", "japanese": "ごめんなさい、早口で話す癖があるんです。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd003", "english": "I think I have a cold.", "japanese": "風邪をひいたみたいです。", "explanation": "体調が優れないことを伝える言葉。", "accent": "us",
-        "responses": [
-          { "english": "I'm sorry to hear that. You should get some rest.", "japanese": "それはお気の毒に。休んだ方がいいですよ。", "accent": "uk" },
-          { "english": "Please take care of yourself. Let me know if you need anything.", "japanese": "どうぞお大事に。何か必要なことがあれば教えてくださいね。", "accent": "uk" },
-          { "english": "There's a pharmacy just around the corner if you need medicine.", "japanese": "もし薬が必要なら、角を曲がったところにすぐ薬局がありますよ。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd004", "english": "Thank you so much for your help. You've been very kind.", "japanese": "助けていただき、本当にありがとうございます。とても親切にしていただきました。", "explanation": "助けてもらった感謝を伝える、心のこもった言葉。", "accent": "uk",
-        "responses": [
-          { "english": "You're very welcome. I was happy to help.", "japanese": "どういたしまして。お役に立てて嬉しいです。", "accent": "uk" },
-          { "english": "No problem at all. Enjoy the rest of your stay in Japan!", "japanese": "全く問題ありません。残りの日本での滞在を楽しんでくださいね！", "accent": "uk" },
-          { "english": "It was my pleasure.", "japanese": "どういたしまして。（喜んでしたことです）", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd005", "english": "I'm a bit nervous about the earthquake.", "japanese": "地震が少し心配です。", "explanation": "地震に慣れていない外国人が、不安な気持ちを打ち明ける場面。", "accent": "us",
-        "responses": [
-          { "english": "I understand. It can be frightening, but Japan is very prepared for them.", "japanese": "お察しします。怖いかもしれませんが、日本は地震への備えが非常によくできています。", "accent": "uk" },
-          { "english": "Don't worry, that was just a small one. It's very common here.", "japanese": "ご心配なく、今のは小さな揺れです。ここではとても一般的なことなんですよ。", "accent": "uk" },
-          { "english": "The most important thing is to stay calm and get under a sturdy table if it's a big one.", "japanese": "一番大切なのは、落ち着いて、もし大きな揺れなら頑丈なテーブルの下に入ることです。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd006", "english": "It's so crowded here!", "japanese": "ここはすごく混んでいますね！", "explanation": "渋谷の交差点や満員電車など、人混みに対する驚き。", "accent": "uk",
-        "responses": [
-          { "english": "Yes, this is normal for Tokyo. It can be a bit overwhelming.", "japanese": "はい、これが東京の普通です。少し圧倒されるかもしれませんね。", "accent": "uk" },
-          { "english": "Just try to go with the flow of the crowd.", "japanese": "ただ人々の流れに乗るようにしてみてください。", "accent": "uk" },
-          { "english": "It's rush hour now. It will be quieter in an hour.", "japanese": "今はラッシュアワーなんです。1時間もすればもっと静かになりますよ。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd007", "english": "Your country is so clean and safe.", "japanese": "あなたの国はとても清潔で安全ですね。", "explanation": "日本の治安の良さや清潔さに対する、よくある称賛の言葉。", "accent": "us",
-        "responses": [
-          { "english": "Thank you. We are very proud of that.", "japanese": "ありがとうございます。私たちはそのことをとても誇りに思っています。", "accent": "uk" },
-          { "english": "I'm glad you feel safe here.", "japanese": "ここで安全だと感じていただけて嬉しいです。", "accent": "uk" },
-          { "english": "Yes, but it's always a good idea to be careful, just like anywhere else.", "japanese": "はい、でも他のどこでも同じように、注意するに越したことはありません。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd008", "english": "I'm sorry, I made a mistake.", "japanese": "すみません、間違えてしまいました。", "explanation": "文化的な作法や、ちょっとした失敗を謝る言葉。", "accent": "uk",
-        "responses": [
-          { "english": "Don't worry about it at all. It's not a big deal.", "japanese": "全く気にしないでください。大したことではありませんよ。", "accent": "uk" },
-          { "english": "No problem. It's a common mistake.", "japanese": "問題ありません。よくある間違いですよ。", "accent": "uk" },
-          { "english": "That's perfectly okay. Please don't worry.", "japanese": "全くもって大丈夫です。どうぞご心配なく。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd009", "english": "This is the best ramen I've ever had.", "japanese": "今まで食べた中で最高のラーメンです。", "explanation": "日本の食べ物を心から褒める、最高の賛辞。", "accent": "us",
-        "responses": [
-          { "english": "I'm so glad to hear that! This is one of my favourite shops.", "japanese": "そう聞いてとても嬉しいです！ここは私のお気に入りの店の一つなんです。", "accent": "uk" },
-          { "english": "Really? You should try the 'tsukemen' here next time.", "japanese": "本当ですか？次回はここの「つけ麺」を試すべきですよ。", "accent": "uk" },
-          { "english": "That's high praise! I'll tell the chef.", "japanese": "それは最高の褒め言葉ですね！シェフに伝えておきます。", "accent": "uk" }
-        ]
-      },
-      {
-        "id": "jpn_knd010", "english": "I hope I'm not disturbing you.", "japanese": "お邪魔ではないと良いのですが。", "explanation": "相手が忙しそうにしているときに、話しかける前の気遣いの言葉。", "accent": "uk",
-        "responses": [
-          { "english": "Not at all. I was just taking a break. What's up?", "japanese": "全くそんなことありませんよ。ちょうど休憩していたところです。どうしましたか？", "accent": "uk" },
-          { "english": "You're not disturbing me. How can I help?", "japanese": "邪魔ではありませんよ。どうしましたか？", "accent": "uk" },
-          { "english": "I have a minute. What do you need?", "japanese": "少しなら時間がありますよ。何かご用ですか？", "accent": "uk" }
+          { "english": "Haha, I know, right? They're incredibly convenient. The food is surprisingly good too.", "japanese": "はは、そうでしょう？信じられないくらい便利なんです。食べ物も驚くほど美味しいですしね。", "accent": "us", "gender": "female" },
+          { "english": "It's true. You can pay your bills, buy concert tickets, and even send packages from a 'konbini'.", "japanese": "本当ですよ。公共料金を支払ったり、コンサートのチケットを買ったり、「コンビニ」から荷物を送ったりもできるんです。", "accent": "uk", "gender": "male" }
         ]
       }
     ]
