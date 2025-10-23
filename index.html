@@ -12,26 +12,32 @@
 <body>
 
     <header class="site-header">
+        <!-- ★★★ 変更点 ★★★ -->
+        <!-- ヘッダー内の要素をグループ化 -->
         <div class="container">
-            <h1>The Real English Guide</h1>
-            <p>日本人のための、実践英語ガイド</p>
-            <div class="controls">
-                <div class="theme-switcher">
-                    <label for="theme-toggle" class="switch-label">☀️</label>
-                    <div class="switch-wrapper">
-                        <input type="checkbox" id="theme-toggle">
-                        <span class="slider"></span>
-                    </div>
-                    <label for="theme-toggle" class="switch-label">🌙</label>
-                </div>
-                <div class="font-sizer">
-                    <button id="font-decrease">A-</button>
-                    <span id="font-level">5</span>
-                    <button id="font-increase">A+</button>
-                </div>
+            <div class="header-branding">
+                <h1>The Real English Guide</h1>
+                <p>日本人のための、実践英語ガイド</p>
             </div>
-             <div class="search-box">
-                <input type="search" id="search-input" placeholder="キーワードでフレーズを検索...">
+            <div class="header-actions">
+                <div class="controls">
+                    <div class="theme-switcher">
+                        <label for="theme-toggle" class="switch-label">☀️</label>
+                        <div class="switch-wrapper">
+                            <input type="checkbox" id="theme-toggle">
+                            <span class="slider"></span>
+                        </div>
+                        <label for="theme-toggle" class="switch-label">🌙</label>
+                    </div>
+                    <div class="font-sizer">
+                        <button id="font-decrease">A-</button>
+                        <span id="font-level">5</span>
+                        <button id="font-increase">A+</button>
+                    </div>
+                </div>
+                 <div class="search-box">
+                    <input type="search" id="search-input" placeholder="キーワードでフレーズを検索...">
+                </div>
             </div>
         </div>
     </header>
@@ -42,7 +48,13 @@
         </nav>
 
         <main id="app-container">
-            <!-- JavaScriptによってコンテンツがここに生成されます -->
+            <div id="scene-shortcut-bar" class="scene-shortcut-bar"></div>
+            <div id="content-display-area">
+                <div class="loading-indicator">
+                    <div class="spinner"></div>
+                    <p>コンテンツを読み込んでいます...</p>
+                </div>
+            </div>
         </main>
     </div>
 
@@ -51,8 +63,6 @@
             <p>&copy; 2025 The Real English Guide</p>
         </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/@google/generative-ai/dist/index.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

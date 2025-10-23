@@ -8,7 +8,7 @@
         "responses": [
           { "english": "Yes, like a log. Thanks.", "japanese": "うん、ぐっすり眠れたよ。ありがとう。", "accent": "uk" },
           { "english": "Not really, I kept waking up.", "japanese": "いや、あんまり。何度も目が覚めちゃって。", "accent": "uk" },
-          { "english": "So-so. I need some coffee.", "japanese": "まあまあかな。コーヒーが要るよ。", "accent": "uk" }
+          { "english": "So so, I need some coffee.", "japanese": "まあまあかな。コーヒーが要るよ。", "accent": "uk", "gender": "male" }
         ]
       },
       {
@@ -16,31 +16,31 @@
         "responses": [
           { "english": "Just work, and then maybe the gym.", "japanese": "仕事して、そのあとジムに行こうかな。", "accent": "uk" },
           { "english": "I've got a meeting at 10 and then lunch with Sarah.", "japanese": "10時から会議で、その後サラとランチだよ。", "accent": "uk" },
-          { "english": "Nothing much, just taking it easy.", "japanese": "特に何もないよ、のんびりするだけ。", "accent": "uk" }
+          { "english": "Nothing much, just taking it easy.", "japanese": "特に何もないよ、のんびりするだけ。", "accent": "uk", "gender": "male" }
         ]
       },
       {
-        "id": "d003", "english": "I'm off now. See you later!", "japanese": "もう行くね。また後で！", "explanation": "家や職場から出かける際の一般的な挨拶。", "accent": "uk",
+        "id": "d003", "english": "I'm off now. See you later!", "japanese": "もう行くね。また後で！", "explanation": "家や職場から出かける際の一般的な挨拶。", "accent": "us", "gender": "male",
         "responses": [
           { "english": "Alright, have a good one!", "japanese": "わかった、良い一日を！", "accent": "uk" },
           { "english": "Okay, drive safe.", "japanese": "うん、運転気をつけてね。", "accent": "uk" },
-          { "english": "See you! Don't be too late.", "japanese": "またね！あまり遅くならないでね。", "accent": "uk" }
+          { "english": "See you! Don't be too late.", "japanese": "またね！あまり遅くならないでね。", "accent": "uk", "gender": "male" }
         ]
       },
       {
         "id": "d004", "english": "How was your day?", "japanese": "今日はどうだった？", "explanation": "帰宅した人に対して一日の様子を尋ねる決まり文句です。", "accent": "us",
         "responses": [
-          { "english": "It was good, pretty productive actually.", "japanese": "良かったよ、結構生産的だった。", "accent": "uk" },
+          { "english": "It was good, pretty productive actually.", "japanese": "良かったよ、結構生産的だった。", "accent": "uk", "gender": "male" },
           { "english": "Same old, same old.", "japanese": "いつも通りだよ。", "accent": "uk" },
-          { "english": "Don't ask. It was so stressful.", "japanese": "聞かないでよ。すごくストレスだった。", "accent": "uk" }
+          { "english": "Don't ask. It was so stressful.", "japanese": "聞かないでよ。すごくストレスだった。", "accent": "uk", "gender": "male" }
         ]
       },
       {
         "id": "d005", "english": "What do you fancy for dinner?", "japanese": "夕食は何が食べたい？", "explanation": "イギリスでよく使われる 'fancy' を使った表現。'What do you want for dinner?' と同じ意味です。", "accent": "uk",
         "responses": [
           { "english": "I'm easy. Anything is fine.", "japanese": "何でもいいよ。", "accent": "uk" },
-          { "english": "Hmm, how about pasta?", "japanese": "うーん、パスタはどう？", "accent": "uk" },
-          { "english": "I could really go for a curry.", "japanese": "カレーがすごく食べたい気分。", "accent": "uk" }
+          { "english": "Hmm, how about pasta?", "japanese": "うーん、パスタはどう？", "accent": "uk" , "gender": "male"},
+          { "english": "I could really go for a curry.", "japanese": "カレーがすごく食べたい気分。", "accent": "uk" , "gender": "male"}
         ]
       },
       {
@@ -54,16 +54,16 @@
       {
         "id": "d007", "english": "I'm absolutely exhausted.", "japanese": "もうヘトヘトだよ。", "explanation": "'very tired' を強調した表現です。", "accent": "us",
         "responses": [
-          { "english": "You should get an early night.", "japanese": "早く寝たほうがいいよ。", "accent": "uk" },
+          { "english": "You should get an early night.", "japanese": "早く寝たほうがいいよ。", "accent": "uk", "gender": "male" },
           { "english": "I'll make you a cup of tea.", "japanese": "紅茶を入れてあげるよ。", "accent": "uk" },
-          { "english": "I know the feeling. It's been a long week.", "japanese": "その気持ち分かるよ。長い一週間だったね。", "accent": "uk" }
+          { "english": "I know the feeling. It's been a long week.", "japanese": "その気持ち分かるよ。長い一週間だったね。", "accent": "uk", "gender": "male" }
         ]
       },
       {
         "id": "d008", "english": "I'm just popping out to the shops.", "japanese": "ちょっとお店に行ってくるね。", "explanation": "'pop out' はイギリス英語で「ひょいと出かける」というニュアンスです。", "accent": "uk",
         "responses": [
           { "english": "Okay, do we need anything?", "japanese": "わかった、何か必要なものある？", "accent": "uk" },
-          { "english": "Don't be long, dinner's nearly ready.", "japanese": "すぐ戻ってきてね、もうすぐ晩ごはんだから。", "accent": "uk" },
+          { "english": "Don't be long, dinner's nearly ready.", "japanese": "すぐ戻ってきてね、もうすぐ晩ごはんだから。", "accent": "uk", "gender": "male" },
           { "english": "Alright, see you in a bit.", "japanese": "わかった、また後でね。", "accent": "uk" }
         ]
       },
@@ -76,18 +76,18 @@
         ]
       },
       {
-        "id": "d010", "english": "What time do you call this?", "japanese": "今、何時だと思ってるの？", "explanation": "相手が約束の時間に大幅に遅れてきたときに使う、少し皮肉のこもったイギリス的な表現です。", "accent": "uk",
+        "id": "d010", "english": "What time do you call this?", "japanese": "今、何時だと思ってるの？", "explanation": "相手が約束の時間に大幅に遅れてきたときに使う、少し皮肉のこもったイギリス的な表現です。", "accent": "uk", "gender": "male",
         "responses": [
           { "english": "I'm so sorry! The traffic was a nightmare.", "japanese": "本当にごめんなさい！渋滞が悪夢のようだったの。", "accent": "uk" },
-          { "english": "Sorry, I completely lost track of time.", "japanese": "ごめん、完全に時間を忘れてた。", "accent": "uk" },
-          { "english": "I know, I know. My alarm didn't go off.", "japanese": "分かってる、分かってる。目覚ましが鳴らなかったんだ。", "accent": "uk" }
+          { "english": "Sorry, I completely lost track of time.", "japanese": "ごめん、完全に時間を忘れてた。", "accent": "us", "gender": "male" },
+          { "english": "I know, I know. My alarm didn't go off.", "japanese": "分かってる、分かってる。目覚ましが鳴らなかったんだ。", "accent": "us", "gender": "male" }
         ]
       },
       {
         "id": "d011", "english": "I'm really looking forward to the weekend.", "japanese": "週末が本当に待ち遠しいよ。", "explanation": "週の後半によく使われる、共感を呼びやすいフレーズです。", "accent": "us",
         "responses": [
           { "english": "Me too! Any plans?", "japanese": "私も！何か予定あるの？", "accent": "uk" },
-          { "english": "Tell me about it. This week has been so long.", "japanese": "本当にそうだよね。今週は長かった。", "accent": "uk" },
+          { "english": "Tell me about it. This week has been so long.", "japanese": "本当にそうだよね。今週は長かった。", "accent": "us" },
           { "english": "You and me both. I need a break.", "japanese": "君も僕もだね。休憩が必要だよ。", "accent": "uk" }
         ]
       },
@@ -110,9 +110,9 @@
       {
         "id": "d014", "english": "Have you seen my keys anywhere?", "japanese": "どこかで私の鍵、見なかった？", "explanation": "探し物をしているときの定番の質問です。", "accent": "us",
         "responses": [
-          { "english": "I think I saw them on the kitchen counter.", "japanese": "キッチンのカウンターの上で見た気がするよ。", "accent": "uk" },
-          { "english": "No, sorry. Where did you last have them?", "japanese": "いや、ごめん。最後に持ってたのはどこ？", "accent": "uk" },
-          { "english": "They might be in your coat pocket.", "japanese": "コートのポケットに入ってるんじゃない？", "accent": "uk" }
+          { "english": "I think I saw them on the kitchen counter.", "japanese": "キッチンのカウンターの上で見た気がするよ。", "accent": "us", "gender": "male" },
+          { "english": "No, sorry. Where did you last have them?", "japanese": "いや、ごめん。最後に持ってたのはどこ？", "accent": "us", "gender": "male" },
+          { "english": "They might be in your coat pocket.", "japanese": "コートのポケットに入ってるんじゃない？", "accent": "us", "gender": "male" }
         ]
       },
       {

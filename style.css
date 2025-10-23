@@ -8,7 +8,6 @@
     --color-border: #d2d2d7;
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
-
 body.dark-mode {
     --color-bg: #121212;
     --color-surface: #1e1e1e;
@@ -18,9 +17,8 @@ body.dark-mode {
     --color-border: #3a3a3c;
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html { font-size: var(--font-size-base); scroll-behavior: smooth; }
+html { font-size: var(--font-size-base); }
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--color-bg);
@@ -30,12 +28,38 @@ body {
 }
 .container { max-width: 1200px; margin: 0 auto; padding: 1rem 1.5rem; }
 
-/* --- Header --- */
-.site-header { background-color: var(--color-surface); border-bottom: 1px solid var(--color-border); padding: 1.5rem 0; }
-.site-header .container { padding: 0 1.5rem; max-width: 1200px; }
-.site-header h1 { font-size: 2rem; margin-bottom: 0.25rem; color: var(--color-primary); }
-.site-header p { font-size: 1rem; color: var(--color-text-secondary); margin-bottom: 1.5rem; }
-.controls { display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+/* ★★★★★ ここからヘッダーのスタイルを全面的に刷新 ★★★★★ */
+
+.site-header {
+    background-color: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: 1rem 0; /* 全体的な高さを削減 */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.site-header .container {
+    padding: 0 1.5rem;
+    max-width: 1200px;
+}
+.header-branding h1 {
+    font-size: 1.5rem; /* タイトルを少し小さく */
+    margin-bottom: 0;
+    color: var(--color-primary);
+}
+.header-branding p {
+    font-size: 0.85rem; /* サブタイトルを小さく */
+    color: var(--color-text-secondary);
+    margin-bottom: 0.75rem; /* 下の余白を削減 */
+}
+.header-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+.controls { display: flex; align-items: center; gap: 1.5rem; }
 .theme-switcher, .font-sizer { display: flex; align-items: center; gap: 0.5rem; }
 .switch-wrapper { position: relative; display: inline-block; width: 50px; height: 28px; }
 .switch-wrapper input { display: none; }
@@ -45,47 +69,44 @@ input:checked + .slider { background-color: var(--color-primary); }
 input:checked + .slider:before { transform: translateX(22px); }
 .font-sizer button { background-color: var(--color-primary); color: white; border: none; border-radius: 50%; width: 30px; height: 30px; font-size: 1rem; cursor: pointer; font-weight: bold; }
 .font-sizer #font-level { font-weight: bold; min-width: 20px; text-align: center; }
+.search-box { width: 100%; }
 .search-box input { width: 100%; padding: 0.75rem 1rem; font-size: 1rem; border-radius: 12px; border: 1px solid var(--color-border); background-color: var(--color-bg); color: var(--color-text); }
 
-/* --- Mobile First Layout --- */
+/* --- Main Layout & Nav --- */
 .main-layout { display: flex; flex-direction: column; }
-.category-nav { border-bottom: 1px solid var(--color-border); margin-bottom: 1rem; }
-.category-nav-inner { display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 0.5rem; -ms-overflow-style: none; scrollbar-width: none; }
+.category-nav { border-bottom: 1px solid var(--color-border); margin-bottom: 1.5rem; }
+.category-nav-inner { display: flex; gap: 0.25rem; overflow-x: auto; padding: 0.75rem 0; -ms-overflow-style: none; scrollbar-width: none; }
 .category-nav-inner::-webkit-scrollbar { display: none; }
-.category-button { padding: 0.75rem 1rem; border: none; background-color: var(--color-surface); color: var(--color-text-secondary); font-size: 0.95rem; cursor: pointer; white-space: nowrap; border-radius: 8px; transition: color 0.2s, background-color 0.2s; }
-.category-button.active { color: #fff; background-color: var(--color-primary); font-weight: 600; }
-
-/* --- Main Content --- */
-.scene-card { background-color: var(--color-surface); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow); }
+.nav-category-title { font-size: 0.8rem; font-weight: 600; color: var(--color-text-secondary); padding: 0.75rem 1.25rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.nav-category-button, .nav-subcategory-button { display: block; width: 100%; text-align: left; padding: 0.75rem 1.25rem; border: none; background: none; border-radius: 8px; font-size: 1rem; font-weight: 500; color: var(--color-text); cursor: pointer; transition: color 0.2s, background-color 0.2s; position: relative; white-space: nowrap; }
+.nav-subcategory-button { padding-left: 2.25rem; font-size: 0.95rem; font-weight: 400; }
+.nav-category-button:hover, .nav-subcategory-button:hover { background-color: var(--color-bg); }
+.nav-category-button.active, .nav-subcategory-button.active { color: var(--color-primary); background-color: rgba(0, 122, 255, 0.1); font-weight: 600; }
+body.dark-mode .nav-category-button.active, body.dark-mode .nav-subcategory-button.active { background-color: rgba(10, 132, 255, 0.2); }
+.nav-category-button.active::before, .nav-subcategory-button.active::before { content: ''; position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 4px; height: 60%; background-color: var(--color-primary); border-radius: 0 4px 4px 0; }
+.loading-indicator { text-align: center; padding: 4rem 1rem; color: var(--color-text-secondary); }
+.spinner { width: 40px; height: 40px; margin: 0 auto 1rem; border: 4px solid var(--color-border); border-top-color: var(--color-primary); border-radius: 50%; animation: spin 1s linear infinite; }
+.empty-state { text-align: center; padding: 4rem 1rem; color: var(--color-text-secondary); background-color: var(--color-surface); border-radius: 12px; }
+.clear-search-button { margin-top: 1rem; background-color: var(--color-primary); color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; cursor: pointer; font-weight: 500; }
+.error-message { text-align: center; padding: 2rem; background-color: var(--color-surface); border-radius: 12px; }
+.scene-shortcut-bar { display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 1.5rem; margin-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); -ms-overflow-style: none; scrollbar-width: none; }
+.scene-shortcut-bar::-webkit-scrollbar { display: none; }
+.shortcut-button { padding: 0.6rem 1.25rem; border: 1px solid var(--color-border); background-color: var(--color-surface); color: var(--color-text); font-size: 0.9rem; font-weight: 500; cursor: pointer; white-space: nowrap; border-radius: 99px; transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+.shortcut-button.active { color: #fff; background-color: var(--color-primary); border-color: var(--color-primary); }
+body.dark-mode .shortcut-button.active { color: var(--color-surface); }
+.scene-card { background-color: var(--color-surface); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; box-shadow: var(--shadow); scroll-margin-top: 1rem; }
 .scene-title { font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--color-text); padding-bottom: 0.75rem; border-bottom: 1px solid var(--color-border); }
-
 .expression { border-bottom: 1px solid var(--color-border); padding-bottom: 1rem; margin-bottom: 1rem; }
 .expression:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
 .expression-main { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; }
 .expression-en { font-size: 1.2rem; font-weight: 600; flex-grow: 1; cursor: pointer; }
 .expression-actions { display: flex; gap: 0.5rem; }
-.action-button { background: none; border: 1px solid var(--color-border); color: var(--color-text-secondary); border-radius: 8px; padding: 0.4rem 0.8rem; font-size: 0.8rem; cursor: pointer; transition: background-color 0.2s; white-space: nowrap;}
+.action-button { background: none; border: 1px solid var(--color-border); color: var(--color-text-secondary); border-radius: 8px; padding: 0.4rem; font-size: 1.2rem; cursor: pointer; transition: background-color 0.2s; width: 38px; height: 38px; display: flex; justify-content: center; align-items: center; }
 .action-button:hover { background-color: var(--color-bg); }
-
 .expression-desc { font-size: 0.9rem; background-color: var(--color-bg); padding: 0.75rem; border-radius: 8px; margin-top: 0.75rem; display: none; }
 .expression-desc.is-visible { display: block; }
-
-/* --- Japanese Translation --- */
-.expression-jp,
-.response-item-jp {
-    font-size: 0.95rem;
-    color: var(--color-text-secondary);
-    margin-top: 0.5rem;
-    padding-left: 0.5rem;
-    border-left: 2px solid var(--color-border);
-    display: none; /* デフォルトで非表示 */
-}
-.expression-jp.is-visible,
-.response-item-jp.is-visible {
-    display: block; /* is-visibleクラスが付くと表示 */
-}
-
-/* --- Responses Section --- */
+.expression-jp, .response-item-jp { font-size: 0.95rem; color: var(--color-text-secondary); margin-top: 0.5rem; padding-left: 0.5rem; border-left: 2px solid var(--color-border); display: none; }
+.expression-jp.is-visible, .response-item-jp.is-visible { display: block; }
 .responses-toggle-button { margin-top: 1rem; background-color: transparent; border: 1px solid var(--color-primary); color: var(--color-primary); padding: 0.5rem 1rem; width: 100%; border-radius: 8px; cursor: pointer; font-weight: 500; }
 .responses-container { margin-top: 1rem; padding-left: 1rem; border-left: 2px solid var(--color-primary); display: none; }
 .responses-container.is-visible { display: block; }
@@ -93,40 +114,37 @@ input:checked + .slider:before { transform: translateX(22px); }
 .response-item:last-child { margin-bottom: 0; }
 .response-item-main { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; }
 .response-item-en { font-weight: 500; flex-grow: 1; cursor: pointer; }
+.action-button.audio-button { min-width: 38px; text-align: center; }
+.action-button.is-loading { cursor: wait; color: transparent; position: relative; }
+.action-button.is-loading::after { content: ''; position: absolute; top: 50%; left: 50%; width: 16px; height: 16px; margin: -8px 0 0 -8px; border: 2px solid var(--color-primary); border-right-color: transparent; border-radius: 50%; animation: spin 0.8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.site-footer { text-align: center; padding: 2rem 0; margin-top: 2rem; color: var(--color-text-secondary); font-size: 0.9rem; }
 
-/* (★★ 追加箇所 ★★) --- Audio Button Loading State --- */
-.action-button.audio-button { min-width: 40px; text-align: center; }
-.action-button.is-loading {
-    cursor: wait;
-    color: transparent;
-    position: relative;
-}
-.action-button.is-loading::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 16px;
-    height: 16px;
-    margin: -8px 0 0 -8px;
-    border: 2px solid var(--color-primary);
-    border-right-color: transparent;
-    border-radius: 50%;
-    animation: spin 0.8s linear infinite;
-}
-@keyframes spin {
-    to { transform: rotate(360deg); }
-}
+/* ★★★★★ ここからがデスクトップ用のレイアウト変更 ★★★★★ */
 
-/* --- Desktop Layout (min-width: 900px) --- */
 @media (min-width: 900px) {
     .container { padding: 1rem 2rem; }
-    .main-layout { flex-direction: row; align-items: flex-start; gap: 2rem; }
-    .category-nav { width: 240px; flex-shrink: 0; position: sticky; top: 2rem; border: none; margin-bottom: 0; }
-    .category-nav-inner { flex-direction: column; overflow-x: visible; padding-bottom: 0; gap: 0.5rem; }
-    .category-button { width: 100%; text-align: left; padding: 0.75rem 1.25rem; }
-    #app-container { flex-grow: 1; }
-}
+    
+    /* Headerの左右配置 */
+    .site-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-branding p { margin-bottom: 0; }
+    .header-actions {
+        flex-direction: row-reverse; /* 検索ボックスを右端に */
+        margin-bottom: 0;
+    }
+    .search-box { width: 300px; }
 
-/* --- Footer --- */
-.site-footer { text-align: center; padding: 2rem 0; margin-top: 2rem; color: var(--color-text-secondary); font-size: 0.9rem; }
+    /* Main Layoutの左右配置 */
+    .main-layout { flex-direction: row; align-items: flex-start; gap: 2rem; }
+    .category-nav { width: 280px; flex-shrink: 0; position: sticky; top: calc(1rem + 100px); /* 新しいヘッダーの高さに合わせる */ border: none; margin-bottom: 0; }
+    .category-nav-inner { flex-direction: column; overflow-x: visible; padding: 0; gap: 0.25rem; }
+    
+    #app-container {
+        flex: 1;
+        min-width: 0;
+    }
+}

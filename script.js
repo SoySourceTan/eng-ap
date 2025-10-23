@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const appContainer = document.getElementById('app-container');
     const categoryNav = document.getElementById('category-nav');
     const searchInput = document.getElementById('search-input');
+    const shortcutBar = document.getElementById('scene-shortcut-bar');
+    const contentDisplayArea = document.getElementById('content-display-area');
     const themeToggle = document.getElementById('theme-toggle');
     const fontIncrease = document.getElementById('font-increase');
     const fontDecrease = document.getElementById('font-decrease');
@@ -11,52 +13,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- State ---
     let allData = [];
-    let activeCategory = 'All';
+    let activeCategory = null;
+    let activeScene = null;
+    let navData = {};
     const FONT_LEVELS = [0.7, 0.8, 0.9, 0.95, 1, 1.1, 1.2, 1.3, 1.5, 1.7];
     let currentFontLevel = 4;
     const dataFiles = ['data_daily_life.json', 'data_travel.json', 'data_welcome.json'];
-
-    // (★★ 追加 ★★) --- Audio Playback ---
+    
+    // --- Audio Playback ---
     const AUDIO_FILES_PATH = 'mp3_all_phrases/';
-    let currentAudio = null; // 現在再生中のAudioオブジェクトを管理
-    let lastClickedButton = null; // ローディング表示を管理するボタン
+    let currentAudio = null;
+    let lastClickedButton = null;
 
     function playAudio(button, audioId) {
-        // 他の音声が再生中、または同じボタンがローディング中の場合は停止
         if (currentAudio) {
             currentAudio.pause();
             currentAudio.currentTime = 0;
-            if (lastClickedButton) {
-                lastClickedButton.classList.remove('is-loading');
-            }
+            if (lastClickedButton) lastClickedButton.classList.remove('is-loading');
         }
-
-        // 同じボタンを再度クリックした場合は再生を停止するだけ
         if (lastClickedButton === button) {
             currentAudio = null;
             lastClickedButton = null;
             return;
         }
-
         const audioSrc = `${AUDIO_FILES_PATH}${audioId}.mp3`;
         currentAudio = new Audio(audioSrc);
         lastClickedButton = button;
-        
         button.classList.add('is-loading');
-
-        // 再生準備ができたときの処理
-        currentAudio.oncanplaythrough = () => {
-            button.classList.remove('is-loading');
-            currentAudio.play();
-        };
-
-        // 再生が終了したときの処理
-        currentAudio.onended = () => {
-            currentAudio = null;
-            lastClickedButton = null;
-        };
-
-        // エラー処理
+        currentAudio.oncanplaythrough = () => { button.classList.remove('is-loading'); currentAudio.play(); };
+        currentAudio.onended = () => { currentAudio = null; lastClickedButton = null; };
         currentAudio.onerror = () => {
             console.error(`Error loading audio file: ${audioSrc}`);
             button.classList.remove('is-loading');
@@ -66,104 +51,164 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     }
 
-    // --- Data Fetching and Rendering ---
+    // --- Data Fetching and Initialization ---
     async function fetchData() {
         try {
             const responses = await Promise.all(dataFiles.map(file => fetch(file)));
-            for (const response of responses) {
-                if (!response.ok) throw new Error(`Failed to load ${response.url}`);
-            }
+            for (const response of responses) { if (!response.ok) throw new Error(`Failed to load ${response.url}`); }
             const jsonDataArrays = await Promise.all(responses.map(res => res.json()));
             allData = jsonDataArrays.flat();
+            
+            navData = allData.reduce((acc, scene) => {
+                if (!acc[scene.category]) acc[scene.category] = [];
+                const shortName = scene.scene.split(': ')[1]?.split(' (')[0] || scene.scene;
+                acc[scene.category].push({ shortName, fullName: scene.scene });
+                return acc;
+            }, {});
+
+            const savedCategory = localStorage.getItem('activeCategory');
+            const savedScene = localStorage.getItem('activeScene');
+            if (savedCategory && allData.some(d => d.category === savedCategory)) {
+                activeCategory = savedCategory;
+                activeScene = savedScene && savedScene !== 'null' ? savedScene : null;
+            } else if (allData.length > 0) {
+                activeCategory = allData[0].category;
+                activeScene = null;
+            }
+
             setupCategoryNav();
             filterAndRender();
         } catch (error) {
             console.error('Fetch error:', error);
-            appContainer.innerHTML = `<p>コンテンツの読み込みに失敗しました。ファイルが見つからないか、JSONの形式が正しくない可能性があります。</p>`;
+            contentDisplayArea.innerHTML = `<p class="error-message">コンテンツの読み込みに失敗しました。ページを再読み込みしてください。</p>`;
         }
     }
 
+    // --- Navigation Setup ---
     function setupCategoryNav() {
-        const categories = ['All', ...new Set(allData.map(item => item.category))];
         const navInner = document.createElement('div');
         navInner.className = 'category-nav-inner';
-        categories.forEach(cat => {
-            const button = document.createElement('button');
-            button.className = 'category-button';
-            button.textContent = cat;
-            button.dataset.category = cat;
-            if (cat === activeCategory) button.classList.add('active');
-            button.addEventListener('click', () => {
-                activeCategory = cat;
-                document.querySelectorAll('.category-button').forEach(btn => btn.classList.remove('active'));
-                button.classList.add('active');
-                filterAndRender();
-            });
-            navInner.appendChild(button);
-        });
+        for (const category in navData) {
+            const scenes = navData[category];
+            if (scenes.length > 1) {
+                const title = document.createElement('p');
+                title.className = 'nav-category-title';
+                title.textContent = category;
+                navInner.appendChild(title);
+                scenes.forEach(scene => {
+                    const button = document.createElement('button');
+                    button.className = 'nav-subcategory-button';
+                    button.textContent = scene.shortName;
+                    button.dataset.scene = scene.fullName;
+                    button.dataset.parentCategory = category;
+                    navInner.appendChild(button);
+                });
+            } else {
+                const button = document.createElement('button');
+                button.className = 'nav-category-button';
+                button.textContent = category;
+                button.dataset.category = category;
+                navInner.appendChild(button);
+            }
+        }
         categoryNav.innerHTML = '';
         categoryNav.appendChild(navInner);
+
+        categoryNav.addEventListener('click', e => {
+            const target = e.target;
+            if (target.matches('.nav-category-button')) {
+                activeCategory = target.dataset.category;
+                activeScene = null;
+            } else if (target.matches('.nav-subcategory-button')) {
+                activeCategory = target.dataset.parentCategory;
+                activeScene = target.dataset.scene;
+            } else {
+                return;
+            }
+            localStorage.setItem('activeCategory', activeCategory);
+            localStorage.setItem('activeScene', activeScene || '');
+            filterAndRender();
+        });
     }
 
+    // --- Main Rendering Logic ---
     function filterAndRender() {
+        appContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
         const searchTerm = searchInput.value.toLowerCase();
         let filteredData = allData;
-        if (activeCategory !== 'All') {
-            filteredData = filteredData.filter(item => item.category === activeCategory);
-        }
+        if (activeCategory) filteredData = filteredData.filter(item => item.category === activeCategory);
+        
+        renderShortcutBar(filteredData);
+
+        if (activeScene) filteredData = filteredData.filter(item => item.scene === activeScene);
         if (searchTerm.length > 0) {
             filteredData = filteredData.map(scene => {
                 const filteredExpressions = scene.expressions.filter(exp => 
-                    exp.english.toLowerCase().includes(searchTerm) ||
-                    exp.japanese.toLowerCase().includes(searchTerm) ||
-                    exp.explanation.toLowerCase().includes(searchTerm) ||
+                    exp.english.toLowerCase().includes(searchTerm) || exp.japanese.toLowerCase().includes(searchTerm) || exp.explanation.toLowerCase().includes(searchTerm) ||
                     (exp.responses && exp.responses.some(r => r.english.toLowerCase().includes(searchTerm) || r.japanese.toLowerCase().includes(searchTerm)))
                 );
                 return { ...scene, expressions: filteredExpressions };
             }).filter(scene => scene.expressions.length > 0);
         }
-        renderContent(filteredData);
+        
+        updateNavActiveState();
+        renderContent(filteredData, searchTerm);
     }
     
-    // (★★ 更新 ★★) data-idを追加
-    function renderResponses(responses, expId) {
-        if (!responses || responses.length === 0) return '';
-        return `
-            <button class="responses-toggle-button" data-target="responses-${expId}">返答例を見る</button>
-            <div class="responses-container" id="responses-${expId}">
-                ${responses.map((res, index) => {
-                    const responseJpId = `res-jp-${expId}-${index}`;
-                    const responseAudioId = `${expId}_resp${index + 1}`; // 応答文の音声IDを生成
-                    return `
-                        <div class="response-item">
-                            <div class="response-item-main">
-                                <p class="response-item-en" data-target="${responseJpId}">${res.english}</p>
-                                <button class="action-button audio-button" data-id="${responseAudioId}">🔊</button>
-                            </div>
-                            <p class="response-item-jp" id="${responseJpId}">${res.japanese}</p>
-                        </div>
-                    `;
-                }).join('')}
-            </div>
-        `;
-    }
-
-    // (★★ 更新 ★★) data-idを追加
-    function renderContent(data) {
-        if (data.length === 0) {
-            appContainer.innerHTML = '<p>該当するフレーズが見つかりません。</p>';
+    function renderShortcutBar(categoryData) {
+        const scenesInCategory = [...new Set(categoryData.map(d => d.scene))];
+        if (scenesInCategory.length <= 1) {
+            shortcutBar.innerHTML = '';
+            shortcutBar.style.display = 'none';
             return;
         }
-        appContainer.innerHTML = data.map(scene => `
-            <div class="scene-card">
+
+        shortcutBar.style.display = 'flex';
+        let buttonsHTML = `<button class="shortcut-button ${!activeScene ? 'active' : ''}" data-scene="all">All ${activeCategory}</button>`;
+        
+        scenesInCategory.forEach(sceneFullName => {
+            const shortName = sceneFullName.split(': ')[1]?.split(' (')[0] || sceneFullName;
+            buttonsHTML += `<button class="shortcut-button ${activeScene === sceneFullName ? 'active' : ''}" data-scene="${sceneFullName}">${shortName}</button>`;
+        });
+        shortcutBar.innerHTML = buttonsHTML;
+    }
+
+    function updateNavActiveState() {
+        document.querySelectorAll('#category-nav button').forEach(el => el.classList.remove('active'));
+        if (activeScene) {
+            const activeSubButton = document.querySelector(`.nav-subcategory-button[data-scene="${activeScene}"]`);
+            if (activeSubButton) activeSubButton.classList.add('active');
+        } else if (activeCategory) {
+            const activeMainButton = document.querySelector(`.nav-category-button[data-category="${activeCategory}"]`);
+            if (activeMainButton) activeMainButton.classList.add('active');
+        }
+    }
+    
+    function renderContent(data, searchTerm) {
+        if (data.length === 0) {
+            let message = '<div class="empty-state"><p>該当するフレーズが見つかりません。</p>';
+            if(searchTerm && searchTerm.length > 0) {
+                message += '<button class="clear-search-button">検索をクリア</button>';
+            }
+            message += '</div>';
+            contentDisplayArea.innerHTML = message;
+            const clearButton = contentDisplayArea.querySelector('.clear-search-button');
+            if(clearButton) {
+                clearButton.addEventListener('click', () => { searchInput.value = ''; filterAndRender(); });
+            }
+            return;
+        }
+        contentDisplayArea.innerHTML = data.map(scene => `
+            <div class="scene-card" id="${scene.scene.replace(/[^a-zA-Z0-9]/g, '')}">
                 <h2 class="scene-title">${scene.scene}</h2>
                 ${scene.expressions.map(exp => `
                     <div class="expression" id="exp-${exp.id}">
                         <div class="expression-main">
                             <p class="expression-en" data-target="jp-${exp.id}">${exp.english}</p>
                             <div class="expression-actions">
-                                <button class="action-button audio-button" data-id="${exp.id}">🔊 音声</button>
-                                <button class="action-button desc-button" data-target="desc-${exp.id}">📝 解説</button>
+                                <button class="action-button audio-button" data-id="${exp.id}">🔊</button>
+                                <button class="action-button desc-button" data-target="desc-${exp.id}">📝</button>
                             </div>
                         </div>
                         <p class="expression-jp" id="jp-${exp.id}">${exp.japanese}</p>
@@ -175,40 +220,59 @@ document.addEventListener('DOMContentLoaded', () => {
         `).join('');
     }
 
-    // (★★ 更新 ★★) クリックイベントの処理を更新
-    appContainer.addEventListener('click', e => {
-        const target = e.target.closest('button.action-button, p.expression-en, p.response-item-en, button.responses-toggle-button');
-        if (!target) return; // 関係ない場所のクリックは無視
+    function renderResponses(responses, expId) {
+        if (!responses || responses.length === 0) return '';
+        return `
+            <button class="responses-toggle-button" data-target="responses-${expId}">返答例を見る</button>
+            <div class="responses-container" id="responses-${expId}">
+                ${responses.map((res, index) => {
+                    const responseJpId = `res-jp-${expId}-${index}`; const responseAudioId = `${expId}_resp${index + 1}`;
+                    return `<div class="response-item"><div class="response-item-main"><p class="response-item-en" data-target="${responseJpId}">${res.english}</p><button class="action-button audio-button" data-id="${responseAudioId}">🔊</button></div><p class="response-item-jp" id="${responseJpId}">${res.japanese}</p></div>`;
+                }).join('')}
+            </div>
+        `;
+    }
 
-        if (target.matches('p.expression-en, p.response-item-en')) {
-            document.getElementById(target.dataset.target)?.classList.toggle('is-visible');
-        } 
-        else if (target.matches('.desc-button')) {
-            document.getElementById(target.dataset.target)?.classList.toggle('is-visible');
-        } 
-        else if (target.matches('.audio-button')) {
-            playAudio(target, target.dataset.id); // 新しい再生関数を呼び出す
-        } 
-        else if (target.matches('.responses-toggle-button')) {
-            const container = document.getElementById(target.dataset.target);
-            if (container) {
-                container.classList.toggle('is-visible');
-                target.textContent = container.classList.contains('is-visible') ? '返答例を閉じる' : '返答例を見る';
+    // --- Event Listeners ---
+    shortcutBar.addEventListener('click', e => {
+        if (e.target.matches('.shortcut-button')) {
+            const sceneName = e.target.dataset.scene;
+            if (sceneName === 'all') {
+                activeScene = null;
+                localStorage.setItem('activeScene', '');
+                filterAndRender();
+            } else {
+                const targetCard = document.getElementById(sceneName.replace(/[^a-zA-Z0-9]/g, ''));
+                if (targetCard) {
+                    targetCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
             }
         }
     });
 
-    // --- Other Event Listeners ---
-    searchInput.addEventListener('input', filterAndRender);
+    appContainer.addEventListener('click', e => {
+        const target = e.target.closest('button.action-button, p.expression-en, p.response-item-en, button.responses-toggle-button');
+        if (!target) return;
+        if (target.matches('p.expression-en, p.response-item-en')) { document.getElementById(target.dataset.target)?.classList.toggle('is-visible'); }
+        else if (target.matches('.desc-button')) { document.getElementById(target.dataset.target)?.classList.toggle('is-visible'); }
+        else if (target.matches('.audio-button')) { playAudio(target, target.dataset.id); }
+        else if (target.matches('.responses-toggle-button')) {
+            const container = document.getElementById(target.dataset.target);
+            if (container) { container.classList.toggle('is-visible'); target.textContent = container.classList.contains('is-visible') ? '返答例を閉じる' : '返答例を見る'; }
+        }
+    });
+
+    searchInput.addEventListener('input', () => {
+        activeScene = null;
+        filterAndRender();
+    });
+    
     themeToggle.addEventListener('change', () => applyTheme(themeToggle.checked ? 'dark' : 'light'));
     fontIncrease.addEventListener('click', () => applyFontSize(currentFontLevel + 1));
     fontDecrease.addEventListener('click', () => applyFontSize(currentFontLevel - 1));
 
     // --- Helper Functions ---
-    function applyTheme(theme) {
-        document.body.classList.toggle('dark-mode', theme === 'dark');
-        localStorage.setItem('theme', theme);
-    }
+    function applyTheme(theme) { document.body.classList.toggle('dark-mode', theme === 'dark'); localStorage.setItem('theme', theme); }
     function applyFontSize(level) {
         currentFontLevel = Math.max(0, Math.min(FONT_LEVELS.length - 1, level));
         html.style.setProperty('--font-size-base', `${FONT_LEVELS[currentFontLevel]}rem`);
@@ -216,7 +280,6 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('fontLevel', currentFontLevel);
     }
 
-    // (★★ 更新 ★★) Web Speech API関連を削除
     function initialize() {
         const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
         applyTheme(savedTheme);

@@ -1,5 +1,5 @@
 // キャッシュのバージョンを更新して、新しいService Workerを有効にする
-const CACHE_NAME = 'real-english-guide-v4'; // 変更を確実に反映させるためバージョンを上げる
+const CACHE_NAME = 'real-english-guide-v4'; 
 const MP3_CACHE_NAME = 'real-english-guide-mp3-cache-v1';
 
 // アプリの骨格（App Shell）となるファイル
@@ -36,19 +36,12 @@ self.addEventListener('fetch', event => {
   if (url.pathname.endsWith('.mp3')) {
     event.respondWith(
       caches.open(MP3_CACHE_NAME).then(async (cache) => {
-        // まずキャッシュにMP3があるか確認
         const cachedResponse = await cache.match(event.request);
         if (cachedResponse) {
-          // あればキャッシュから返す
           return cachedResponse;
         }
-        
-        // なければネットワークから取得
         const networkResponse = await fetch(event.request);
-        // 取得できたら、レスポンスのクローンをキャッシュに保存
-        // (レスポンスは一度しか使えないためクローンが必要)
         cache.put(event.request, networkResponse.clone());
-        // 取得したレスポンスをブラウザに返す
         return networkResponse;
       })
     );
@@ -65,8 +58,7 @@ self.addEventListener('fetch', event => {
 
 // 3. アクティベート処理（古いキャッシュの削除）
 self.addEventListener('activate', event => {
-  // 新しいService Workerが有効になったときに、古いキャッシュを削除する
-  const cacheWhitelist = [CACHE_NAME, MP3_CACHE_NAME]; // 新しいキャッシュ名をホワイトリストに
+  const cacheWhitelist = [CACHE_NAME, MP3_CACHE_NAME];
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
